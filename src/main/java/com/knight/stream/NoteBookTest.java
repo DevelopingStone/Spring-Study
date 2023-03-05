@@ -9,6 +9,8 @@ public class NoteBookTest {
 
     System.out.println("라스트");
 
+    System.out.println("라스트");
+
     
   }
 
