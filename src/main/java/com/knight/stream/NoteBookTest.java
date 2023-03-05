@@ -7,6 +7,8 @@ public class NoteBookTest {
 
     System.out.println("리머킷");
 
+    System.out.println("라스트");
+
     
   }
 
