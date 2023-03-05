@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63160561-dbef-4612-96a3-a3acb047bbc9" name="변경" comment="Java Project">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/stream/DeskTopTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="63160561-dbef-4612-96a3-a3acb047bbc9" name="변경" comment="DeskTopTest">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/stream/DeskTopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/stream/DeskTopTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +79,7 @@
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "editor.preferences.completion"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -233,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678015587855</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="DeskTopTest">
+      <created>1678016330838</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678016330838</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -251,6 +257,7 @@
     <MESSAGE value="테스트" />
     <MESSAGE value="Java Stream" />
     <MESSAGE value="Java Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java Project" />
+    <MESSAGE value="DeskTopTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="DeskTopTest" />
   </component>
 </project>
