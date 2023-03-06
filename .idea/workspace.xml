@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63160561-dbef-4612-96a3-a3acb047bbc9" name="변경" comment="23-03-06 Commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/homework/ArrayAmount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/homework/ArrayInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/homework/ArrayInstance.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +104,20 @@
       <recent name="C:\Intellij-23-02\JavaProject\src\main\java\com\knight\java" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.ArrayInstance">
+  <component name="RunManager" selected="애플리케이션.ArrayAmount">
+    <configuration name="ArrayAmount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.homework.ArrayAmount" />
+      <module name="JavaProject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.knight.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArrayInstance (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.knight.homework.ArrayInstance" />
       <module name="JavaProject.main" />
@@ -124,19 +137,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.knight.homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DeskTopTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.stream.DeskTopTest" />
-      <module name="JavaProject.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.knight.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.ArrayAmount" />
         <item itemvalue="애플리케이션.ArrayInstance" />
         <item itemvalue="애플리케이션.ArrayInstance (1)" />
         <item itemvalue="애플리케이션.HomeWork01" />
         <item itemvalue="Gradle.JavaProject [build]" />
-        <item itemvalue="애플리케이션.DeskTopTest" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678089482248</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="23-03-06 Commit">
+      <created>1678089562504</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1678089562504</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
