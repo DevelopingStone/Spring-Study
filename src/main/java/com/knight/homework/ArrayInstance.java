@@ -14,8 +14,9 @@ public class ArrayInstance {
     for (int i = 0; i < array.size() + 1; i++) {
       Integer number = scan.nextInt();
       array.add(number);
-
+      System.out.println("List 배열출력");
       System.out.println(array.get(i));
+      
     }
 
 
