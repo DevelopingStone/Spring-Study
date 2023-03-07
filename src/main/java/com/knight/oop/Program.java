@@ -3,12 +3,22 @@ package com.knight.oop;
 public class Program {
 
   public static void main(String[] args) {
-    List list = new List();
+
+
+    ExamList list = new ExamList();
+
+    ExamList.inputList(list);
+
     list.inputList(list);
-    new List().inputList(list);
 
 
+  }
 
+}
+
+class ExamList{
+
+  static void inputList(ExamList list){
 
   }
 
