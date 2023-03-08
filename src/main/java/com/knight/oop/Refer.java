@@ -25,6 +25,7 @@ class NewRefer extends Refer {
     referExam.test2();
 
 
+
   }
 
 
