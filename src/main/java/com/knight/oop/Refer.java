@@ -21,9 +21,8 @@ class NewRefer extends Refer {
     Refer refer = new NewRefer();
     refer.test0();
     refer.test1();
-    NewRefer referExam = (NewRefer)refer;
+    NewRefer referExam = (NewRefer) refer;
     referExam.test2();
-
 
 
   }
