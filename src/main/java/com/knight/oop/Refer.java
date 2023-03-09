@@ -20,13 +20,14 @@ class NewRefer extends Refer {
 
   public static void main(String[] args) {
     Refer refer = new NewRefer();
+    System.out.println(System.identityHashCode(refer));
+
 //    refer.test0();
 //    refer.test1();
 //    NewRefer referExam = (NewRefer) refer;
 //    referExam.test2();
 //    ((NewRefer)refer).test2();
 
-    refer.test0();
 
 
   }
