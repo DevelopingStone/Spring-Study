@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63160561-dbef-4612-96a3-a3acb047bbc9" name="변경" comment="23-03-08 Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/oop/IsA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/oop/OverRideQuiz.java" afterDir="false" />
+    <list default="true" id="63160561-dbef-4612-96a3-a3acb047bbc9" name="변경" comment="23-03-09 Commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/oop/GameFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/oop/Refer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/oop/Refer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/oop/IsA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/oop/IsA.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,13 +101,16 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.knight.oop" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Intellij-23-02\JavaProject\src\main\java\com\knight\java" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.NewRefer">
-    <configuration name="NewRefer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.oop.NewRefer" />
+  <component name="RunManager" selected="애플리케이션.IsA">
+    <configuration name="IsA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.oop.IsA" />
       <module name="JavaProject.main" />
       <extension name="coverage">
         <pattern>
@@ -174,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.IsA" />
         <item itemvalue="애플리케이션.NewRefer" />
         <item itemvalue="애플리케이션.NewRefer (4)" />
         <item itemvalue="애플리케이션.NewRefer (3)" />
         <item itemvalue="애플리케이션.NewRefer (2)" />
-        <item itemvalue="애플리케이션.NewRefer (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -408,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678326979337</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="23-03-09 Commit">
+      <created>1678336171761</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1678336171761</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -432,7 +441,8 @@
     <MESSAGE value="23-03-06 Commit" />
     <MESSAGE value="23-03-07 Commit" />
     <MESSAGE value="23-03-08 Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="23-03-08 Commit" />
+    <MESSAGE value="23-03-09 Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="23-03-09 Commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
