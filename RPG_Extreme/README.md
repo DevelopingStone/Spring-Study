@@ -3,3 +3,6 @@
 객체지향을 공부하고 작성한 코드입니다.
 
 https://www.acmicpc.net/problem/17081 - 문제 링크
+
+
+src 폴더의 main 파일을 확인해주세요.
