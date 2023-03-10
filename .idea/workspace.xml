@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63160561-dbef-4612-96a3-a3acb047bbc9" name="변경" comment="23-03-10 Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/oop/Factory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/oop/ReferExam.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +107,7 @@
       <recent name="C:\Intellij-23-02\JavaProject\src\main\java\com\knight\java" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Factory">
+  <component name="RunManager" selected="애플리케이션.MyFrame">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.knight.oop.Client" />
       <module name="JavaProject.main" />
@@ -201,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.MyFrame" />
         <item itemvalue="애플리케이션.Factory" />
         <item itemvalue="애플리케이션.main" />
         <item itemvalue="애플리케이션.main (1)" />
         <item itemvalue="애플리케이션.MyFrame (2)" />
-        <item itemvalue="애플리케이션.MyFrame" />
       </list>
     </recent_temporary>
   </component>
@@ -491,7 +491,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678431161048</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="23-03-10 Commit">
+      <created>1678433220572</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1678433220572</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
