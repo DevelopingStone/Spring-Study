@@ -36,7 +36,7 @@ class Baseball_Game {
         suppose = Console.readLine();
 
         if (suppose.contains("0") || Integer.parseInt(suppose)<123 || Integer.parseInt(suppose)>987) {
-            System.out.println("\n잘못된 값을 입력하셨습니다.");
+            System.out.println("잘못된 값을 입력하셨습니다.");
             throw new IllegalArgumentException();
             // 잘못된 값을 입력했다면 예외를 발생시킨다.
         }
@@ -48,11 +48,7 @@ class Baseball_Game {
 
     boolean Play() {
         for (int i = 0 ; i < 3 ; i++) {
-            if (number.equals(suppose)) { // 추측값이 정답이라면
-                System.out.println("3개의 숫자를 모두 맞히셨습니다! 게임 종료");
-                return true;
-            }
-            else if (number.charAt(i)==suppose.charAt(i)) { // 똑같은 자리에 똑같은 값이라면
+            if (number.charAt(i)==suppose.charAt(i)) { // 똑같은 자리에 똑같은 값이라면
                 correct_number[0]+=1; // 스트라이크 추가
             }
             else if (suppose.contains(String.valueOf(number.charAt(i)))) { // 다른자리에 똑같은 값이라면
@@ -60,17 +56,23 @@ class Baseball_Game {
             }
         }
 
-        if (correct_number[0]>0) {
-            System.out.printf("%d 스트라이크 ", correct_number[0]);
-        }
         if (correct_number[1]>0) {
-            System.out.printf("%d 볼 ",correct_number[1]);
+            System.out.printf("%d볼 ",correct_number[1]);
+        }
+        if (correct_number[0]>0) {
+            System.out.printf("%d스트라이크 ", correct_number[0]);
         }
         if (correct_number[0]==0 && correct_number[1]==0) { // 같은게 아무것도 없다면
             System.out.print("낫싱");
         }
 
-        System.out.println('\n');
+        System.out.println();
+
+        if (number.equals(suppose)) { // 추측값이 정답이라면
+            System.out.println("3개의 숫자를 모두 맞히셨습니다! 게임 종료");
+            return true;
+        }
+
         return false;
     }
 
