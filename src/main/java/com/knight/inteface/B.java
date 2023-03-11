@@ -1,6 +1,6 @@
 package com.knight.inteface;
 
-public class B {
+public class B implements Inter{
 
   public void ready() {
     System.out.println("시작");
