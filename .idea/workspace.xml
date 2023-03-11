@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63160561-dbef-4612-96a3-a3acb047bbc9" name="변경" comment="23-03-11 Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/inteface/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/inteface/setting.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/inteface/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/inteface/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/inteface/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/inteface/B.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/inteface/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/inteface/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -551,7 +547,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678511251919</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="23-03-11 Commit">
+      <created>1678529275176</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1678529275176</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
