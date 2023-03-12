@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63160561-dbef-4612-96a3-a3acb047bbc9" name="변경" comment="23-03-12 Commit" />
+    <list default="true" id="63160561-dbef-4612-96a3-a3acb047bbc9" name="변경" comment="23-03-12 Commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/excep/Exception_Subtract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/excep/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/excep/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/excep/Exception_Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/excep/Exception_Plus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/excep/WhatExcep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/excep/WhatExcep.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -189,13 +195,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677916926834</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Java Stream">
-      <created>1677929091906</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1677929091906</updated>
     </task>
     <task id="LOCAL-00008" summary="Java Project">
       <created>1678015587855</created>
@@ -533,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678625148311</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="23-03-12 Commit">
+      <created>1678625158954</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1678625158954</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
