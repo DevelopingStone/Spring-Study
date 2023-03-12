@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63160561-dbef-4612-96a3-a3acb047bbc9" name="변경" comment="23-03-12 Commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/excep/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/excep/Exception_Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/excep/WhatExcep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/excep/WhatExcep.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,20 +110,7 @@
       <recent name="C:\Intellij-23-02\JavaProject\src\main\java\com\knight\java" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Main">
-    <configuration name="Filed (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.oop.Filed" />
-      <module name="JavaProject.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.knight.oop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="애플리케이션.WhatExcep">
     <configuration name="Filed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.knight.oop.Filed" />
       <module name="JavaProject.main" />
@@ -160,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.oop.MyFrame" />
+    <configuration name="WhatExcep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.excep.WhatExcep" />
       <module name="JavaProject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.knight.oop.*" />
+          <option name="PATTERN" value="com.knight.excep.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,26 +176,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.oop.main" />
-      <module name="JavaProject.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.knight.oop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.WhatExcep" />
         <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.com.knight.face.Main" />
         <item itemvalue="애플리케이션.MyFrame (1)" />
         <item itemvalue="애플리케이션.Filed" />
-        <item itemvalue="애플리케이션.Filed (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -217,13 +194,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677916926834</updated>
-    </task>
-    <task id="LOCAL-00003" summary="테스트">
-      <created>1677918553651</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1677918553651</updated>
     </task>
     <task id="LOCAL-00004" summary="테스트">
       <created>1677918725312</created>
@@ -561,7 +531,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678608932992</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="23-03-12 Commit">
+      <created>1678618148522</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1678618148522</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -602,6 +579,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ClassCastException" package="java.lang" />
           <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="com.knight.excep.Exception_Knight" package="com.knight.excep" />
+          <option name="timeStamp" value="3" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
