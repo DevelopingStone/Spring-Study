@@ -1,27 +1,37 @@
 package com.knight.collection;
 
-public class ListExam {
+public class ListExam <T>{
 
-  int[] list = new int[]{};
+  Object[] list = new Object[]{};
   int i = 0;
 
-  public void add(int a) {
-    list = new int[i + 1];
+  public <T>void add(Object a) {
+    list = new Object[i + 1];
     list[i] = a;
-    this.i++;
+    i++;
 
   }
 
   public void clear() {
-    list = new int[]{};
+    list = new Object[]{};
     this.i = 0;
   }
 
-  public int size() {
+  public <T> Object size() {
     return list.length;
   }
 
-  public int get(int i) {
+  public <T> Object get(int i) {
+
     return list[i];
+  }
+
+  public <T> void print(T[] arr){
+    for(T i : arr){
+      System.out.println(i);
+    }
+
+
+
   }
 }
