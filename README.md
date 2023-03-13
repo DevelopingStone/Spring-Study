@@ -22,4 +22,4 @@
 
 대부분의 프로젝트는 `src/main/java/` 에 들어가면 java 파일이 존재합니다.
 
-`git clone https://github.com/030831/Java_Project.git`명령을 통해 코드파일을 다운받으실수 있습니다.
+`git clone https://github.com/030831/Java_Project.git` 명령을 통해 코드파일을 다운받으실수 있습니다.
