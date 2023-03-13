@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63160561-dbef-4612-96a3-a3acb047bbc9" name="변경" comment="23-03-12 Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/excep/Exception_Subtract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/exce/Excep/Aclass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/exce/Excep/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/exce/Excep/Number.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/excep/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/excep/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/excep/Exception_Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/excep/Exception_Plus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/excep/Exception_Plus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/excep/Exception_Plus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/excep/WhatExcep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/excep/WhatExcep.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,20 +112,7 @@
       <recent name="C:\Intellij-23-02\JavaProject\src\main\java\com\knight\java" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.WhatExcep">
-    <configuration name="Filed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.oop.Filed" />
-      <module name="JavaProject.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.knight.oop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="애플리케이션.com.knight.exce.Excep.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.knight.inteface.Main" />
       <module name="JavaProject.main" />
@@ -164,6 +152,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.knight.exce.Excep.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.exce.Excep.Main" />
+      <module name="JavaProject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.knight.exce.Excep.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.knight.face.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.knight.face.Main" />
       <module name="JavaProject.main" />
@@ -179,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.com.knight.exce.Excep.Main" />
         <item itemvalue="애플리케이션.WhatExcep" />
         <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.com.knight.face.Main" />
         <item itemvalue="애플리케이션.MyFrame (1)" />
-        <item itemvalue="애플리케이션.Filed" />
       </list>
     </recent_temporary>
   </component>
@@ -195,13 +196,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677916926834</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Java Project">
-      <created>1678015587855</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1678015587855</updated>
     </task>
     <task id="LOCAL-00009" summary="DeskTopTest">
       <created>1678016330838</created>
@@ -539,7 +533,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678625158954</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="23-03-12 Commit">
+      <created>1678627348353</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1678627348353</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
