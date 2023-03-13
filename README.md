@@ -6,7 +6,7 @@
 
 간단한 게임을 직접 구현하거나 우아한테크코스 미션 등 다양하게 있습니다.
 
-![블로그] (https://velog.io/@030831/series/PersonalProject) 에도 글을 올리는 중입니다.
+![블로그](https://velog.io/@030831/series/PersonalProject) 에도 글을 올리는 중입니다.
 
 ### 📌 목적
 
