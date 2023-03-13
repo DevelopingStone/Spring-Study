@@ -35,6 +35,7 @@ public class Main {
     array.add(5);
     array.add(100);
 
+
     array.all();
 
 
