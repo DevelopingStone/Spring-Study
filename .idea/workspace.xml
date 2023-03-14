@@ -192,13 +192,6 @@
       <option name="presentableId" value="Default" />
       <updated>1677916926834</updated>
     </task>
-    <task id="LOCAL-00016" summary="23-03-06 Commit">
-      <created>1678089562504</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1678089562504</updated>
-    </task>
     <task id="LOCAL-00017" summary="23-03-06 Commit">
       <created>1678090220731</created>
       <option name="number" value="00017" />
@@ -535,7 +528,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678712788281</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="23-03-14 Commit">
+      <created>1678768063335</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1678768063336</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -565,7 +565,8 @@
     <MESSAGE value="23-03-11 Commit" />
     <MESSAGE value="23-03-12 Commit" />
     <MESSAGE value="23-03-13 Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="23-03-13 Commit" />
+    <MESSAGE value="23-03-14 Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="23-03-14 Commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
