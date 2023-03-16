@@ -26,7 +26,7 @@ insert into member (id, pwd) values ('test1',0);
 insert into member (id, pwd) values ('test2',1);
 insert into member (id, pwd) values ('test3',2);
 
-select * from member where pwd in(0,2,7);
+select * from member where pwd not in(0,2,7);
 
 
 
