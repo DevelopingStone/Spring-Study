@@ -18,9 +18,16 @@ select pwd+1 pwd from member;
 
 select 'a'||1 plus from dual;
 
-
-select name||'('|| id ||')' 회원조회 from member;
-
+select * from member where regdate is null;
 
 
-select name || '('||id||')'  회원조회 from member;
+select * from member;
+insert into member (id, pwd) values ('test1',0);
+insert into member (id, pwd) values ('test2',1);
+insert into member (id, pwd) values ('test3',2);
+
+select * from member where pwd in(0,2,7);
+
+
+
+
