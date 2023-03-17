@@ -9,7 +9,7 @@ commit;
 
 
 
-
+select * from member;
 
 
 select * from member where REGEXP_LIKE(주민등록번호,'^\d{6}-\d{7}$');
