@@ -19,44 +19,36 @@ public class Jdbc {
     String url = "jdbc:oracle:thin:@localhost:1521/XEPDB1";
     String login = "KNIGHT";
     String number = "0816";
-    String query = "SELECT * FROM MEMBER";
+    String query = "SELECT * FROM NOTICE WHERE ID>=2";
 
     try {
       Class.forName("oracle.jdbc.driver.OracleDriver");
       System.out.println("className 확인");
-      Connection con = DriverManager.getConnection(url, login,number);
+      Connection con = DriverManager.getConnection(url, login, number);
       System.out.println("Driver 연결");
       Statement st = con.createStatement();
       System.out.println("Statement 정상");
       ResultSet rs = st.executeQuery(query);
-      System.out.println("ResultSet 값리턴"+"\n");
-      System.out.println("ID | PWD | NAME | GENDER | BIRTHDAY | PHONE | REGDATE | EMAIL");
+      System.out.println("ResultSet 값리턴" + "\n");
+      System.out.println("ID | TITLE | WRITER_ID | CONTENT | REGDATE | HIT | FILES");
 
-      while(rs.next()){
-        String id = rs.getString("ID");
-        String pwd = rs.getString("PWD");
-        String name = rs.getString("NAME");
-        String gender = rs.getString("gender");
-        String birthday = rs.getString("birthday");
-        String phone = rs.getString("phone");
-        Date date = rs.getDate("regdate");
-        String email = rs.getString("email");
-
-
-        System.out.print(id+pwd+name+gender+birthday+phone+date+email+"\n");
+      while (rs.next()) {
+        int id = rs.getInt("ID");
+        String title = rs.getString("TITLE");
+        String name = rs.getString("WRITER_ID");
+        String gender = rs.getString("CONTENT");
+        Date birthday = rs.getDate("REGDATE");
+        int phone = rs.getInt("HIT");
+        String date = rs.getString("FILES");
+        System.out.println(id + title + name + gender + birthday + phone + date);
 
 
       }
 
 
-    }
-    catch(ClassNotFoundException | SQLException e){
+    } catch (ClassNotFoundException | SQLException e) {
 
     }
-
-
-
-
 
 
   }
