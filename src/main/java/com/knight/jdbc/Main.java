@@ -14,13 +14,12 @@ public class Main {
     String sql = "SELECT * FROM member";
 
     Class.forName("oracle.jdbc.driver.OracleDriver");
-    System.out.println("드라이브 연결완료");
+
     Connection con = DriverManager.getConnection(url, "KNIGHT", "0816");
-    System.out.println("아이디 비번 연결완료");
+
     Statement st = con.createStatement();
-    System.out.println("셀렉트 쿼리 조회");
+
     ResultSet rs = st.executeQuery(sql);
-    System.out.println("결과 쿼리 리턴");
 
     while (rs.next()) {
 
