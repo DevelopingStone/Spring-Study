@@ -1,6 +1,7 @@
 package com.knight.jdbc;
 
 import java.sql.Connection;
+import java.sql.Date;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -30,6 +31,7 @@ public class Jdbc {
       ResultSet rs = st.executeQuery(query);
       System.out.println("ResultSet 값리턴"+"\n");
       System.out.println("ID | PWD | NAME | GENDER | BIRTHDAY | PHONE | REGDATE | EMAIL");
+
       while(rs.next()){
         String id = rs.getString("ID");
         String pwd = rs.getString("PWD");
@@ -37,7 +39,7 @@ public class Jdbc {
         String gender = rs.getString("gender");
         String birthday = rs.getString("birthday");
         String phone = rs.getString("phone");
-        int date = rs.getInt("regdate");
+        Date date = rs.getDate("regdate");
         String email = rs.getString("email");
 
 
