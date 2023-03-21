@@ -3,7 +3,7 @@ package com.knight.homework;
 import java.util.Arrays;
 import java.util.HashSet;
 
-public class Exam0321 {
+public class Hash01 {
 
   public static void main(String[] args) {
 
