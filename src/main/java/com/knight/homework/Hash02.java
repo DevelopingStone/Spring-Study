@@ -22,13 +22,13 @@ public class Hash02 {
     System.out.println("b.list = " + b.list);
 
     MySet result = a.retainAll(b);
-    System.out.println("result.list = " + result.list);
+    System.out.println("교집합 = " + result.list);
 
     result = a.addAll(b);
-    System.out.println("result.list = " + result.list);
+    System.out.println("합집합 = " + result.list);
 
     result = a.removeAll(b);
-    System.out.println("result.list = " + result.list);
+    System.out.println("차집합 = " + result.list);
 
   }
 
@@ -99,16 +99,16 @@ class MySet {
   public MySet removeAll(MySet b) {
     MySet result = new MySet();
     for (int i : this.list) {
-      boolean flag = false;
+      boolean flag = true;
       for (int j : b.list) {
         if (i == j) {
-          flag = true;
+          flag = false;
           break;
         }
 
 
       }
-      if (!flag) {
+      if (flag) {
         result.add(i);
       }
 
