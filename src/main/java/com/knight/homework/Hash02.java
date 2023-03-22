@@ -27,6 +27,9 @@ public class Hash02 {
     result = a.addAll(b);
     System.out.println("result.list = " + result.list);
 
+    result = a.removeAll(b);
+    System.out.println("result.list = " + result.list);
+
   }
 
 
@@ -89,6 +92,27 @@ class MySet {
     }
 
     Collections.sort(result.list);
+
+    return result;
+  }
+
+  public MySet removeAll(MySet b) {
+    MySet result = new MySet();
+    for (int i : this.list) {
+      boolean flag = false;
+      for (int j : b.list) {
+        if (i == j) {
+          flag = true;
+          break;
+        }
+
+
+      }
+      if (!flag) {
+        result.add(i);
+      }
+
+    }
 
     return result;
   }

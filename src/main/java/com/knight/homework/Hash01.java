@@ -10,14 +10,9 @@ public class Hash01 {
     HashSet<Integer> set1 = new HashSet(Arrays.asList(1, 2, 3, 4));
     HashSet<Integer> set2 = new HashSet(Arrays.asList(2, 4, 6, 8));
 
-    set1.retainAll(set2);
-    System.out.println("set1 = " + set1);
-    set1.addAll(set2);
-    System.out.println("set1 = " + set1);
-
-    set1.removeAll(set2);
-    System.out.println("set1 = " + set1);
-
+        for(int i : set1){
+          System.out.println(i);
+        }
 
   }
 
