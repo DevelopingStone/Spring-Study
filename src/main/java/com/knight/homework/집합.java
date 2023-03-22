@@ -3,7 +3,7 @@ package com.knight.homework;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Hash02 {
+public class 집합 {
 
   public static void main(String[] args) {
 

@@ -2,7 +2,7 @@ package com.knight.homework;
 
 import java.util.Scanner;
 
-public class NumberCases {
+public class 경우의수 {
 
 
   int count = 0;
@@ -69,7 +69,7 @@ public class NumberCases {
     int sumNum1 = scan.nextInt();
     int sumNum2 = scan.nextInt();
 
-    NumberCases user1 = new NumberCases();
+    경우의수 user1 = new 경우의수();
     user1.sum(sumNum1, sumNum2);
     System.out.println(user1.count);
 
