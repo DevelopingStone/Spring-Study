@@ -14,7 +14,9 @@ public class 순열 {
     Method math = new Method();
 
 //    math.factory(num);
-    math.soon(num, line);
+//    math.soon(num, line);
+//    math.overlapSoon(num,line);
+
 
 
   }
@@ -45,6 +47,20 @@ class Method {
     }
     System.out.println("result = " + result);
     return result;
+
+  }
+
+  public int overlapSoon(int num, int line){
+    for(int i=num; i>num-line; i--) {
+      result*=i;
+
+    }
+
+    for(int j=line; j>=1; j--){
+      result*=j;
+    }
+      System.out.println("result = " + result);
+      return result;
 
   }
 
