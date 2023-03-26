@@ -1,0 +1,55 @@
+소스 파일 이름
+
+String unitAbbrev = "μs"; // 가능하다면 특수문자 적용
+String unitAbbrev = "\u03bcs"; // "μs"  // 불가능하다면 주석
+
+
+
+4.5.2 Indent continuation lines at least +4 spaces
+select_numbers = Stream.of(Console.readLine().split(",")).map(Integer::parseInt)
+	.collect(Collectors.toList());
+
+탭한번 - 4공백
+
+try 의 잘못된 예시.
+
+  // This is not acceptable: No concise empty blocks in a multi-block statement
+  try {
+    doSomething();
+  } catch (Exception e) {}
+
+
+import static , 와일드 카드 X
+4.8.2 변수선언
+
+int a, b; // 변수 2개 동시 선언을 하지 않는다.
+for 반복문안에는 가능.
+
+연속적인 멤버 선언은 한줄에 하나씩.
+
+예외: 파라미터가 없는 단일 애노테이션은 한줄에 쓸 수 있다. 예를들어,
+
+주석 
+
+/*
+ * This is          // And so           /* Or you can
+ * okay.            // is this.          * even do this. */
+ */
+
+
+@Override public int hashCode() { ... }
+
+.String[] args -> String args[]
+
+
+name_mNames_namekName - 잘못된 변수 이름 
+패캐지 이름은 소문자와 숫자만 , _ 밑줄 X
+
+
+클래스 이름은 첫문자는 무조건 소문자 , 새로운 단어가 들어올때마다 가장 앞의 문자 하나만 대문자.
+
+상수 변수는 전부 대문자.
+
+Catch 에서 아무 조치도 취하지 않을 경우 주석을 단다.
+
+객체 생성을 Foo aFoo = ...; 로 할때 static 맴버는 aFoo 가 아니라 Foo.~ 로 한다.
