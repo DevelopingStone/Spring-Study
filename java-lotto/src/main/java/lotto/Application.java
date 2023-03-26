@@ -1,41 +1,42 @@
 package lotto;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
-
-import camp.nextstep.edu.missionutils.Console;
-import camp.nextstep.edu.missionutils.Randoms;
-
 public class Application {
 
     public static void main(String[] args) {
-        Lotto lotto = new Lotto();
-        LottoResult result = new LottoResult();
-        Extract extract = new Extract();
+        Lotto lotto = Lotto.INSTANCE; // 로또는 싱글턴임을 보장한다.
+
+        InputView input = new InputView();
         Validate validate = new Validate();
-        InputView inputView = new InputView();
-        OutputView outputView = new OutputView();
+        Extract extract = new Extract();
+        OutputView output = new OutputView();
+        Compare compare = new Compare();
+        Profit profit = new Profit();
 
-        inputView.buyLotto(); // 로또 구매
-        validate.moneyValue(inputView.money); // 금액 입력 값이 올바른지 확인
-
-        extract.extractLottoNumbers(lotto.myLotto, inputView.money); // 랜덤 번호 추출
-        outputView.viewBuyLotto(lotto.myLotto); // 추출한 로또들을 화면에 출력
-
-        inputView.inputPrizeNumbers(lotto.prizeNumber); // 당첨번호 입력
-        inputView.inputBonusNumber(); // 보너스 번호 입력
-
-        validate.prizeNumberSize(lotto.prizeNumber); // 번호 입력 개수가 올바른지 확인
-        validate.prizeNumberValue(lotto.prizeNumber); // 번호 입력 값이 올바른지 확인
-
-        result.getLottoResult(lotto.lottoPrize, lotto.myLotto, lotto.prizeNumber,
-            inputView.bonusNumber); // 로또 결과를 얻는다.
-        result.getProfitRate(lotto.lottoPrize); // 로또 수익도 얻는다
-
-        outputView.viewLottoResult(lotto.lottoPrize, result.profitRate,
-            inputView.money); // 얻는 결과와 수익을 화면에 출력
-
+        input.Money(lotto);
+        validate.moneyValue(lotto.money);
+        extract.LottoNumbers(lotto);
+        output.lottery(lotto.lottery);
+        input.LotteryNumbers(lotto);
+        validate.lotteryNumberSize(lotto.selectNumber);
+        input.BonusNumber(lotto);
+        validate.lotteryNumberValue(lotto.selectNumber , lotto.bonusNumber);
+        compare.Number(lotto);
+        profit.getProfitRate(lotto.lottoPrize, lotto.money);
+        output.result(lotto.lottoPrize , profit.rate);
     }
 }
+
+/** 로또 진행 과정
+ * 1. 돈을 입력받는다.
+ * 2. 돈의 값을 검사한다.
+ * 3. 복권를 구매하고 번호를 추첨한다.
+ * 4. 추첨된 복권을 출력한다.
+ * 5. 당첨번호를 입력한다.
+ * 6. 당첨번호의 개수를 검사한다.
+ * 7. 보너스 번호를 입력한다.
+ * 8. 당첨번호와 보너스 번호의 범위를 검사한다.
+ * 9. 복권과 당첨번호를 비교한다.
+ * 10. 수익률을 계산한다.
+ * 11. 결과를 출력한다.
+ *
+ */
