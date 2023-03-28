@@ -26,7 +26,7 @@ class Jung {
       num.add(i);
     }
     Collections.sort(num);
-    int middleIndex = (num.size() - 1) / 2;
+    int middleIndex = (num.size()) / 2;
     int middleValue = num.get(middleIndex);
     System.out.println(middleValue); // 3
 
