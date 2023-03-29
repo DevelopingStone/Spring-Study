@@ -1,22 +1,7 @@
-package com.knight.homework;
-
 import java.util.ArrayList;
 import java.util.List;
 
-public class 홀수가싫어 {
-
-  public static void main(String[] args) {
-
-    Main1 user = new Main();
-    user.solution(10);
-
-
-  }
-
-}
-
-class Main1 {
-
+class Solution {
 
   public List<Integer> solution(int n) {
     List<Integer> list = new ArrayList<>();
@@ -28,9 +13,6 @@ class Main1 {
 
     }
 
-
     return list;
   }
-
-
 }
