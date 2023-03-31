@@ -7,7 +7,7 @@ public class 홀수가싫어 {
 
   public static void main(String[] args) {
 
-    Main1 user = new Main();
+    Main1 user = new Main1();
     user.solution(10);
 
 
@@ -27,7 +27,6 @@ class Main1 {
 
 
     }
-
 
     return list;
   }

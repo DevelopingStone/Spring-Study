@@ -7,14 +7,21 @@ public class 피자니눠먹기1 {
   }
 }
 
-class Main2{
+class Main2 {
 
   public int solution(int n) {
 
-    return (n + 6) / 7;
+    for (int result = 1; result <= 100; result++) {
+      if (6 * result % n == 0) {
 
+        return result;
 
+      }
 
-  }
 
     }
+
+    return n;
+  }
+
+}
