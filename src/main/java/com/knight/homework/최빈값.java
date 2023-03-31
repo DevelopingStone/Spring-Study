@@ -7,14 +7,14 @@ public class 최빈값 {
 
   public static void main(String[] args) {
     int[] array = {1, 2, 3, 3, 3, 4};
-    Solution solution = new Solution();
+    Solution2 solution = new Solution2();
     int mode = solution.solution(array);
     System.out.println(mode); // 3
   }
 }
 
 
-class Solution {
+class Solution2 {
 
   public int solution(int[] array) {
     Map<Integer, Integer> count = new HashMap<>(); // 숫자와 해당 숫자의 개수를 저장할 Map 생성
