@@ -6,6 +6,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
 public class JavaStudy05 {
+
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     System.out.println("[달력 출력 프로그램]");
@@ -33,6 +34,7 @@ public class JavaStudy05 {
     // 달력 출력
     System.out.println(monthNameKr + " " + year);
     System.out.println("일 월 화 수 목 금 토");
+
 
     // 첫 번째 주의 날짜 출력
     for (int day = 1; day <= 7 - startDay + 1; day++) {
