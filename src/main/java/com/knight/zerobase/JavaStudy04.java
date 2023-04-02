@@ -31,7 +31,7 @@ public class JavaStudy04 {
       }
     } else {
       System.out.print(yyyy + mm + dd + "-" + 34);
-      for (int i = 0; i < 4; i++) {
+      for (int i = 0; i < 5; i++) {
         int randomNumber = random.nextInt(10); // 0부터 9까지의 랜덤한 정수 생성
         System.out.print(randomNumber);
       }
