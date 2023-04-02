@@ -23,12 +23,12 @@ public class JavaStudy03 {
     int price;
     if (age < 3) {
       price = 0;
-    } else if (national.equals("y") || welfare.equals("y")) {
-      price = 8000;
     } else if (age < 13) {
       price = 4000;
     } else if (time >= 17) {
       price = 4000;
+    } else if (national.equals("y") || welfare.equals("y")) {
+      price = 8000;
     } else {
       price = 10000;
     }
