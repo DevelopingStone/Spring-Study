@@ -23,8 +23,9 @@ public class JavaStudy05 {
     int daysInMonth = date.getMonth().length(date.isLeapYear()); // 월의 총 일 수 계산
     int startDay = date.getDayOfWeek().getValue() % 7; // 현재 월의 첫 번째 날짜의 요일(0~6)
 
-    System.out.println(monthNameKr + " " + yyyy);
-    System.out.println("일 월 화  수 목 금 토");
+
+    System.out.printf("[%d년 %s]%n",yyyy,monthNameKr);
+    System.out.println("일 월 화 수 목 금 토");
 
     for (int i = 0; i < startDay; i++) {
       System.out.print("   ");

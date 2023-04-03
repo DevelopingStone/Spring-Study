@@ -35,12 +35,12 @@ public class JavaStudy06 {
       if (num == 4) {
         four++;
       }
-      System.out.println(
-          "[투표진행율] : " + (double) i / 100000 + ", " + i + "명 투표 =>" + name.get(num));
-      System.out.println("[기호:1] 이재명: " + (double) one / 100000 + "%,  (투표수: " + one + ")");
-      System.out.println("[기호:2] 윤석열: " + (double) two / 100000 + "%,  (투표수: " + two + ")");
-      System.out.println("[기호:3] 심상정: " + (double) three / 100000 + "%,  (투표수: " + three + ")");
-      System.out.println("[기호:4] 안철수: " + (double) four / 100000 + "%,  (투표수: " + four + ")\n");
+      System.out.println();
+      System.out.println("[투표진행율] : " + String.format("%.2f", ((double) i / 1000)) + "%, " + i + "명 투표 => "+ name.get(num));
+      System.out.printf("[기호:1] 이재명: %.2f%%,  (투표수: %d)\n", ((double) one / 100000) * 100, one);
+      System.out.printf("[기호:2] 윤석열: %.2f%%,  (투표수: %d)\n", ((double) two / 100000) * 100, two);
+      System.out.printf("[기호:3] 심상정: %.2f%%,  (투표수: %d)\n", ((double) three / 100000) * 100, three);
+      System.out.printf("[기호:4] 안철수: %.2f%%,  (투표수: %d)\n", ((double) four / 100000) * 100, four);
 
 
     }

@@ -24,14 +24,14 @@ public class JavaStudy04 {
     String sex = scan.next();
 
     if (sex.equals("m")) {
-      System.out.print(yyyy + mm + dd + "-" + 12);
-      for (int i = 0; i < 4; i++) {
+      System.out.print(yyyy + mm + dd + "-" + 3);
+      for (int i = 0; i < 6; i++) {
         int randomNumber = random.nextInt(10); // 0부터 9까지의 랜덤한 정수 생성
         System.out.print(randomNumber);
       }
     } else {
-      System.out.print(yyyy + mm + dd + "-" + 34);
-      for (int i = 0; i < 5; i++) {
+      System.out.print(yyyy + mm + dd + "-" + 4);
+      for (int i = 0; i < 6; i++) {
         int randomNumber = random.nextInt(10); // 0부터 9까지의 랜덤한 정수 생성
         System.out.print(randomNumber);
       }
