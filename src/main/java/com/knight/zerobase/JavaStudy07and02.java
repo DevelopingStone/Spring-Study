@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 
-public class JavaStudy09 {
+public class JavaStudy07and02 {
 
   public static void main(String[] args) {
     System.out.println("[로또 당첨 프로그램]");

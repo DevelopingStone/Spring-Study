@@ -9,83 +9,80 @@ import java.util.Scanner;
 public class JavaStudy07 {
 
   public static void main(String[] args) {
-    boolean start = true;
-
     System.out.println("[로또 당첨 프로그램]");
     System.out.print("로또 개수를 입력해 주세요. (숫자 1 ~ 10) :");
-    int lotto = 0;
+
     Scanner scan = new Scanner(System.in);
-    while (start) {
+    int lotto = 0;
+    boolean numTF = true;
+    while (numTF) {
       lotto = scan.nextInt();
-      if (lotto <= 10 && lotto > 0) {
-        start = false;
+      if (lotto > 0 && lotto < 11) {
+        numTF = false;
       } else {
-        System.out.println("로또 구매 갯수는 1~10개입니다.");
+        System.out.println("로또 개수는 1~10 입니다.");
         System.out.print("로또 개수를 입력해 주세요. (숫자 1 ~ 10) :");
-
       }
+
     }
+
+    // 로또 번호 생성
     Random number = new Random();
-    List<Integer> list = new ArrayList<>();
-
-    int num = 0;
-    int z = 1;
-
-    List<Integer> result = new ArrayList<>();
-    for (int i = 0; i <= 5; i++) {
-      num = number.nextInt(45) + 1;
-      if (!result.contains(num)) {
-        result.add(num);
+    List<Integer> lottoNumbers = new ArrayList<>();
+    for (int i = 0; i < 6; i++) {
+      int num = number.nextInt(45) + 1;
+      if (!lottoNumbers.contains(num)) {
+        lottoNumbers.add(num);
       } else {
         i--;
       }
-
-
     }
+    Collections.sort(lottoNumbers);
 
-    while (z <= lotto) {
-
-      System.out.print((char) (64 + z) + "    ");
-      for (int i = 0; i <= 5; i++) {
-        num = number.nextInt(45) + 1;
-
-        if (!list.contains(num)) {
-          list.add(num);
+    // 각 플레이어의 로또 번호 생성
+    List<List<Integer>> playerNumbers = new ArrayList<>();
+    for (int i = 0; i < lotto; i++) {
+      List<Integer> numbers = new ArrayList<>();
+      for (int j = 0; j < 6; j++) {
+        int num = number.nextInt(45) + 1;
+        if (!numbers.contains(num)) {
+          numbers.add(num);
         } else {
-          i--;
+          j--;
         }
-
       }
-      Collections.sort(list);
-      System.out.println(list);
+      Collections.sort(numbers);
+      playerNumbers.add(numbers);
+    }
 
-      list.clear();
-      z++;
-
-//        for (int j = 0; j < list.size(); j++) {
-//          if (list.get(j) == num) {
-//            tF = false;
-//            break;
-//          }
-//        }
-//        if (tF) {
-//          list.add(num);
-//        } else {
-//          i--;
-//        }
+    // 각 플레이어의 로또 번호 출력
+    System.out.println();
+    for (int i = 0; i < lotto; i++) {
+      System.out.printf("%c %s", 65 + i, playerNumbers.get(i));
+      int matchedCount = getMatchedCount(playerNumbers.get(i), lottoNumbers);
+      System.out.println();
 
     }
 
-    System.out.println("[로또 발표]");
+    // 로또 당첨 번호 출력
+    System.out.println("\n[로또 발표]");
+    System.out.printf("  %s%n", lottoNumbers + "\n");
 
-    Collections.sort(result);
-    System.out.print("     ");
-    System.out.println(result);
-
+    // 각 플레이어의 로또 번호와 일치하는 번호의 갯수 출력
+    for (int i = 0; i < lotto; i++) {
+      int matchedCount = getMatchedCount(playerNumbers.get(i), lottoNumbers);
+      System.out.printf("%c %s => %d개 일치%n", 65 + i, playerNumbers.get(i), matchedCount);
+    }
 
   }
 
-
+  private static int getMatchedCount(List<Integer> playerNumbers, List<Integer> lottoNumbers) {
+    int matchedCount = 0;
+    for (int i = 0; i < playerNumbers.size(); i++) {
+      if (lottoNumbers.contains(playerNumbers.get(i))) {
+        matchedCount++;
+      }
+    }
+    return matchedCount;
+  }
 }
-
-
