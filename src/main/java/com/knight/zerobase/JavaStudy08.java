@@ -1,5 +1,7 @@
 package com.knight.zerobase;
-
+/*
+ 박강락
+ */
 import java.util.Scanner;
 
 public class JavaStudy08 {
@@ -80,7 +82,7 @@ public class JavaStudy08 {
       System.out.println(" 12000000 *  6% =    720000");
       System.out.println(" 34000000 * 15% =   5100000");
       System.out.println(" 42000000 * 24% =  10080000");
-      System.out.printf("  %d * 35%% =   %d",income-88000000,tax);
+      System.out.printf(" %d * 35%% =   %d",income-88000000,tax);
     }
 
     else if (46000000<income){

@@ -1,5 +1,7 @@
 package com.knight.zerobase;
-
+/*
+ 박강락
+ */
 import java.util.Scanner;
 
 public class JavaStudy02 {
