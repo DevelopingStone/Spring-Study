@@ -43,9 +43,12 @@ public class JavaStudy06 {
       System.out.printf("[기호:2] 윤석열: %.2f%%,  (투표수: %d)\n", ((double) two / 100000) * 100, two);
       System.out.printf("[기호:3] 심상정: %.2f%%,  (투표수: %d)\n", ((double) three / 100000) * 100, three);
       System.out.printf("[기호:4] 안철수: %.2f%%,  (투표수: %d)\n", ((double) four / 100000) * 100, four);
+      
 
 
     }
+
+
 
     List<Integer> list = new ArrayList<>(Arrays.asList(one, two, three, four));
     for (int i = 0; i < list.size(); i++) {

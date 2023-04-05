@@ -10,6 +10,7 @@ public class Practice01 {
     main01 user = new main01();
     System.out.println(user.solution(6));
 
+
   }
 
 }
