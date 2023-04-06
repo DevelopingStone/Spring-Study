@@ -33,8 +33,8 @@ class Main05 {
     while (true) {
       sum = 0;
 
-      for (int i = 0; i < list.size(); i++) {
-        sum += list.get(i) * list.get(i);
+      for (Integer integer : list) {
+        sum += integer * integer;
 
       }
       if (all.contains(sum)) {
