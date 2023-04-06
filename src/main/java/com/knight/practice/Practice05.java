@@ -4,28 +4,26 @@ public class Practice05 {
 
   public static void main(String[] args) {
 
-    int oddNum = 0;
-    int oddNumCount = 0;
-    int evenNum = 0;
-    int evenNumCount = 0;
-    int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+    int[] array = {1, 1, 100, 1, 1, 1, 100,1,2,3,4,2,1,2,3,2,101,100};
+    int result = 0;
+    int z = 0;
 
-    for (int i : array) {
-      if (i % 2 == 0) {
-        evenNum += i;
-        evenNumCount++;
+    for (int i = 0; i <array.length ; i++) {
 
+      if(array[i]>result){
+        result = array[i];
+        z = i;
       }
-      
-      if (i % 2 == 1) {
-        oddNum += i;
-        oddNumCount++;
-
+      if(array[i]==result){
+        result = array[i];
+        z = i;
       }
+
+
     }
 
-    System.out.printf("%.1f %n",(double)oddNum/oddNumCount);
-    System.out.printf("%.1f %n",(double)evenNum/evenNumCount);
+    System.out.println(result);
+    System.out.println(z);
 
 
   }
