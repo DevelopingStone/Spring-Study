@@ -4,26 +4,24 @@ public class Practice05 {
 
   public static void main(String[] args) {
 
-    int[] array = {1, 1, 100, 1, 1, 1, 100,1,2,3,4,2,1,2,3,2,101,100};
-    int result = 0;
-    int z = 0;
+    int[] array = {3, 1, 4, 28, 11, 3, 1, 44, 50};
+    int tmp = 0;
 
-    for (int i = 0; i <array.length ; i++) {
+    for (int i = 0; i < array.length; i++) {
 
-      if(array[i]>result){
-        result = array[i];
-        z = i;
-      }
-      if(array[i]==result){
-        result = array[i];
-        z = i;
-      }
-
+      if (array.length / 2 > i) {
+        tmp = array[array.length - i - 1];
+        array[array.length - i - 1] = array[i];
+        array[i] = tmp;
+      } else {
+        break;
+      }s
 
     }
 
-    System.out.println(result);
-    System.out.println(z);
+    for (int i : array) {
+      System.out.println(i);
+    }
 
 
   }
