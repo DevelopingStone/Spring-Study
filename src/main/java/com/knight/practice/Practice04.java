@@ -8,7 +8,7 @@ public class Practice04 {
   public static void main(String[] args) {
 
     Main05 user = new Main05();
-    user.solution(19);
+    System.out.println(user.solution(1028));
 
 
   }
@@ -39,8 +39,8 @@ class Main05 {
       }
       if (all.contains(sum)) {
         System.out.println("sum 값 : " + sum);
-        System.out.printf("%d 는 무한반복되므로 행복한수가 아닙니다.", a);
-        break;
+        System.out.printf("%d 는 무한반복되므로 행복한수가 아닙니다.%n", a);
+        return false;
       }
       all.add(sum);
       list.add(sum);
@@ -58,7 +58,7 @@ class Main05 {
 
     }
 
-    return true;
+
   }
 
 
