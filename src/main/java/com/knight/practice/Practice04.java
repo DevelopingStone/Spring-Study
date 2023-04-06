@@ -30,7 +30,7 @@ class Main05 {
     System.out.printf("입력값은 : %d , 쪼갠값은 : %s %n", a, list);
 
     int sum = 0;
-    while (sum != 1) {
+    while (true) {
       sum = 0;
 
       for (int i = 0; i < list.size(); i++) {
