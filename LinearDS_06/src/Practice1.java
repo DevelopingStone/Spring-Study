@@ -52,6 +52,7 @@ public class Practice1 {
     MyStack1 myStack = new MyStack1();
     myStack.isEmpty();
 
+
     myStack.push(1);
     myStack.push(2);
     myStack.push(3);
