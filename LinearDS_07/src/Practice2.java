@@ -14,17 +14,37 @@
 import java.util.Stack;
 
 public class Practice2 {
-    public static void checkParenthesis(String str) {
+
+  public static void checkParenthesis(String str) {
+
+    int count = 0;
+    for (String i : str.split("")) {
+      if (i.equals("(")) {
+        count++;
+      } else {
+        count--;
+      }
+
 
     }
-
-    public static void main(String[] args) {
-        // Test code
-        checkParenthesis("(");          // FAIL!
-        checkParenthesis(")");          // FAIL!
-        checkParenthesis("()");         // PASS!
-        checkParenthesis("()()()");     // PASS!
-        checkParenthesis("(())()");     // PASS!
-        checkParenthesis("(((()))");    // FAIL!
+    if(count==0){
+      System.out.println("PASS");
     }
+    else{
+      System.out.println("FAIL");
+    }
+
+  }
+
+  public static void main(String[] args) {
+    // Test code
+    checkParenthesis("(");          // FAIL!
+    checkParenthesis(")");          // FAIL!
+    checkParenthesis("()");         // PASS!
+    checkParenthesis("()()()");     // PASS!
+    checkParenthesis("(())()");     // PASS!
+    checkParenthesis("(((()))");    // FAIL!
+
+
+  }
 }
