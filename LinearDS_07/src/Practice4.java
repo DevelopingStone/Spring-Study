@@ -25,6 +25,7 @@ public class Practice4 {
         stack1.push(i);
       } else {
         stack1.pop();
+
       }
 
 
