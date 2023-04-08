@@ -1,7 +1,6 @@
 package com.knight.homework;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class 해구하기 {
@@ -13,8 +12,10 @@ public class 해구하기 {
 
 
     String a = "x+5-3+x=6+x-2";
-    str.addAll(Arrays.asList(a.split("\\+|\\-")));
-    System.out.println(str);
+    String [] str1 = a.split("=");
+//    str.addAll(Arrays.asList(a.split("=")));
+    System.out.println(str1[0]);
+    System.out.println(str1[1]);
 
 
   }
