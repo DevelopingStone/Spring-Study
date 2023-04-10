@@ -13,7 +13,9 @@
 // 출력: false
 
 
+import java.util.Scanner;
 import java.util.Stack;
+
 
 public class Practice4 {
 
