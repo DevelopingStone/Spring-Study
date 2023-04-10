@@ -23,6 +23,7 @@ class main09 {
       if (num % 2 == 0) {
         sum = (sum * 4) % a;
 
+
       } else {
         sum = (sum * 5) % a;
       }
