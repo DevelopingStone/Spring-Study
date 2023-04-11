@@ -26,7 +26,14 @@ public class Practice1 {
         deque1.add(deque.removeLast());
       }
     }
-    System.out.println(deque1);
+
+    for (Integer i : deque1) {
+      System.out.print(i);
+      if (i != deque1.getLast()) {
+        System.out.print(" -> ");
+      }
+    }
+    System.out.println();
   }
 
   public static void main(String[] args) {
