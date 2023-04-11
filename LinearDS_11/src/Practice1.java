@@ -8,17 +8,32 @@
 // 출력 데이터: 1 -> 5 -> 2 -> 4 -> 3
 
 
+import java.util.ArrayDeque;
+import java.util.Deque;
+
 public class Practice1 {
-    public static void reorderData(int[] arr) {
 
+  public static void reorderData(int[] arr) {
+    Deque<Integer> deque = new ArrayDeque<>();
+    Deque<Integer> deque1 = new ArrayDeque<>();
+    boolean tF = true;
+    for (int i : arr) {
+      deque.add(i);
     }
-
-    public static void main(String[] args) {
-        // Test code
-        int[] arr = {1, 2, 3, 4, 5};
-        reorderData(arr);   // 1 -> 5 -> 2 -> 4 -> 3
-
-        int[] arr2 = {1, 2, 3, 4, 5, 6, 7};
-        reorderData(arr2);  // 1 -> 7 -> 2 -> 6 -> 3 -> 5 -> 4
+    while (!deque.isEmpty()) {
+      deque1.add(deque.removeFirst());
+      if (!deque.isEmpty()) {
+        deque1.add(deque.removeLast());
+      }
     }
+    System.out.println(deque1);
+  }
+
+  public static void main(String[] args) {
+    // Test code
+    int[] arr = {1, 2, 3, 4, 5};
+    reorderData(arr);   // 1 -> 5 -> 2 -> 4 -> 3
+    int[] arr2 = {1, 2, 3, 4, 5, 6, 7};
+    reorderData(arr2);  // 1 -> 7 -> 2 -> 6 -> 3 -> 5 -> 4
+  }
 }

@@ -2,19 +2,25 @@
 // 배열을 이용한 기본 데크 직접 구현
 
 class MyDeque2 {
+int[] array ;
 
     MyDeque2(int size) {
+        array = new int[size];
+
     }
+
 
 //    public boolean isEmpty() {
 //    }
 //
 //    public boolean isFull() {
 //    }
-//
-//    public void addFirst(int data) {
-//    }
-//
+
+    public void addFirst(int data) {
+
+
+    }
+
 //    public void addLast(int data) {
 //    }
 //
@@ -34,10 +40,10 @@ public class Practice2 {
         // Test code
         MyDeque2 myDeque = new MyDeque2(5);
         // Front 부분 입력
-//        myDeque.addFirst(1);
-//        myDeque.addFirst(2);
-//        myDeque.addFirst(3);
-//        myDeque.printDeque();   // 3 2 1
+        myDeque.addFirst(1);
+        myDeque.addFirst(2);
+        myDeque.addFirst(3);
+        myDeque.printDeque();   // 3 2 1
 //
 //        // Rear 부분 입력
 //        myDeque.addLast(10);
