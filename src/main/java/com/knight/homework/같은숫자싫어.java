@@ -2,6 +2,7 @@ package com.knight.homework;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 public class 같은숫자싫어 {
 
@@ -9,6 +10,11 @@ public class 같은숫자싫어 {
     int[] array = {4, 4, 4, 3, 3, 2};
     main11 user = new main11();
     System.out.println(user.solution(array));
+
+    Stack stack = new Stack();
+    stack.push(2);
+    stack.add(3);
+    System.out.println(stack);
 
   }
 
