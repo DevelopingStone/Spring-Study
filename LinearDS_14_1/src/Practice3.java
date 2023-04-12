@@ -2,7 +2,8 @@
 public class Practice3 {
     public static void solution(int[] data) {
 
-        
+
+
     }
 
     public static void main(String[] args) {
