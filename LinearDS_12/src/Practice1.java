@@ -8,8 +8,9 @@ class MyHashTable {
 
 public class Practice1 {
 
-    public static void main(String[] args) {
-        // Test code
+  public static void main(String[] args) {
+
+    // Test code
 //        MyHashTable ht = new MyHashTable(7);
 //        ht.setValue(1, 1);
 //        ht.setValue(2, 2);
@@ -19,5 +20,5 @@ public class Practice1 {
 //        ht.printHashTable();
 //        ht.setValue(8, 6);
 //        ht.printHashTable();
-    }
+  }
 }
