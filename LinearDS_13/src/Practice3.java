@@ -2,7 +2,8 @@
 // 참고 - Hashtable? HashMap?
 
 public class Practice3 {
-    public static void main(String[] args) {
 
-    }
+  public static void main(String[] args) {
+
+  }
 }
