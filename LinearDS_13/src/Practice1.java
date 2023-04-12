@@ -8,15 +8,27 @@
 // 배열2: 1, 2, 3, 4, 5
 // 출력: True, False, True, False, True
 
+import java.util.HashMap;
+
 public class Practice1 {
-    public static void solution(int[] arr1, int[] arr2) {
 
-    }
+  public static void solution(int[] arr1, int[] arr2) {
+      HashMap<Integer,Integer> hm = new HashMap<>();
+      for(int i : arr1){
+          hm.put(i,i);
+      }
 
-    public static void main(String[] args) {
-        // Test code
-        int[] arr1 = {1, 3, 5, 7, 9};
-        int[] arr2 = {1, 2, 3, 4, 5};
-        solution(arr1, arr2);
-    }
+      for(int i : arr2){
+        System.out.println(hm.containsKey(i));
+
+      }
+
+  }
+
+  public static void main(String[] args) {
+    // Test code
+    int[] arr1 = {1, 3, 5, 7, 9};
+    int[] arr2 = {1, 2, 3, 4, 5};
+    solution(arr1, arr2);
+  }
 }

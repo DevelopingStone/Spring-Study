@@ -14,13 +14,39 @@
 // 출력: 0, 2
 
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.List;
 
 public class Practice2 {
     public static int[] solution(int[] numbers, int target) {
+        LinkedHashMap<Integer,Integer> hm = new LinkedHashMap<>();
+        int[] array = new int[2];
+        for(int i =0; i<numbers.length; i++){
+            hm.put(i,numbers[i]);
+        }
 
+
+
+        for (int i = 0; i <numbers.length ; i++) {
+            for (int j = i+1; j <numbers.length ; j++) {
+                if(hm.get(i)+hm.get(j)==target){
+                    array[0]=i;
+                    array[1]=j;
+                    return array;
+                }
+
+
+                }
+
+            }
         return null;
-    }
+        }
+
+
+
 
     public static void main(String[] args) {
         // Test code
