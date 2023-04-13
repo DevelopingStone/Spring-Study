@@ -4,8 +4,7 @@ public class 각도기 {
 
   public static void main(String[] args) {
 
-    Main3 user = new Main3();
-    user.solution(80);
+
 
 
   }
