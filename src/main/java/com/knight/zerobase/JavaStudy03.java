@@ -2,6 +2,7 @@ package com.knight.zerobase;
 /*
  박강락
  */
+
 import java.util.Scanner;
 
 public class JavaStudy03 {
@@ -25,9 +26,7 @@ public class JavaStudy03 {
     int price;
     if (age < 3) {
       price = 0;
-    } else if (age < 13) {
-      price = 4000;
-    } else if (time >= 17) {
+    } else if (age < 13 || time >= 17) {
       price = 4000;
     } else if (national.equals("y") || welfare.equals("y")) {
       price = 8000;

@@ -25,18 +25,30 @@ public class JavaStudy04 {
     System.out.print("성별을 입력해 주세요.(m/f) : ");
     String sex = scan.next();
 
-    if (sex.equals("m")) {
-      System.out.print(yyyy + mm + dd + "-" + 3);
-      for (int i = 0; i < 6; i++) {
-        int randomNumber = random.nextInt(10); // 0부터 9까지의 랜덤한 정수 생성
-        System.out.print(randomNumber);
-      }
-    } else {
-      System.out.print(yyyy + mm + dd + "-" + 4);
-      for (int i = 0; i < 6; i++) {
-        int randomNumber = random.nextInt(10); // 0부터 9까지의 랜덤한 정수 생성
-        System.out.print(randomNumber);
-      }
+//    if (sex.equals("m")) {
+//      System.out.print(yyyy + mm + dd + "-" + 3);
+//      for (int i = 0; i < 6; i++) {
+//        int randomNumber = random.nextInt(10); // 0부터 9까지의 랜덤한 정수 생성
+//        System.out.print(randomNumber);
+//      }
+//    } else {
+//      System.out.print(yyyy + mm + dd + "-" + 4);
+//      for (int i = 0; i < 6; i++) {
+//        int randomNumber = random.nextInt(10); // 0부터 9까지의 랜덤한 정수 생성
+//        System.out.print(randomNumber);
+//      }
+//    }
+
+    if("m".equals(sex)){
+      int randomNumber = random.nextInt(9999999)+1;
+      System.out.println(yyyy+mm+dd+"-"+3+randomNumber);
+
+
+    }
+    else{
+      int randomNumber = random.nextInt(9999999)+1;
+      System.out.println(yyyy+mm+dd+"-"+4+randomNumber);
+
     }
 
 

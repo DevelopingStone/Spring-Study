@@ -31,6 +31,7 @@ public class 요세푸스 {
 
     return listResult;
 
+
   }
 }
 

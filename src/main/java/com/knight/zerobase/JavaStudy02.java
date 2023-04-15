@@ -17,13 +17,13 @@ public class JavaStudy02 {
     if (result <= 100 && result >= 0) {
       result = 0;
     }
-    if (result >= 100 && result <= 199) {
+    else if (result >= 100 && result <= 199) {
       result = 100;
     }
-    if (result >= 200 && result <= 299) {
+    else if (result >= 200 && result <= 299) {
       result = 200;
     }
-    if (result >= 300) {
+    else {
       result = 300;
     }
 
