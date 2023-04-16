@@ -2,11 +2,14 @@ package com.knight.zerobase;
 /*
  박강락
  */
+
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
+import java.util.Set;
 
 public class JavaStudy07 {
 
@@ -30,29 +33,24 @@ public class JavaStudy07 {
 
     // 로또 번호 생성
     Random number = new Random();
-    List<Integer> lottoNumbers = new ArrayList<>();
+    Set<Integer> lottoNumSet = new HashSet<>();
     for (int i = 0; i < 6; i++) {
       int num = number.nextInt(45) + 1;
-      if (!lottoNumbers.contains(num)) {
-        lottoNumbers.add(num);
-      } else {
-        i--;
-      }
+      lottoNumSet.add(num);
     }
+
+    List<Integer> lottoNumbers = new ArrayList<>(lottoNumSet);
     Collections.sort(lottoNumbers);
 
     // 각 플레이어의 로또 번호 생성
     List<List<Integer>> playerNumbers = new ArrayList<>();
     for (int i = 0; i < lotto; i++) {
-      List<Integer> numbers = new ArrayList<>();
+      Set<Integer> numbersSet = new HashSet<>();
       for (int j = 0; j < 6; j++) {
         int num = number.nextInt(45) + 1;
-        if (!numbers.contains(num)) {
-          numbers.add(num);
-        } else {
-          j--;
-        }
+        numbersSet.add(num);
       }
+      List<Integer> numbers = new ArrayList<>(numbersSet);
       Collections.sort(numbers);
       playerNumbers.add(numbers);
     }
