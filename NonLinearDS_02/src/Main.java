@@ -4,7 +4,7 @@ public class Main {
 
     System.out.println("깃허브테스트중입니다.");
 
-    
+
     
   }
 
