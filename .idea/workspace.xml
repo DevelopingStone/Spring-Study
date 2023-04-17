@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63160561-dbef-4612-96a3-a3acb047bbc9" name="변경" comment="23-03-18 Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/homework/모스부호.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/homework/배열자르기.java" afterDir="false" />
+    <list default="true" id="63160561-dbef-4612-96a3-a3acb047bbc9" name="변경" comment="23-04-18 Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/zerobase/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/homework/모스부호.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/homework/모스부호.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +120,7 @@
       <recent name="com.knight.jdbc" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.모스부호 (2)">
+  <component name="RunManager" selected="애플리케이션.모스부호 (5)">
     <configuration name="모스부호 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.knight.homework.모스부호" />
       <module name="JavaProject.main" />
@@ -136,7 +134,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="모스부호 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="모스부호 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.knight.homework.모스부호" />
       <module name="JavaProject.main" />
       <extension name="coverage">
@@ -190,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.모스부호 (2)" />
-        <item itemvalue="애플리케이션.모스부호 (1)" />
-        <item itemvalue="애플리케이션.모스부호" />
         <item itemvalue="애플리케이션.모스부호 (5)" />
+        <item itemvalue="애플리케이션.모스부호" />
+        <item itemvalue="애플리케이션.모스부호 (1)" />
         <item itemvalue="애플리케이션.모스부호 (4)" />
+        <item itemvalue="애플리케이션.모스부호 (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -206,13 +204,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677916926834</updated>
-    </task>
-    <task id="LOCAL-00032" summary="23-03-09 Commit">
-      <created>1678336171761</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1678336171761</updated>
     </task>
     <task id="LOCAL-00033" summary="23-03-09 Commit">
       <created>1678339484568</created>
@@ -550,7 +541,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679139008649</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="23-04-18 Commit">
+      <created>1681744363054</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1681744363055</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -585,7 +583,8 @@
     <MESSAGE value="23-03-16 Commit" />
     <MESSAGE value="23-03-17 Commit" />
     <MESSAGE value="23-03-18 Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="23-03-18 Commit" />
+    <MESSAGE value="23-04-18 Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="23-04-18 Commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
