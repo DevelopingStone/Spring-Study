@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/LinearDS.iml" filepath="$PROJECT_DIR$/.idea/LinearDS.iml" />
       <module fileurl="file://$PROJECT_DIR$/LinearDS_02/LinearDS_02.iml" filepath="$PROJECT_DIR$/LinearDS_02/LinearDS_02.iml" />
       <module fileurl="file://$PROJECT_DIR$/LinearDS_03/LinearDS_03.iml" filepath="$PROJECT_DIR$/LinearDS_03/LinearDS_03.iml" />
       <module fileurl="file://$PROJECT_DIR$/LinearDS_04/LinearDS_04.iml" filepath="$PROJECT_DIR$/LinearDS_04/LinearDS_04.iml" />
@@ -16,7 +17,6 @@
       <module fileurl="file://$PROJECT_DIR$/LinearDS_13/LinearDS_13.iml" filepath="$PROJECT_DIR$/LinearDS_13/LinearDS_13.iml" />
       <module fileurl="file://$PROJECT_DIR$/LinearDS_14_1/LinearDS_14_1.iml" filepath="$PROJECT_DIR$/LinearDS_14_1/LinearDS_14_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/LinearDS_14_2/LinearDS_14_2.iml" filepath="$PROJECT_DIR$/LinearDS_14_2/LinearDS_14_2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/Practice.iml" filepath="$PROJECT_DIR$/.idea/Practice.iml" />
     </modules>
   </component>
 </project>
