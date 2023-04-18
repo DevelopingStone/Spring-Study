@@ -19,33 +19,28 @@ public class 프로그래머스테스트 {
 class Solution10 {
 
   public int solution(String s) {
-    int numValue=0;
-    int numKey=101;
+    int numValue = 0;
+    int numKey = 101;
     Map<String, Integer> map = new HashMap<>();
     for (String str : s.split("")) {
       int value = map.getOrDefault(str, 0);
       map.put(str, value + 1);
     }
     System.out.println(map);
-    for(int value : map.values()){
-      if(value>numValue){
+    for (int value : map.values()) {
+      if (value > numValue) {
         numValue = value;
       }
     }
-    for(String key : map.keySet()){
-      if(map.get(key)==numValue){
+    for (String key : map.keySet()) {
+      if (map.get(key) == numValue) {
         int a = Integer.parseInt(key);
-        if(a<numKey) {
+        if (a < numKey) {
           numKey = a;
         }
       }
 
     }
-
-
-
-
-
 
     return numKey;
 
