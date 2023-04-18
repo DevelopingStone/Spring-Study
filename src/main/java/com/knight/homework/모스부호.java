@@ -16,13 +16,13 @@ public class 모스부호 {
 
 }
 
-
 class Solution02 {
 
   public String solution(String letter) {
 
     Map<String, String> map = new HashMap<>();
-    String str = "";
+    String result = "";
+    String result1 = "";
 
     map.put(".-", "a");
     map.put("-...", "b");
@@ -51,14 +51,13 @@ class Solution02 {
     map.put("-.--", "y");
     map.put("--..", "z");
 
-    for (String morse : letter.split(" ")) {
-
-      String result = map.get(morse);
-      str += result;
+    for (String str : letter.split(" ")) {
+      result = map.get(str);
+      result1 += result;
 
     }
 
-    return str;
+    return result1;
 
 
   }
