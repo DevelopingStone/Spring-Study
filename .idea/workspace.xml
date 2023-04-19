@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63160561-dbef-4612-96a3-a3acb047bbc9" name="변경" comment="23-04-18 Commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/zerobase/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/homework/프로그래머스테스트.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/homework/프로그래머스테스트.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,22 +89,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
-    "create.test.in.the.same.root": "true",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "C:/study/hello-sping/hello-sping/build.gradle",
-    "project.structure.last.edited": "모듈",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.30890054",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers&quot;: &quot;true&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/study/hello-sping/hello-sping/build.gradle&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.30890054&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.knight.oop" />
@@ -120,7 +120,7 @@
       <recent name="com.knight.jdbc" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Main01">
+  <component name="RunManager" selected="애플리케이션.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.knight.zerobase.Main" />
       <module name="JavaProject.main" />
@@ -173,8 +173,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.zerobase.Main01" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.zerobase.Main" />
       <module name="JavaProject.main" />
       <extension name="coverage">
         <pattern>
@@ -188,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.Main01" />
-        <item itemvalue="애플리케이션.Main (3)" />
-        <item itemvalue="애플리케이션.Main (2)" />
         <item itemvalue="애플리케이션.Main (1)" />
         <item itemvalue="애플리케이션.Main (5)" />
+        <item itemvalue="애플리케이션.Main" />
+        <item itemvalue="애플리케이션.Main (3)" />
+        <item itemvalue="애플리케이션.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -204,13 +204,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677916926834</updated>
-    </task>
-    <task id="LOCAL-00035" summary="23-03-09 Commit">
-      <created>1678358418030</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1678358418030</updated>
     </task>
     <task id="LOCAL-00036" summary="2023-03-09 Commit">
       <created>1678358459417</created>
@@ -548,7 +541,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681800088290</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="23-04-18 Commit">
+      <created>1681816593986</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1681816593986</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
