@@ -6,7 +6,7 @@ public class 가까운글자 {
 
     Str str = new Str();
     str.solution("banana");
-
+ 
 
   }
 
