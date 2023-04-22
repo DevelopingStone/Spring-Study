@@ -30,7 +30,8 @@ class Solution {
     for (int i = 0; i < callings.length; i++) {
       int num = map.get(callings[i]);
 
-      
+
+
       call = players[num - 1];
       players[num - 1] = players[num];
       players[num] = call;
