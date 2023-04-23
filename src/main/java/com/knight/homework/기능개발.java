@@ -7,18 +7,12 @@ public class 기능개발 {
 
   public static void main(String[] args) {
 
-    int[] progresses = {95, 90, 99, 99, 80, 99};
-    int[] speeds = {1, 1, 1, 1, 1, 1};
-    Solution user = new Solution();
-    System.out.println(user.solution(progresses, speeds));
-
-
   }
 
 }
 
 
-class Solution {
+class Solution15 {
 
   public List<Integer> solution(int[] progresses, int[] speeds) {
     int[] arr = new int[progresses.length];
