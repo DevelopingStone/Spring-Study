@@ -11,7 +11,6 @@ public class 문자열안에문자열 {
 
     Scanner scan = new Scanner(System.in);
     String str = "";
-    StringBuilder sb = new StringBuilder();
     int sum = 0;
 
     while (!"=".equals(str)) {
