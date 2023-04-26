@@ -1,5 +1,7 @@
 package com.knight.zerobase.practice.two;
 
+import java.util.Collections;
+
 public class TwoAnd0205 {
 
   public static void main(String[] args) {
@@ -15,6 +17,7 @@ class Solution0205 {
 
   public int solution(int num) {
     StringBuilder sb = new StringBuilder(Integer.toString(num));
+
 //    int값을 String으로 변환하기위한 StringBuilder 생성
 
     boolean location = true;
