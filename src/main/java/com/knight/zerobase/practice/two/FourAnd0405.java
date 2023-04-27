@@ -8,7 +8,7 @@ public class FourAnd0405 {
 
 }
 
-class Solution {
+class Solution0405 {
 
   public int solution(String[] array, String s) {
     int count = 0;
