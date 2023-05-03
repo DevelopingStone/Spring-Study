@@ -10,6 +10,8 @@ public class month02 {
     int target = 30;
     System.out.println(user.solution(sweetness, weights, target));
 
+
+
   }
 
 
@@ -18,7 +20,7 @@ public class month02 {
 
 class Solution02 {
 
-  private int weight = 101;
+  private int weight = Integer.MAX_VALUE;
 
   public int solution(int[] sweetness, int[] weights, int target) {
     findCombinations(sweetness, weights, target, 0, 0, 0);
