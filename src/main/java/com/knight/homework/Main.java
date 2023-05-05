@@ -1,11 +1,8 @@
 package com.knight.homework;
 
 
-import java.util.ArrayList;
 import java.util.LinkedHashSet;
-import java.util.List;
 import java.util.Set;
-import java.util.TreeSet;
 
 public class Main {
 
@@ -42,7 +39,6 @@ class Solution {
     if (n > 1) {
       factors.add(n);
     }
-
 
     return factors;
   }

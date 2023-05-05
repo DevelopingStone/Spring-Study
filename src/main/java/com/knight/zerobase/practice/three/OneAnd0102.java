@@ -3,6 +3,11 @@ package com.knight.zerobase.practice.three;
 import java.util.Arrays;
 
 public class OneAnd0102 {
+  public static void main(String[] args) {
+    int [] arr = {100,95,95,95,90,85,90,10,5,0,0,5,10,15};
+    Solution0102 user = new Solution0102();
+    System.out.println(user.solution(arr));
+  }
 
 }
 

@@ -74,7 +74,7 @@ public class EncryptionExample {
 
     public static void main(String[] args) {
       String input = "ZeroBase";
-      int key = 20;
+      int key = 10;
       String encrypted = caesarCipher(input, key);
       System.out.println("암호화된 문자열: " + encrypted);
       String decrypted = caesarCipher(encrypted, -key);
