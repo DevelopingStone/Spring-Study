@@ -1,8 +1,10 @@
 package com.knight.zerobase.practice.three;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class TwoAnd0202 {
 
@@ -20,17 +22,7 @@ public class TwoAnd0202 {
 class Solution0202 {
 
   public List<Integer> solution(int[] arr1, int[] arr2) {
-    List<Integer> list = new ArrayList<>();
-    List<Integer> result = new ArrayList<>();
-    for (int num : arr1) {
-      list.add(num);
-    }
-    for (int num : arr2) {
-      if (list.contains(num)) {
-        result.add(num);
-      }
-    }
-    Collections.sort(result);
-    return result;
+    return Arrays.stream(arr1).boxed().filter(num -> Arrays.stream(arr2).anyMatch(num2 -> num2 == num)).sorted().collect(
+        Collectors.toList());
   }
 }

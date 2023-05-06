@@ -7,11 +7,17 @@ import java.util.Set;
 public class Main {
 
   public static void main(String[] args) {
-    Solution user = new Solution();
-    int[] num = {7, 77, 17};
-    String str = "abc1Addfggg4556b";
-    System.out.println(user.solution(5278));
-    System.out.println(Math.sqrt(144));
+//    Solution user = new Solution();
+//    int[] num = {7, 77, 17};
+//    String str = "abc1Addfggg4556b";
+//    System.out.println(user.solution(5278));
+//    System.out.println(Math.sqrt(144));
+
+
+
+
+
+
 
 
   }
