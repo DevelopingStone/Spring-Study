@@ -1,23 +1,17 @@
 package com.knight.homework;
 
 
-import java.util.LinkedHashSet;
-import java.util.Set;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class Main {
 
   public static void main(String[] args) {
-//    Solution user = new Solution();
-//    int[] num = {7, 77, 17};
-//    String str = "abc1Addfggg4556b";
-//    System.out.println(user.solution(5278));
-//    System.out.println(Math.sqrt(144));
-
-
-
-
-
-
+    int[] num = {11, 11};
+    String str = "x";
+    Solution user = new Solution();
+    System.out.println(user.solution(str));
 
 
   }
@@ -28,24 +22,30 @@ public class Main {
 
 class Solution {
 
-  public Set<Integer> solution(int n) {
-    Set<Integer> factors = new LinkedHashSet<>();
+  public String solution(String polynomial) {
 
-    // 2부터 n의 제곱근까지 모든 수에 대해 반복
-    for (int i = 2; i <= Math.sqrt(n); i++) {
-      // i가 n의 소인수인 경우
-      while (n % i == 0) {
-        // i를 소인수 목록에 추가하고, n을 i로 나눔
-        factors.add(i);
-        n /= i;
+    List<String> list = new ArrayList<>(Arrays.asList(polynomial.split(" ")));
+    int sum = 0;
+    int sumX = 0;
+    System.out.println(list);
+    for (int i = 0; i < list.size(); i += 2) {
+      if (list.get(i).matches("[0-9]")) {
+        sum += Integer.parseInt(list.get(i));
+      } else {
+        if ("x".equals(list.get(i))) {
+          sumX++;
+        } else {
+          sumX += Integer.parseInt(String.valueOf(list.get(i).charAt(0)));
+        }
       }
+
     }
 
-    // n이 소인수인 경우
-    if (n > 1) {
-      factors.add(n);
-    }
+    System.out.println(sum);
+    System.out.println(sumX);
 
-    return factors;
+
+
+    return null;
   }
 }
