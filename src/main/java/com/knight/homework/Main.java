@@ -1,15 +1,17 @@
 package com.knight.homework;
 
 
-import java.util.Arrays;
-
 public class Main {
 
   public static void main(String[] args) {
     Solution user = new Solution();
-    String[] str = {"aya", "yee", "u", "maa", "wyeoo"};
-    String[] str1 = {"ayaye", "uuuma", "ye", "yemawoo", "ayaa"};
-    System.out.println(user.solution(str1));
+//    String[] str = {"aya", "yee", "u", "maa", "wyeoo"};
+//    String[] str1 = {"ayaye", "uuuma", "ye", "yemawoo", "ayaa"};
+//    int[][] arr1 = {{1,1},{2,1},{2,2},{1,2}};
+//    int[][] arr2 = {{-1,-1},{1,1},{1,-1},{-1,1}};
+    String[] id_pw = {"programmer00", "1145"};
+    String[][] db = {{"programmer02", "111111"}, {"programmer00", "134"}, {"programmer01", "1145"}};
+    System.out.println(user.solution(1081));
 
 
   }
@@ -20,24 +22,21 @@ public class Main {
 
 class Solution {
 
-  public int solution(String[] babbling) {
+  public int solution(int chicken) {
     int count = 0;
-    String[] voice = {"aya", "ye", "woo", "ma"};
-    for (int i = 0; i < babbling.length; i++) {
-      for (String word : voice) {
-        babbling[i] = babbling[i].replace(word, "1");
-      }
-
+    int coupon = 0;
+    while (chicken / 10 != 0) {
+      count += chicken / 10;
+      System.out.println("count = " + count);
+      coupon += chicken % 10;
+      System.out.println("coupon = " + coupon);
+      chicken = chicken / 10;
+      System.out.println("chicken = " + chicken);
+      chicken=chicken+coupon;
+      coupon=0;
+      System.out.println("chicken = " + chicken);
     }
-    System.out.println(Arrays.toString(babbling));
-    for(int i =0; i< babbling.length; i++){
-      babbling[i]=babbling[i].replace("1","");
-    }
-    for(String word : babbling){
-      if("".equals(word)){
-        count++;
-      }
-    }
+    System.out.println(coupon);
 
 
     return count;

@@ -22,7 +22,9 @@ class Solution0503 {
     int[][] dp = new int[n][n];
     // 첫 번째 행의 첫 번째 칸에는 입력 배열 A의 첫 번째 값을 저장합니다.
     dp[0][0] = A[0][0];
-
+    for(int i =0; i<dp.length;i++){
+      System.out.println(Arrays.toString(dp[i]));
+    }
     // 두 번째 행부터 마지막 행까지 반복합니다.
     for (int i = 1; i < n; i++) {
       // 첫 번째 열의 경우, 왼쪽에서만 올 수 있으므로 이전 행의 첫 번째 값을 더하여 계산합니다.
@@ -50,3 +52,15 @@ class Solution0503 {
     return minWaitTime;
   }
 }
+
+
+/*
+3-4,3-4 pre 리팩토링
+객체지향 개념 스터디 준비
+선형,비선형 부족한 개념 인강듣기
+공부 8시간이상
+운동 1시간
+ */
+
+
+

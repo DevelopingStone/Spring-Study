@@ -6,7 +6,7 @@ public class FourAnd0401 {
 
   public static void main(String[] args) {
     Solution0401 user = new Solution0401();
-    System.out.println(user.solution(7, 6));
+    System.out.println(user.solution(5, 3));
   }
 
 }
@@ -36,10 +36,10 @@ class Solution0401 {
         for (int l = 1; l <= k; l++) { // 이전 위치까지 오는 데 이동한 거리
           if (i >= j + l && l != j) { // 범위 내에 있으며, 이전 위치와 현재 위치까지 오는 데 이동한 거리가 서로 다른 경우
             dp[i][j] = (dp[i][j] + dp[i - j][l]) % MOD; // dp[i][j]에 dp[i-j][l]을 더한 값을 저장
-            System.out.print(" i = " + i);
-            System.out.print(" j = " + j);
-            System.out.print(" l = " + l);
-            System.out.println();
+//            System.out.print(" i = " + i);
+//            System.out.print(" j = " + j);
+//            System.out.print(" l = " + l);
+//            System.out.println();
           }
         }
       }

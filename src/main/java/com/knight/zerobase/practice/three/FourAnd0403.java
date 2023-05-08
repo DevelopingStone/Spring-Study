@@ -6,7 +6,9 @@ public class FourAnd0403 {
 
   public static void main(String[] args) {
     Solution0403 user = new Solution0403();
-    int[][] array = {{1, 0, 1}, {1, 1, 0}, {1, 1, 1}};
+    int[][] array =  {{1, 0, 1},
+                      {1, 1, 0},
+                      {1, 1, 1}};
     user.solution(array);
 
   }
@@ -20,6 +22,8 @@ class Solution0403 {
     int m = array.length;
     int n = array[0].length;
     int[][] result = new int[m][n];
+
+
 
     // 초기화
     for (int i = 0; i < m; i++) {
@@ -68,18 +72,10 @@ class Solution0403 {
 
         }
 
-        System.out.println("i가 줄어드는 예시");
-        for (int z = 0; z < result.length; z++) {
-          System.out.println(Arrays.toString(result[z]));
-        }
-
         if (j < n - 1 && result[i][j + 1] != Integer.MAX_VALUE) {
           result[i][j] = Math.min(result[i][j], result[i][j + 1] + 1);
         }
-        System.out.println("j가 줄어드는 예시");
-        for (int z = 0; z < result.length; z++) {
-          System.out.println(Arrays.toString(result[z]));
-        }
+
       }
     }
 
