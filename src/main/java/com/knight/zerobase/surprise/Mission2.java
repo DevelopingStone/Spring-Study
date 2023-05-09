@@ -1,8 +1,9 @@
 package com.knight.zerobase.surprise;
 
-import java.io.*;
+import java.io.FileWriter;
+import java.io.IOException;
 
-public class Pagination {
+public class Mission2 {
 
   public static void main(String[] args) {
     int totalPosts = 127; // 전체 글의 개수
@@ -16,18 +17,26 @@ public class Pagination {
     int endPage = Math.min(startPage + blocksPerPageNav - 1, totalPages); // 끝 페이지 계산
 
     StringBuilder paginationBuilder = new StringBuilder();
+    paginationBuilder.append("<html>");
+    paginationBuilder.append("<head>");
+    paginationBuilder.append("<meta charset=\"utf-8\">");
+    paginationBuilder.append("<title>Mission2</title>");
+    paginationBuilder.append("</head>");
+    paginationBuilder.append("<body>");
     paginationBuilder.append("<div class=\"pagination\">");
 
     if (currentBlock > 1) {
       int previousBlockPage = (currentBlock - 2) * blocksPerPageNav + 1;
-      paginationBuilder.append("<a href=\"/posts?page=").append(previousBlockPage).append("\">Prev</a>");
+      paginationBuilder.append("<a href=\"/posts?page=").append(previousBlockPage)
+          .append("\">Prev</a>");
     }
 
     for (int i = startPage; i <= endPage; i++) {
       if (i == currentPage) {
         paginationBuilder.append("<span class=\"current\">").append(i).append("</span>");
       } else {
-        paginationBuilder.append("<a href=\"/posts?page=").append(i).append("\">").append(i).append("</a>");
+        paginationBuilder.append("<a href=\"/posts?page=").append(i).append("\">").append(i)
+            .append("</a>");
       }
     }
 
@@ -36,10 +45,13 @@ public class Pagination {
       if (nextBlockPage > totalPages) {
         nextBlockPage = totalPages;
       }
-      paginationBuilder.append("<a href=\"/posts?page=").append(nextBlockPage).append("\">Next</a>");
+      paginationBuilder.append("<a href=\"/posts?page=").append(nextBlockPage)
+          .append("\">Next</a>");
     }
 
     paginationBuilder.append("</div>");
+    paginationBuilder.append("</body>");
+    paginationBuilder.append("</html>");
 
     String paginationHtml = paginationBuilder.toString();
     System.out.println(paginationHtml);
