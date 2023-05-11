@@ -18,14 +18,12 @@ public class Mission1 {
 
       // HTML 테이블 스타일 설정
       fileWriter.write("table, th, td {\nborder: 1px solid black;\nborder-collapse: collapse;\n}\n");
-      fileWriter.write("th {\nbackground-color: #B0C4DE;\ncolor: black;\npadding: 10px;\n}\n");
-      fileWriter.write("caption {\nfont-size: 24px;\n}\n");
 
       // HTML 문서 레이아웃 작성
       fileWriter.write("</style></head>\n<body>\n<h1>자바 환경정보</h1>\n<table>");
 
       // HTML 테이블 헤더 작성
-      fileWriter.write("<tr>\n<th> 키 </th>\n<th> 속성 </th>\n</tr>\n");
+      fileWriter.write("<tr>\n<th> 키 </th>");
 
       // 시스템 속성을 HTML 테이블로 변환하여 파일에 저장
       for (String name : properties.stringPropertyNames()) {
