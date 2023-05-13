@@ -83,6 +83,7 @@ class Solution {
     System.out.println(result2);
     if(result.size()==0 || result.size()==1){
 
+
     }
     else{
       sum+=result.size()-1;
