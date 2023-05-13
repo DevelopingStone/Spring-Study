@@ -1,26 +1,19 @@
 package com.knight.homework;
 
 
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Set;
 
 public class Main {
 
   public static void main(String[] args) {
     Solution user = new Solution();
-    int[] arr1 = {1, 2, 3, 4};
-    int[] arr2 = {2, 4, 8};
-    int[][] arr = {{0, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 1, 1, 0},
-        {0, 0, 0, 0, 0}};
-
-    System.out.println(user.solution("x + 10 + 9x + 20x"));
-
-    String [] str = {"a","b","c"};
-    List<String> list = Arrays.asList(str.clone());
-
-
-
+    int[][] arr = {{-3, -1}, {-2, 3}, {2, 3}};
+    System.out.println(user.solution(arr));
   }
 
 
@@ -28,39 +21,89 @@ public class Main {
 
 
 class Solution {
-  public String solution(String polynomial) {
-    int numX = 0;
-    int num = 0;
-    for (String word : polynomial.split(" ")) {
+
+  public int solution(int[][] lines) {
+    Set<Integer> set1 = new HashSet<>();
+    Set<Integer> set2 = new HashSet<>();
+    Set<Integer> set3 = new HashSet<>();
+    Set<Integer> result = new LinkedHashSet<>();
+    Set<Integer> result1 = new LinkedHashSet<>();
+    Set<Integer> result2 = new LinkedHashSet<>();
+    for (int i = lines[0][0]; i <= lines[0][1]; i++) {
+      set1.add(i);
 
 
-      if(word.contains("x")){
-        for(int i =0; i<word.length(); i++){
-          if(word.charAt(i)!='x'){
-            System.out.println("word.charAt(i) = " + word.charAt(i));
-
-            numX+=Integer.parseInt(String.valueOf(word.charAt(i)));
-            numX--;
-          }
-          else if (word.charAt(i)=='x'){
-            numX++;
-          }
-
-        }
+    }
+    for (int i = lines[1][0]; i <= lines[1][1]; i++) {
+      set2.add(i);
 
 
+    }
+
+    for (int i = lines[2][0]; i <= lines[2][1]; i++) {
+      set3.add(i);
 
 
-      }
-      else if(word.matches("[0-9]+")){
+    }
 
-        num+=Integer.parseInt(word);
+    System.out.println("set1 = " + set1);
+    System.out.println("set1 = " + set2);
+    System.out.println("set1 = " + set3);
+
+
+
+    for(int num : set1){
+      if(set2.contains(num)){
+        result.add(num);
       }
     }
-    System.out.println(num);
-    System.out.println(numX);
+//    if(result.size()==1){
+//      result.clear();
+//    }
+    for(int num : set1){
+      if(set3.contains(num)&&!result.contains(num)){
+        result1.add(num);
+      }
+    }
+//    if(result1.size()==1){
+//      result1.clear();
+//    }
+    for(int num : set2){
+      if(set3.contains(num)&&!result.contains(num)&&!result1.contains(num)){
+        result2.add(num);
+      }
+    }
+//    if(result2.size()==1){
+//      result2.clear();
+//    }
+
+    int sum = 0;
+    System.out.println(result);
+    System.out.println(result1);
+    System.out.println(result2);
+    if(result.size()==0 || result.size()==1){
+
+    }
+    else{
+      sum+=result.size()-1;
+    }
+
+    if(result1.size()==0 || result1.size()==1){
+
+    }
+    else{
+      sum+=result1.size()-1;
+    }
+
+    if(result2.size()==0 || result2.size()==1){
+
+    }
+    else{
+      sum+=result2.size()-1;
+    }
 
 
-    return null;
+    return sum;
   }
 }
+
