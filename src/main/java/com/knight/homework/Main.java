@@ -1,68 +1,34 @@
 package com.knight.homework;
 
 
-import java.util.HashMap;
-import java.util.Map;
+class Counter implements Runnable {
+  private int count = 0;
 
-public class Main {
-
-  public static void main(String[] args) {
-    Solution user = new Solution();
-    int[][] arr = {{-3, -1}, {-2, 3}, {2, 3}};
-    System.out.println(user.solution(arr));
+  @Override
+  public void run() {
+    for (int i = 0; i < 1000000; i++) {
+      count++; // count 값을 1 증가
+    }
   }
 
-
+  public int getCount() {
+    return count;
+  }
 }
 
+public class Main {
+  public static void main(String[] args) throws InterruptedException {
+    Counter counter = new Counter();
 
-class Solution {
+    Thread thread1 = new Thread(counter);
+    Thread thread2 = new Thread(counter);
 
-  public int solution(int[][] lines) {
-    Map<Integer, Integer> map = new HashMap<>();
+    thread1.start();
+    thread2.start();
 
-    for (int i = 0; i < lines.length; i++) {
-      int min = Math.min(lines[i][0], lines[i][1]);
-      System.out.println("min = " + min);
-      int max = Math.max(lines[i][0], lines[i][1]);
-      System.out.println("max = " + max);
+    thread1.join();
+    thread2.join();
 
-      /*for (int j = min; j < max; j++) {
-
-        int value = map.getOrDefault(j, 0);
-        map.put(j, value + 1);
-
-
-      }*/
-
-      for(int j=min; j<max; j++){
-        int value = map.getOrDefault(j,0);
-        map.put(j,value+1);
-
-      }
-
-
-
-
-    }
-    System.out.println("map = " + map);
-
-    int answer = 0;
-    for(Map.Entry<Integer,Integer> entry : map.entrySet()){
-      if(entry.getValue()>=2){
-        answer++;
-      }
-    }
-
-    /*for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
-      if (entry.getKey() >= 2) {
-        System.out.println("entry.getValue() = " + entry.getValue());
-        answer++;
-      }
-    }*/
-
-
-
-    return answer;
+    System.out.println("Count: " + counter.getCount());
   }
 }
