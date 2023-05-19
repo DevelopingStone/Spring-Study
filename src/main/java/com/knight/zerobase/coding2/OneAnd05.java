@@ -1,4 +1,4 @@
-package com.knight.zerobase.thefirst;
+package com.knight.zerobase.coding2;
 
 public class OneAnd05 {
   public static void main(String[] args) {
