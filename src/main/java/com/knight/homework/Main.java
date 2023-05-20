@@ -1,7 +1,6 @@
 package com.knight.homework;
 
 
-import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -11,8 +10,10 @@ public class Main {
     Solution user = new Solution();
 //    int[][] array = {{1, 1, 1, 1, 1}, {1, 1, 1, 1, 1}, {1, 1, 1, 1, 1}, {1, 1, 1, 1, 1},
 //        {1, 1, 1, 1, 1}};
-    int [] array = {7, 3, 2, 13, 9, 15, 8, 11};
-    System.out.println(user.solution(array,12));
+    int[] array = {7, 3, 2, 13, 9, 15, 8, 11};
+    System.out.println(user.solution(5, 555));
+
+
   }
 
 
@@ -83,26 +84,16 @@ class Solution {
 
 class Solution {
 
-  public List<Integer> solution(int[] array,int target){
+  public List<Integer> solution(int l, int r) {
     List<Integer> list = new LinkedList<>();
-    List<Integer> list1 = new LinkedList<>();
-    for(int num : array){
-      list.add(num);
-    }
-    Collections.sort(list);
-    for(int i =0; i<list.size(); i++){
-      for(int j=i+1; j<list.size();j++){
-        if(list.get(i)+list.get(j)==target){
-          list1.add(list.get(i));
-          list1.add(list.get(j));
-          return list1;
-
-        }
+    for (int i = l; i <= r; i++) {
+      if (Integer.toString(i).matches("[05]+")) {
+        list.add(i);
       }
     }
-
-
-
-    return null;
+    if (list.size() == 0) {
+      list.add(-1);
+    }
+    return list;
   }
 }

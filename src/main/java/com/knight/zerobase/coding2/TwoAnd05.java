@@ -25,6 +25,10 @@ class Solution0205 {
     int sum = 0;
     int divide = K * K;
 
+
+//     x = {-1,-1,-1,0,0,0,1,1,1}
+//     y = {-1,0,1,-1,0,1,-1,0,1}
+
     // spaceX, spaceY 배열 초기화
     int index = 0;
     for (int i = -K / 2; i <= K / 2; i++) {
