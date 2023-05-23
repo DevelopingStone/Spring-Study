@@ -3,6 +3,7 @@ package com.knight.homework;
 
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 
 public class Main {
 
@@ -83,18 +84,41 @@ class Solution {
 
 
 class Solution {
+  public int[][] solution(int n) {
+    int[][] result = new int[n][n];
 
-  public List<Integer> solution(int l, int r) {
-    List<Integer> list = new LinkedList<>();
-    for (int i = l; i <= r; i++) {
-      if (Integer.toString(i).matches("[05]+")) {
-        list.add(i);
+    int value = 1; // 채워넣을 숫자
+    int rowStart = 0; // 행 시작 인덱스
+    int rowEnd = n - 1; // 행 끝 인덱스
+    int colStart = 0; // 열 시작 인덱스
+    int colEnd = n - 1; // 열 끝 인덱스
+
+    while (value <= n * n) {
+      // 왼쪽에서 오른쪽으로
+      for (int i = colStart; i <= colEnd; i++) {
+        result[rowStart][i] = value++;
       }
+      rowStart++;
+
+      // 위쪽에서 아래쪽으로
+      for (int i = rowStart; i <= rowEnd; i++) {
+        result[i][colEnd] = value++;
+      }
+      colEnd--;
+
+      // 오른쪽에서 왼쪽으로
+      for (int i = colEnd; i >= colStart; i--) {
+        result[rowEnd][i] = value++;
+      }
+      rowEnd--;
+
+      // 아래쪽에서 위쪽으로
+      for (int i = rowEnd; i >= rowStart; i--) {
+        result[i][colStart] = value++;
+      }
+      colStart++;
     }
 
-    if (list.size() == 0) {
-      list.add(-1);
-    }
-    return list;
+    return result;
   }
 }
