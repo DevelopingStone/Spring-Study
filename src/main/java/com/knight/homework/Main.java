@@ -1,7 +1,9 @@
 package com.knight.homework;
 
 
-import java.util.LinkedHashMap;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.HashMap;
 import java.util.Map;
 
 public class Main {
@@ -11,15 +13,12 @@ public class Main {
 //    int[][] array = {{1, 1, 1, 1, 1}, {1, 1, 1, 1, 1}, {1, 1, 1, 1, 1}, {1, 1, 1, 1, 1},
 //        {1, 1, 1, 1, 1}};
     int[][] array = {{1, 4}, {9, 2}, {3, 8}, {-5, 10}};
-    int[] value = {3,3,3,2,2,2};
-    System.out.println(user.solution(value));
-
-
+    int[] value = {3, 3, 3, 2, 2, 2};
+    String[] players = {"19", "67", "67"};
+    int[][] num = {{5,10},{1,8},{0,2},{0,3},{2,5},{2,6},{10,12},{7,12}};
+    System.out.println(user.solution(num));
   }
-
-
 }
-
 
 /*
 class Solution {
@@ -59,7 +58,6 @@ class Solution {
     return answer;
   }
 }*/
-
 /*class Solution {
   int a = 0;
   int b = 0;
@@ -84,18 +82,23 @@ class Solution {
 
 
 class Solution {
+  public int solution(int[][] array){
 
-  public int solution(int[] nums) {
-    Map<Integer, Integer> map = new LinkedHashMap<>();
-    for (int i : nums) {
-      int value = map.getOrDefault(i, 0);
-      map.put(i, value + 1);
+    Arrays.sort(array, Comparator.comparingInt(a -> a[0]));
+//    list.sort(Comparator.comparingInt(a -> a.get(0)));
+
+    for(int[] num : array){
+
     }
 
-    if (map.size() < nums.length / 2) {
-      return map.size();
-    } else {
-      return nums.length / 2;
-    }
+
+
+
+
+
+
+    return 0;
+
   }
+
 }
