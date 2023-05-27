@@ -1,6 +1,11 @@
 package com.knight.homework;
 
 
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
+
 public class Main {
 
   public static void main(String[] args) {
@@ -12,7 +17,7 @@ public class Main {
     String[] players = {"19", "67", "67"};
     int[][] num = {{5, 10}, {1, 8}, {0, 2}, {0, 3}, {2, 5}, {2, 6}, {10, 12}, {7, 12}};
     int[] food = {1, 3, 4, 6};
-    System.out.println(user.solution(food));
+    System.out.println(user.solution("100", "203045"));
   }
 }
 
@@ -79,29 +84,34 @@ class Solution {
 
 class Solution {
 
-  public String solution(int[] food) {
-    StringBuilder sb = new StringBuilder();
+  public String solution(String X, String Y) {
+    List<String> y = new LinkedList<>(Arrays.asList(Y.split("")));
+    List<Integer> num = new LinkedList<>();
 
-    for (int i = 1; i < food.length; i++) {
-      if (food[i] / 2 >= 1) {
-        int a = food[i] / 2;
-        while (a > 0) {
-          sb.append(i);
-          a--;
-        }
-      }
-    }
-    sb.append(0);
-    for (int i = food.length - 1; i >= 1; i--) {
-      if (food[i] / 2 >= 1) {
-        int a = food[i] / 2;
-        while (a > 0) {
-          sb.append(i);
-          a--;
-        }
+    for (String xNum : X.split("")) {
+      if (y.contains(xNum)) {
+        y.remove(xNum);
+        num.add(Integer.parseInt(xNum));
       }
     }
 
-    return sb.toString();
+    if(num.size()==0){
+      return "-1";
+    }
+
+    else if(num.get(0)==0&&num.get(1)==0){
+      return "0";
+    }
+
+
+    Collections.sort(num, Collections.reverseOrder());
+    String result = "";
+    for (Integer numResult : num) {
+      result += Integer.toString(numResult);
+    }
+
+
+      return result;
+
   }
 }
