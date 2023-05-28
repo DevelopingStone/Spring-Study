@@ -12,6 +12,7 @@ public class 나누어떨어지는숫자배열 {
     main12 user = new main12();
     System.out.println(user.solution(arr, 4));
 
+
   }
 
 }
