@@ -1,4 +1,4 @@
-package com.example.tomcatproject;
+package com.servlet;
 
 import java.io.*;
 import jakarta.servlet.http.*;
