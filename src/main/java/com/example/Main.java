@@ -4,25 +4,18 @@ public class Main {
     public static void main(String[] args) {
 
         Solution user = new Solution();
-        System.out.println(user.solution("01092783292323"));
+//        System.out.println(user.solution(626331));
 
     }
 }
 
 
 class Solution {
-    public String solution(String phone_number) {
-        StringBuilder sb = new StringBuilder();
-
-        for (int i = 0; i < phone_number.length(); i++) {
-            if (i < phone_number.length() - 4) {
-                sb.append("*");
-            } else {
-                sb.append(phone_number.charAt(i));
-            }
+    public double solution(int[] arr) {
+        double result = 0;
+        for(int num : arr){
+            result+=num;
         }
-
-
-        return sb.toString();
+        return result/arr.length;
     }
 }
