@@ -18,6 +18,7 @@ public class Main {
     int[][] num = {{5, 10}, {1, 8}, {0, 2}, {0, 3}, {2, 5}, {2, 6}, {10, 12}, {7, 12}};
     int[] food = {1, 3, 4, 6};
     System.out.println(user.solution("100", "203045"));
+
   }
 }
 
