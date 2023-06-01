@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-05-28 commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/homework/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/zerobase/homework/first/JavaStudy01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/zerobase/homework/first/JavaStudy02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/zerobase/homework/first/JavaStudy03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/zerobase/homework/first/JavaStudy04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/zerobase/homework/first/JavaStudy05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/zerobase/homework/first/JavaStudy06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/zerobase/homework/first/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/hi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/homework/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,13 +91,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="애플리케이션.Main">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.homework.Main" />
+  <component name="RunManager" selected="애플리케이션.JavaStudy06">
+    <configuration name="JavaStudy03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.zerobase.homework.first.JavaStudy03" />
       <module name="JavaProject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.knight.homework.*" />
+          <option name="PATTERN" value="com.knight.zerobase.homework.first.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.homework.Main" />
+    <configuration name="JavaStudy04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.zerobase.homework.first.JavaStudy04" />
       <module name="JavaProject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.knight.homework.*" />
+          <option name="PATTERN" value="com.knight.zerobase.homework.first.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.homework.Main" />
+    <configuration name="JavaStudy05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.zerobase.homework.first.JavaStudy05" />
       <module name="JavaProject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.knight.homework.*" />
+          <option name="PATTERN" value="com.knight.zerobase.homework.first.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.homework.Main" />
+    <configuration name="JavaStudy06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.zerobase.homework.first.JavaStudy06" />
       <module name="JavaProject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.knight.homework.*" />
+          <option name="PATTERN" value="com.knight.zerobase.homework.first.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +145,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.homework.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.knight.zerobase.homework.first.Main" />
       <module name="JavaProject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.knight.homework.*" />
+          <option name="PATTERN" value="com.knight.zerobase.homework.first.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.JavaStudy06" />
         <item itemvalue="애플리케이션.Main" />
-        <item itemvalue="애플리케이션.Main (5)" />
-        <item itemvalue="애플리케이션.Main (4)" />
-        <item itemvalue="애플리케이션.Main (3)" />
-        <item itemvalue="애플리케이션.Main (2)" />
+        <item itemvalue="애플리케이션.JavaStudy04" />
+        <item itemvalue="애플리케이션.JavaStudy05" />
+        <item itemvalue="애플리케이션.JavaStudy03" />
       </list>
     </recent_temporary>
   </component>
@@ -173,6 +179,8 @@
       <workItem from="1685269923361" duration="164000" />
       <workItem from="1685270164743" duration="2072000" />
       <workItem from="1685328432283" duration="1285000" />
+      <workItem from="1685619739239" duration="7231000" />
+      <workItem from="1685629071225" duration="7786000" />
     </task>
     <task id="LOCAL-00001" summary="2023-05-28 commit">
       <created>1685270654594</created>

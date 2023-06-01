@@ -1,4 +1,4 @@
-package com.knight.homework;
+package com.knight.main;
 
 
 public class Main {
