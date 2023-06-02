@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-05-28 commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/zerobase/homework/first/JavaStudy01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/zerobase/homework/first/JavaStudy02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/zerobase/homework/first/JavaStudy03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/zerobase/homework/first/JavaStudy04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/zerobase/homework/first/JavaStudy05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/zerobase/homework/first/JavaStudy06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/zerobase/homework/first/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-06-02">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june02/JavaStudy07.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/homework/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,36 +67,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.31839082&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "모듈",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.31839082",
+    "settings.editor.selected.configurable": "settings.sync",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="애플리케이션.JavaStudy06">
-    <configuration name="JavaStudy03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.zerobase.homework.first.JavaStudy03" />
-      <module name="JavaProject.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.knight.zerobase.homework.first.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="애플리케이션.JavaStudy07">
     <configuration name="JavaStudy04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.knight.zerobase.homework.first.JavaStudy04" />
       <module name="JavaProject.main" />
@@ -144,6 +124,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JavaStudy07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.june02.JavaStudy07" />
+      <module name="JavaProject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.knight.june02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.knight.zerobase.homework.first.Main" />
       <module name="JavaProject.main" />
@@ -159,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.JavaStudy07" />
         <item itemvalue="애플리케이션.JavaStudy06" />
         <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.JavaStudy04" />
         <item itemvalue="애플리케이션.JavaStudy05" />
-        <item itemvalue="애플리케이션.JavaStudy03" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +173,8 @@
       <workItem from="1685270164743" duration="2072000" />
       <workItem from="1685328432283" duration="1285000" />
       <workItem from="1685619739239" duration="7231000" />
-      <workItem from="1685629071225" duration="7786000" />
+      <workItem from="1685629071225" duration="9057000" />
+      <workItem from="1685669195136" duration="4659000" />
     </task>
     <task id="LOCAL-00001" summary="2023-05-28 commit">
       <created>1685270654594</created>
@@ -189,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685270654594</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2023-06-02">
+      <created>1685639048265</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685639048265</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,7 +198,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2023-05-28 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023-05-28 commit" />
+    <MESSAGE value="2023-06-02" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023-06-02" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
