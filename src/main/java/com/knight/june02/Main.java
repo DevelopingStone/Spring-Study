@@ -5,30 +5,39 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         Solution user = new Solution();
-        String[] array = {"12", "123", "1235", "567", "88"};
-        System.out.println(user.solution(array));
+        int[] rank = {1, 2, 3};
+        boolean[] attendance = {true, true, true};
+
     }
 }
 
 class Solution {
-    public boolean solution(String[] phone_book) {
-        Map<String, Integer> map = new HashMap<>();
-        int i = 0;
-        for (String word : phone_book) {
-            map.put(word, i);
-            i++;
+    public int solution(int[] rank, boolean[] attendance) {
+        Map<Integer, Boolean> map = new HashMap<>();
+        List<Integer> result = new ArrayList<>();
+        List<Integer> num = new ArrayList<>();
+        for (int i = 0; i < rank.length; i++) {
+            map.put(rank[i], attendance[i]);
         }
-        System.out.println(map);
 
-        for (int j = 0; j < phone_book.length; j++) {
-            for (int k = 1; k < phone_book[j].length(); k++) {
-                if (map.containsKey(phone_book[j].substring(0, k))) {
-                    return false;
-                }
+        for (int i = 0; i < rank.length; i++) {
+            if (map.get(i + 1)) {
+                result.add(i + 1);
             }
         }
 
+        for (Integer resultNum : result) {
+            for (int i = 0; i < rank.length; i++) {
+                if (resultNum == rank[i]) {
+                    num.add(i);
+                }
+                if (num.size() == 3) {
+                    break;
+                }
+            }
+        }
+        return (num.get(0) * 10000) + (num.get(1) * 100) + (num.get(2));
 
-        return true;
+
     }
 }
