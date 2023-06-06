@@ -6,7 +6,9 @@ public class Main {
     public static void main(String[] args) {
         Solution user = new Solution();
         int[] rank = {1, 2, 3};
-        boolean[] attendance = {true, true, true};
+//        boolean[] attendance = {true, true, true};
+
+
 
     }
 }
