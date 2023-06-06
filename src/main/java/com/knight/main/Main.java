@@ -1,19 +1,16 @@
 package com.knight.main;
 
-
 public class Main {
 
-  public static void main(String[] args) {
-    Solution user = new Solution();
-//    int[][] array = {{1, 1, 1, 1, 1}, {1, 1, 1, 1, 1}, {1, 1, 1, 1, 1}, {1, 1, 1, 1, 1},
-//        {1, 1, 1, 1, 1}};
-    int[][] array = {{1, 4}, {9, 2}, {3, 8}, {-5, 10}};
-    int[] value = {3, 3, 3, 2, 2, 2};
-    String[] players = {"19", "67", "67"};
-    int[][] num = {{5, 10}, {1, 8}, {0, 2}, {0, 3}, {2, 5}, {2, 6}, {10, 12}, {7, 12}};
-    int[] food = {1, 3, 4, 6};
-    System.out.println(user.solution("abc1abc1abc"));
-  }
+    public static void main(String[] args) {
+
+        String s = "aukks";
+        String skip = "wbqd";
+        int a = 5;
+        Solution user = new Solution();
+        System.out.println(user.solution(s, skip, a));
+
+    }
 }
 
 /*
@@ -77,28 +74,47 @@ class Solution {
 }*/
 
 
+//class Solution {
+//    public String solution(String s, String skip, int index) {
+//        StringBuilder answer = new StringBuilder();
+//
+//        for (char letter : s.toCharArray()) {
+//            char temp = letter;
+//            int idx = 0;
+//            while (idx < index) {
+//                temp = temp == 'z' ? 'a' : (char) (temp + 1);
+//                if (!skip.contains(String.valueOf(temp))) {
+//                    idx++;
+//                }
+//            }
+//            answer.append(temp);
+//        }
+//
+//        return answer.toString();
+//    }
+//}
+
 class Solution {
+    public String solution(String s, String skip, int index) {
+        StringBuffer sb = new StringBuffer();
+        for (char ch : s.toCharArray()) {
+            char x = ch;
+            int position = 0;
+            while (position < index) {
+                x = x == 'z' ? 'a' : (char) (x + 1);
+                if (skip.contains(String.valueOf(x))) {
+                    position--;
+                }
 
-  public String solution(String code) {
-    StringBuffer sb = new StringBuffer();
+                position++;
+            }
 
-    int position = 0;
+            sb.append(x);
 
-    for (int i = 0; i < code.length(); i++) {
-      if (code.charAt(i) == '1') {
-        position++;
-        continue;
-      }
-      if (i % 2 == 0 && position % 2 == 0) {
-        sb.append(code.charAt(i));
-      } else if (i % 2 == 1 && position % 2 == 1) {
-        sb.append(code.charAt(i));
-      }
 
+        }
+
+
+        return sb.toString();
     }
-    if(sb.toString().equals("")){
-      return "EMPTY";
-    }
-    return sb.toString();
-  }
 }
