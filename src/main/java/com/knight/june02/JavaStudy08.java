@@ -4,62 +4,69 @@ package com.knight.june02;
 박강락
  */
 
-import java.util.Scanner;
+import java.math.*;
+import java.util.*;
 
 public class JavaStudy08 {
     static int i = 0;
-    static int[] howMuchTax = new int[8];
+    static BigDecimal[] howMuchTax = new BigDecimal[8];
     final static int[] standardMoney = {0, 12000000, 46000000, 88000000, 150000000, 300000000, 500000000, 1000000000, 0};
     final static int[] progressiveTax = {0, 1080000, 5220000, 14900000, 19400000, 25400000, 35400000, 65400000};
-    final static double[] taxRatio = {0.06d, 0.15d, 0.24d, 0.35d, 0.38d, 0.40d, 0.42d, 0.45d};
+    final static BigDecimal[] taxRatio = {new BigDecimal("0.06"), new BigDecimal("0.15"), new BigDecimal("0.24"), new BigDecimal("0.35"), new BigDecimal("0.38"), new BigDecimal("0.40"), new BigDecimal("0.42"), new BigDecimal("0.45")};
 
-    public static int calcStandardTax(int money) {
-        int totalTax = 0;
+    public static BigDecimal calcStandardTax(int money) {
+        BigDecimal totalTax = BigDecimal.ZERO;
+        BigDecimal bdMoney = new BigDecimal(money);
 
-        if (money <= Math.abs(standardMoney[i + 1] - standardMoney[i])) {
-            howMuchTax[i] = (int) (money * taxRatio[i]);
-            System.out.printf("%11d * %2d%% = %10d\n", money, (int) (taxRatio[i] * 100), howMuchTax[i]);
+        if (bdMoney.compareTo(new BigDecimal(Math.abs(standardMoney[i + 1] - standardMoney[i]))) <= 0) {
+            howMuchTax[i] = bdMoney.multiply(taxRatio[i]);
+            System.out.printf("%11d * %2d%% = %10d\n", money, taxRatio[i].multiply(new BigDecimal(100)).intValue(), howMuchTax[i].intValue());
 
             return howMuchTax[i];
-        } else if (money > Math.abs(standardMoney[i + 1] - standardMoney[i])) {
-            money = money - (standardMoney[i + 1] - standardMoney[i]);
-            howMuchTax[i] = (int) ((standardMoney[i + 1] - standardMoney[i]) * taxRatio[i]);
-            System.out.printf("%11d * %2d%% = %10d\n", standardMoney[i + 1] - standardMoney[i], (int) (taxRatio[i] * 100), howMuchTax[i]);
+        } else if (bdMoney.compareTo(new BigDecimal(Math.abs(standardMoney[i + 1] - standardMoney[i]))) > 0) {
+            bdMoney = bdMoney.subtract(new BigDecimal(standardMoney[i + 1] - standardMoney[i]));
+            howMuchTax[i] = new BigDecimal(standardMoney[i + 1] - standardMoney[i]).multiply(taxRatio[i]);
+            System.out.printf("%11d * %2d%% = %10d\n", standardMoney[i + 1] - standardMoney[i], taxRatio[i].multiply(new BigDecimal(100)).intValue(), howMuchTax[i].intValue());
             i++;
 
-            calcStandardTax(money);
+            calcStandardTax(bdMoney.intValue());
         }
-        for (int muchTax : howMuchTax) totalTax += muchTax;
+        for (BigDecimal muchTax : howMuchTax) {
+            if (muchTax != null) {
+                totalTax = totalTax.add(muchTax);
+            }
+        }
 
         return totalTax;
     }
 
-    public static int calcProgressiveTax(int money) {
-        int totalTax;
+    public static BigDecimal calcProgressiveTax(int money) {
+        BigDecimal totalTax;
+        BigDecimal bdMoney = new BigDecimal(money);
 
-        if (money <= standardMoney[1]) { //1200만원 이하
-            totalTax = (int) (money * taxRatio[0]) - progressiveTax[0];
-        } else if (money <= standardMoney[2]) { //4600만원 이하
-            totalTax = (int) (money * taxRatio[1]) - progressiveTax[1];
-        } else if (money <= standardMoney[3]) { //8800만원 이하
-            totalTax = (int) (money * taxRatio[2]) - progressiveTax[2];
-        } else if (money <= standardMoney[4]) { //15000만원 이하
-            totalTax = (int) (money * taxRatio[3]) - progressiveTax[3];
-        } else if (money <= standardMoney[5]) { //30000만원 이하
-            totalTax = (int) (money * taxRatio[4]) - progressiveTax[4];
-        } else if (money <= standardMoney[6]) { //50000만원 이하
-            totalTax = (int) (money * taxRatio[5]) - progressiveTax[5];
-        } else if (money <= standardMoney[7]) { //100000만원 이하
-            totalTax = (int) (money * taxRatio[6]) - progressiveTax[6];
-        } else { //100000만원 초과
-            totalTax = (int) (money * taxRatio[7]) - progressiveTax[7];
+        if (bdMoney.compareTo(new BigDecimal(standardMoney[1])) <= 0) {
+            totalTax = bdMoney.multiply(taxRatio[0]).subtract(new BigDecimal(progressiveTax[0]));
+        } else if (bdMoney.compareTo(new BigDecimal(standardMoney[2])) <= 0) {
+            totalTax = bdMoney.multiply(taxRatio[1]).subtract(new BigDecimal(progressiveTax[1]));
+        } else if (bdMoney.compareTo(new BigDecimal(standardMoney[3])) <= 0) {
+            totalTax = bdMoney.multiply(taxRatio[2]).subtract(new BigDecimal(progressiveTax[2]));
+        } else if (bdMoney.compareTo(new BigDecimal(standardMoney[4])) <= 0) {
+            totalTax = bdMoney.multiply(taxRatio[3]).subtract(new BigDecimal(progressiveTax[3]));
+        } else if (bdMoney.compareTo(new BigDecimal(standardMoney[5])) <= 0) {
+            totalTax = bdMoney.multiply(taxRatio[4]).subtract(new BigDecimal(progressiveTax[4]));
+        } else if (bdMoney.compareTo(new BigDecimal(standardMoney[6])) <= 0) {
+            totalTax = bdMoney.multiply(taxRatio[5]).subtract(new BigDecimal(progressiveTax[5]));
+        } else if (bdMoney.compareTo(new BigDecimal(standardMoney[7])) <= 0) {
+            totalTax = bdMoney.multiply(taxRatio[6]).subtract(new BigDecimal(progressiveTax[6]));
+        } else {
+            totalTax = bdMoney.multiply(taxRatio[7]).subtract(new BigDecimal(progressiveTax[7]));
         }
         return totalTax;
     }
 
     public static void main(String[] args) {
-        int totalStandardTax;
-        int totalProgressiveTax;
+        BigDecimal totalStandardTax;
+        BigDecimal totalProgressiveTax;
         System.out.println("[과세금액 계산 프로그램]");
 
         System.out.print("연소득을 입력해주세요.: ");
@@ -69,7 +76,13 @@ public class JavaStudy08 {
         totalStandardTax = calcStandardTax(annualSalary);
         System.out.println();
 
-        System.out.printf("[세율에 의한 세금]:\t\t\t%d\n", totalStandardTax);
-        System.out.printf("[누진공제 계산에 의한 세금]:\t%d\n", totalStandardTax);
+        totalProgressiveTax = calcProgressiveTax(annualSalary);
+        System.out.println();
+        if (annualSalary <= 12000000) {
+            totalProgressiveTax = BigDecimal.ZERO;
+        }
+
+        System.out.printf("[세율에 의한 세금]:\t\t\t%d\n", totalStandardTax.intValue());
+        System.out.printf("[누진공제 계산에 의한 세금]:\t%d\n", totalProgressiveTax.intValue());
     }
 }

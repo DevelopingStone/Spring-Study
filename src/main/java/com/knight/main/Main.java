@@ -1,5 +1,6 @@
 package com.knight.main;
 
+
 public class Main {
 
     public static void main(String[] args) {
@@ -7,8 +8,8 @@ public class Main {
         String s = "aukks";
         String skip = "wbqd";
         int a = 5;
-        Solution user = new Solution();
-        System.out.println(user.solution(s, skip, a));
+//        Solution user = new Solution();
+//        System.out.println(user.solution(s, skip, a));
 
     }
 }
@@ -72,49 +73,23 @@ class Solution {
     return 0;
   }
 }*/
-
-
-//class Solution {
-//    public String solution(String s, String skip, int index) {
-//        StringBuilder answer = new StringBuilder();
-//
-//        for (char letter : s.toCharArray()) {
-//            char temp = letter;
-//            int idx = 0;
-//            while (idx < index) {
-//                temp = temp == 'z' ? 'a' : (char) (temp + 1);
-//                if (!skip.contains(String.valueOf(temp))) {
-//                    idx++;
-//                }
-//            }
-//            answer.append(temp);
-//        }
-//
-//        return answer.toString();
-//    }
-//}
-
-class Solution {
+/*class Solution {
     public String solution(String s, String skip, int index) {
-        StringBuffer sb = new StringBuffer();
-        for (char ch : s.toCharArray()) {
-            char x = ch;
-            int position = 0;
-            while (position < index) {
-                x = x == 'z' ? 'a' : (char) (x + 1);
-                if (skip.contains(String.valueOf(x))) {
-                    position--;
+        StringBuilder answer = new StringBuilder();
+
+        for (char letter : s.toCharArray()) {
+            char temp = letter;
+            int idx = 0;
+            while (idx < index) {
+                temp = temp == 'z' ? 'a' : (char) (temp + 1);
+                if (!skip.contains(String.valueOf(temp))) {
+                    idx++;
                 }
-
-                position++;
             }
-
-            sb.append(x);
-
-
+            answer.append(temp);
         }
 
-
-        return sb.toString();
+        return answer.toString();
     }
-}
+}*/
+

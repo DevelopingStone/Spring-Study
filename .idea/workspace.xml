@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-06-05">
+    <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-06-07">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/june02/JavaStudy08.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/june02/JavaStudy08.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/june02/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,34 +91,34 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="애플리케이션.Main (5)">
+  <component name="RunManager" selected="애플리케이션.JavaStudy08">
+    <configuration name="JavaStudy08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.june02.JavaStudy08" />
+      <module name="JavaProject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.knight.june02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaStudy08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.june02.JavaStudy08" />
+      <module name="JavaProject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.knight.june02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.main.Main" />
-      <module name="JavaProject.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.knight.main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.main.Main" />
-      <module name="JavaProject.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.knight.main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.knight.main.Main" />
       <module name="JavaProject.main" />
       <extension name="coverage">
@@ -157,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.JavaStudy08" />
+        <item itemvalue="애플리케이션.JavaStudy08" />
+        <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.Main (5)" />
         <item itemvalue="애플리케이션.Main (1)" />
-        <item itemvalue="애플리케이션.Main (4)" />
-        <item itemvalue="애플리케이션.Main" />
-        <item itemvalue="애플리케이션.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +190,10 @@
       <workItem from="1685870240259" duration="729000" />
       <workItem from="1685938427572" duration="3314000" />
       <workItem from="1686022095582" duration="3761000" />
-      <workItem from="1686062528765" duration="6216000" />
+      <workItem from="1686062528765" duration="6363000" />
+      <workItem from="1686095754411" duration="24000" />
+      <workItem from="1686126744044" duration="2333000" />
+      <workItem from="1686137022409" duration="234000" />
     </task>
     <task id="LOCAL-00001" summary="2023-05-28 commit">
       <created>1685270654594</created>
@@ -246,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686025125346</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2023-06-07">
+      <created>1686068807425</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1686068807425</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +270,8 @@
     <MESSAGE value="2023-06-03" />
     <MESSAGE value="2023-06-04" />
     <MESSAGE value="2023-06-05" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023-06-05" />
+    <MESSAGE value="2023-06-07" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023-06-07" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
