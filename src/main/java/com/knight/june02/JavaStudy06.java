@@ -11,14 +11,37 @@ public class JavaStudy06 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         Random random = new Random();
-        int sum = 0;
+
+
         int selectPeople = 0;
+        int sumVote = 0;
+        int numPeople = 0;
+        int sum = 0;
+
 
         System.out.print("총 진행할 투표수를 입력해 주세요: ");
-        int sumVote = scan.nextInt();
+        try {
+            sumVote = scan.nextInt();
+            if (sumVote > 10000) {
+                throw new IllegalArgumentException();
+            }
+        } catch (Exception e) {
+            System.out.println("투표수는 1 ~ 10000 사이의 값만 입력 가능합니다.");
+            return;
+        }
+
 
         System.out.print("가상 선거를 진행할 후보자 인원을 입력해 주세요: ");
-        int numPeople = scan.nextInt();
+        try {
+            numPeople = scan.nextInt();
+            if (numPeople <= 1 || numPeople >= 10) {
+                throw new IllegalArgumentException();
+            }
+        } catch (Exception e) {
+            System.out.println("후보자 인원은 2 ~ 10 사이의 값만 입력 가능합니다.");
+            return;
+        }
+
 
         String[] namePeople = new String[numPeople];
         int[] countPeople = new int[numPeople];
@@ -40,9 +63,9 @@ public class JavaStudy06 {
                 int num = random.nextInt(numPeople);
                 countPeople[num]++;
                 sum++;
-                System.out.printf("[투표진행률]: %.2f%%, %d명 투표 => %s\n", (double) sum / sumVote * 100, i, namePeople[num]);
+                System.out.printf("[투표진행률]:%.2f%%,%d명투표=>\t%s\n", (double) sum / sumVote * 100, i, namePeople[num]);
                 for (int j = 0; j < namePeople.length; j++) {
-                    System.out.printf("[기호:%d] %2s:  %5.2f%%  (투표수:%d)\n", j + 1, namePeople[j],
+                    System.out.printf("[기호:%d]\t%2s:%5.2f%%(투표수:%d)\n", j + 1, namePeople[j],
                             (double) countPeople[j] / sumVote * 100, countPeople[j]);
                 }
                 System.out.println();
@@ -75,6 +98,6 @@ public class JavaStudy06 {
             }
         }
 
-        System.out.printf("[투표결과] 당선인: %s\n", namePeople[selectPeople]);
+        System.out.printf("[투표결과]당선인:\t%s\n", namePeople[selectPeople]);
     }
 }

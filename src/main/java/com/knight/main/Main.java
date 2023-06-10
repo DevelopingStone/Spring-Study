@@ -1,19 +1,23 @@
 package com.knight.main;
 
 
+import java.sql.SQLOutput;
+import java.util.Arrays;
+import java.util.HashMap;
+
 public class Main {
 
     public static void main(String[] args) {
 
-        String s = "aukks";
-        String skip = "wbqd";
-        int a = 5;
-//        Solution user = new Solution();
-//        System.out.println(user.solution(s, skip, a));
+        Solution user = new Solution();
+        String move = "DDDRRRDDLL";
+        user.solution(move);
 
     }
 }
 
+//        String[] park = {"OSO", "OOO", "OXO", "OOO"};
+//        String[] routes = {"E 2", "S 3", "W 1"};
 /*
 class Solution {
 
@@ -92,4 +96,21 @@ class Solution {
         return answer.toString();
     }
 }*/
+
+
+class Solution {
+    public int[] solution(String move) {
+        int[] result = {0, 0};
+        int[] xP = {-1, 0, 1, 0};
+        int[] yP = {0, 1, 0, -1};
+
+        for (String mv : move.split("")) {
+            int index = "URDL".indexOf(mv);
+            result[0] += xP[index];
+            result[1] += yP[index];
+        }
+        System.out.println(Arrays.toString(result));
+        return result;
+    }
+}
 

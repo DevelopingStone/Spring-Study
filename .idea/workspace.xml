@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-06-07">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/june02/JavaStudy08.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/june02/JavaStudy08.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/june02/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/june02/JavaStudy06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/june02/JavaStudy06.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,9 +90,9 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="애플리케이션.JavaStudy08">
-    <configuration name="JavaStudy08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.june02.JavaStudy08" />
+  <component name="RunManager" selected="애플리케이션.JavaStudy06">
+    <configuration name="JavaStudy06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.june02.JavaStudy06" />
       <module name="JavaProject.main" />
       <extension name="coverage">
         <pattern>
@@ -118,7 +117,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.knight.main.Main" />
       <module name="JavaProject.main" />
       <extension name="coverage">
@@ -159,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.JavaStudy06" />
         <item itemvalue="애플리케이션.JavaStudy08" />
-        <item itemvalue="애플리케이션.JavaStudy08" />
+        <item itemvalue="애플리케이션.Main (2)" />
         <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.Main (5)" />
-        <item itemvalue="애플리케이션.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -194,6 +193,10 @@
       <workItem from="1686095754411" duration="24000" />
       <workItem from="1686126744044" duration="2333000" />
       <workItem from="1686137022409" duration="234000" />
+      <workItem from="1686155369212" duration="15000" />
+      <workItem from="1686209234648" duration="8411000" />
+      <workItem from="1686295314101" duration="3044000" />
+      <workItem from="1686367675485" duration="2015000" />
     </task>
     <task id="LOCAL-00001" summary="2023-05-28 commit">
       <created>1685270654594</created>
@@ -258,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686068807425</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="2023-06-07">
+      <created>1686155377282</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1686155377282</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
