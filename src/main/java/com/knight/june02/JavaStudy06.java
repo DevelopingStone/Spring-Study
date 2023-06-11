@@ -63,9 +63,9 @@ public class JavaStudy06 {
                 int num = random.nextInt(numPeople);
                 countPeople[num]++;
                 sum++;
-                System.out.printf("[투표진행률]:%.2f%%,%d명투표=>\t%s\n", (double) sum / sumVote * 100, i, namePeople[num]);
+                System.out.printf("[투표진행률]: %.2f%%, %d명 투표=>\t%s\n", (double) sum / sumVote * 100, i, namePeople[num]);
                 for (int j = 0; j < namePeople.length; j++) {
-                    System.out.printf("[기호:%d]\t%2s:%5.2f%%(투표수:%d)\n", j + 1, namePeople[j],
+                    System.out.printf("[기호:%d]%s:\t%7.2f%%(투표수:%d)\n", j + 1, namePeople[j],
                             (double) countPeople[j] / sumVote * 100, countPeople[j]);
                 }
                 System.out.println();

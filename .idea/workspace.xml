@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-06-07">
+    <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-06-10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/june02/JavaStudy06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/june02/JavaStudy06.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/main/Main.java" afterDir="false" />
@@ -117,7 +117,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.knight.main.Main" />
       <module name="JavaProject.main" />
       <extension name="coverage">
@@ -160,8 +160,8 @@
       <list>
         <item itemvalue="애플리케이션.JavaStudy06" />
         <item itemvalue="애플리케이션.JavaStudy08" />
-        <item itemvalue="애플리케이션.Main (2)" />
         <item itemvalue="애플리케이션.Main" />
+        <item itemvalue="애플리케이션.Main (1)" />
         <item itemvalue="애플리케이션.Main (5)" />
       </list>
     </recent_temporary>
@@ -196,7 +196,8 @@
       <workItem from="1686155369212" duration="15000" />
       <workItem from="1686209234648" duration="8411000" />
       <workItem from="1686295314101" duration="3044000" />
-      <workItem from="1686367675485" duration="2015000" />
+      <workItem from="1686367675485" duration="8641000" />
+      <workItem from="1686447175743" duration="5308000" />
     </task>
     <task id="LOCAL-00001" summary="2023-05-28 commit">
       <created>1685270654594</created>
@@ -268,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686155377282</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="2023-06-10">
+      <created>1686370602407</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1686370602407</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +289,8 @@
     <MESSAGE value="2023-06-04" />
     <MESSAGE value="2023-06-05" />
     <MESSAGE value="2023-06-07" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023-06-07" />
+    <MESSAGE value="2023-06-10" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023-06-10" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
