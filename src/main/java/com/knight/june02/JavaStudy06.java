@@ -90,6 +90,9 @@ public class JavaStudy06 {
 
         } while (hasDuplicateMax);
 
+
+        
+
         int maxVotes = 0;
         for (int i = 0; i < countPeople.length; i++) {
             if (countPeople[i] > maxVotes) {
