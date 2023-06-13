@@ -1,54 +1,62 @@
 package com.knight.main;
 
-import java.util.LinkedHashMap;
-import java.util.Map;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        String[] survey = {"TR", "RT", "TR"};
-        int[] choices = {7, 1, 3};
+        int[] progresses = {96, 94};
+        int[] speeds = {3, 3};
         Solution user = new Solution();
-        System.out.println(user.solution(survey, choices));
+        System.out.println(user.solution(progresses, speeds));
 
     }
 }
 
 
 class Solution {
-    public String solution(String[] survey, int[] choices) {
-        Map<Character, Integer> map = new LinkedHashMap<>();
-        StringBuilder sb = new StringBuilder();
-        map.put('R', 0);map.put('T', 0);map.put('C', 0);map.put('F', 0);
-        map.put('J', 0);map.put('M', 0);map.put('A', 0);map.put('N', 0);
+    public int[] solution(int[] progresses, int[] speeds) {
+        List<Integer> list = new ArrayList<>();
+        int[] pro = progresses.clone();
+        int day = 0;
+        int count = 0;
 
-        for (int i = 0; i < survey.length; i++) {
-            if (choices[i] > 4) map.put(survey[i].charAt(1), map.get(survey[i].charAt(1)) + choices[i] - 4);
-            else if (choices[i] < 4) {
-                map.put(survey[i].charAt(0), map.get(survey[i].charAt(0)) + 4 - choices[i]);
+        for (int i = 0; i < progresses.length; i++) {
+
+            if (i >= 1 && count >= 1 && pro[i] + (speeds[i] * day) < 100) {
+                list.add(count);
+                count = 0;
             }
+
+            if (pro[i] + (speeds[i] * day) < 100) {
+                while (pro[i] < 100) {
+                    pro[i] += speeds[i];
+                    day++;
+
+                    if (pro[i] >= 100) {
+                        count++;
+                    }
+
+
+                }
+            } else {
+                count++;
+            }
+
         }
-        if (map.get('R') < map.get('T')) {
-            sb.append('T');
-        } else {
-            sb.append('R');
+        list.add(count);
+
+
+        int[] result = new int[list.size()];
+        for (int i = 0; i < list.size(); i++) {
+            result[i] = list.get(i);
         }
-        if (map.get('C') < map.get('F')) {
-            sb.append('F');
-        } else {
-            sb.append('C');
-        }
-        if (map.get('J') < map.get('M')) {
-            sb.append('M');
-        } else {
-            sb.append('J');
-        }
-        if (map.get('A') < map.get('N')) {
-            sb.append('N');
-        } else {
-            sb.append('A');
-        }
-        return sb.toString();
+
+        System.out.println(list);
+
+
+        return result;
     }
 }
