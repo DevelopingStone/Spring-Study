@@ -1,56 +1,60 @@
 package com.knight.main;
 
-import java.util.Deque;
-import java.util.LinkedList;
+import java.sql.SQLOutput;
+import java.util.*;
 
 public class Main {
 
     public static void main(String[] args) {
         Solution user = new Solution();
 
-//        String number = "1924";
-//        int k = 2;
-        int[][] board = {
-                {0, 0, 0, 0, 0},
-                {0, 0, 1, 0, 3},
-                {0, 2, 5, 0, 1},
-                {4, 2, 4, 4, 2},
-                {3, 5, 1, 3, 1}
-        };
-        int[] moves = {1, 5, 3, 5, 1, 2, 1, 4};
+        int[] pri = {1, 3, 2, 2, 4, 3};
+        int location = 3;
 
-        System.out.println(user.solution(board, moves));
-//
-//        String[][] clothes = {{"yellow_hat", "headgear"}, {"blue_sunglasses", "eyewear"}, {"green_turban", "headgear"}};
-//        System.out.println(user.solution(clothes));
+        System.out.println(user.solution(pri, location));
 
 
     }
 }
 
 
-class Solution {
-    public int solution(int[][] board, int[] moves) {
-        int[][] doll = board.clone();
-        Deque<Integer> deque = new LinkedList<>();
-        int count = 0;
 
-        for (int mvNum : moves) {
-            for (int i = 0; i < doll[0].length; i++) {
-                if (doll[i][mvNum - 1] > 0) {
-                    if (!deque.isEmpty() && deque.peekLast() == doll[i][mvNum - 1]) {
-                        count += 2;
-                        deque.removeLast();
-                        doll[i][mvNum - 1] = 0;
-                        break;
-                    } else {
-                        deque.addLast(doll[i][mvNum - 1]);
-                        doll[i][mvNum - 1] = 0;
-                        break;
-                    }
-                }
+
+class Solution {
+    public int solution(int[] priorities, int location) {
+        int answer = 0;
+        int l = location;
+
+        Queue<Integer> que = new LinkedList<Integer>();
+        for(int i : priorities){
+            que.add(i);
+        }
+
+
+        Arrays.sort(priorities);
+        int size = priorities.length-1;
+
+
+
+
+
+        while(!que.isEmpty()){
+            System.out.println("que = " + que);
+            Integer i = que.poll();
+            if(i == priorities[size - answer]){
+                System.out.println("priorities[size - answer] = " + priorities[size - answer]);
+                answer++;
+                l--;
+                if(l <0)
+                    break;
+            }else{
+                que.add(i);
+                l--;
+                if(l<0)
+                    l=que.size()-1;
             }
         }
-        return count;
+
+        return answer;
     }
 }
