@@ -56,5 +56,16 @@ class Main {
         base.addAbility();
 
 
+        int xInt = 10;
+        int x ;
+        long yLong = 100;
+        long y;
+        
+        y = xInt;
+        System.out.println("y = " + y);
+        x = (int) yLong;
+        System.out.println("x = " + x);
+
+
     }
 }
