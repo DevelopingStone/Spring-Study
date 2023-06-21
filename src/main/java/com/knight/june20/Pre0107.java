@@ -5,9 +5,9 @@ import java.util.Arrays;
 public class Pre0107 {
 
     public static void main(String[] args) {
-        String A = "Hello,World";
+        String A = "Hello,    !!World!!!???";
         Solution0107 user = new Solution0107();
-        System.out.println(user.solution(A));
+        user.solution(A);
     }
 }
 
@@ -20,10 +20,8 @@ class Solution0107 {
 
         // 단어 배열을 뒤집음
         for (int i = 0; i < words.length; i++) {
-
             StringBuilder sb = new StringBuilder(words[i]);
             words[i] = sb.reverse().toString();
-
         }
 
         System.out.println(Arrays.toString(words));
