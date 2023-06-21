@@ -4,26 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-06-20">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/Pre0111.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/Pre0112.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/Pre0113.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/Pre0114.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/Pre0115.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/Pre0116.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/Pre0117.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/Pre0118.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/Pre0119.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/Pre0120.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/Pre0121.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/Pre0122.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/Pre0123.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/Pre0124.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/Pre0125.java" afterDir="false" />
+    <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-06-21">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/main/HanoiTower.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/june20/Pre0106.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/Pre0106.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/june20/Pre0107.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/Pre0107.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,38 +71,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/JavaProject/src/main/java/com/knight/june20&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.31839082&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/JavaProject/src/main/java/com/knight/june20",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "아티팩트",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.31839082",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mariadb&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mariadb"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\JavaProject\src\main\java\com\knight\june20" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Pre0125 (2)">
-    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.main.Main" />
+  <component name="RunManager" selected="애플리케이션.HanoiTower">
+    <configuration name="HanoiTower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.main.HanoiTower" />
       <module name="JavaProject.main" />
       <extension name="coverage">
         <pattern>
@@ -131,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pre0123 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.june20.Pre0123" />
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.main.Main" />
       <module name="JavaProject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.knight.june20.*" />
+          <option name="PATTERN" value="com.knight.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.HanoiTower" />
         <item itemvalue="애플리케이션.Pre0125 (2)" />
         <item itemvalue="애플리케이션.Pre0125 (1)" />
         <item itemvalue="애플리케이션.Pre0125" />
         <item itemvalue="애플리케이션.Pre0123 (3)" />
-        <item itemvalue="애플리케이션.Pre0123 (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +233,8 @@
       <workItem from="1687227540787" duration="16967000" />
       <workItem from="1687252932455" duration="596000" />
       <workItem from="1687259565517" duration="10771000" />
-      <workItem from="1687315536818" duration="22554000" />
+      <workItem from="1687315536818" duration="23157000" />
+      <workItem from="1687351006141" duration="5019000" />
     </task>
     <task id="LOCAL-00001" summary="2023-05-28 commit">
       <created>1685270654594</created>
@@ -399,7 +383,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687246798257</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="2023-06-21">
+      <created>1687343582314</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1687343582314</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,7 +409,8 @@
     <MESSAGE value="2023-06-17" />
     <MESSAGE value="2023-06-19" />
     <MESSAGE value="2023-06-20" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023-06-20" />
+    <MESSAGE value="2023-06-21" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023-06-21" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
