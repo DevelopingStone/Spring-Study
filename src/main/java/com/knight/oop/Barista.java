@@ -40,7 +40,7 @@ class BaristaBase implements Barista {
     }
 }
 
-class Main {
+class MainBarista {
     public static void main(String[] args) {
         Barista[] people = {new BaristaZero(), new BaristaBase()};
 

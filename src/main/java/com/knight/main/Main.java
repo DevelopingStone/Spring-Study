@@ -1,14 +1,19 @@
 package com.knight.main;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Main {
 
     public static void main(String[] args) {
         Solution user = new Solution();
 
         int[] list = {2, 4};
-        int[] reserve = {1, 3, 5};
+        int[] reserve = {0,1,1,6,6,7,7,7};
         String[] babbling = {"ayaye", "uuu", "yeye", "yemawoo", "ayaayaa"};
-        System.out.println(user.solution(babbling));
+        System.out.println(user.solution(reserve));
+
+
 
 
     }
@@ -16,24 +21,22 @@ public class Main {
 
 
 class Solution {
-    public int solution(String[] babblings) {
-        // "aya", "ye", "woo", "ma" 4가지 발음만 가능
+    public int solution(int[] array) {
+        int maxCount = 0;
         int answer = 0;
-        for (int i = 0; i < babblings.length; i++) {
-            if (babblings[i].contains("ayaaya") || babblings[i].contains("yeye") || babblings[i].contains("woowoo") || babblings[i].contains("mama")) {
-                continue;
+        Map<Integer, Integer> map = new HashMap<>();
+        for(int number : array){
+            System.out.println("map = " + map);
+            int count = map.getOrDefault(number, 0) + 1;
+            if(count > maxCount){
+                maxCount = count;
+                answer = number;
             }
-            babblings[i] = babblings[i].replace("aya", " ");
-            babblings[i] = babblings[i].replace("ye", " ");
-            babblings[i] = babblings[i].replace("woo", " ");
-            babblings[i] = babblings[i].replace("ma", " ");
-            babblings[i] = babblings[i].replace(" ", "");
-
-            if ("".equals(babblings[i])) answer++;
-
-
+            else  if(count == maxCount){
+                answer = -1;
+            }
+            map.put(number, count);
         }
-
         return answer;
     }
 }
