@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-06-23">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/oop/Responsibility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/oop/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/oop/TestDevelopment.java" afterDir="false" />
+    <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-06-25">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/june20/Pre0114.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/Pre0114.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/oop/Barista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/oop/Barista.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +249,7 @@
       <workItem from="1687528740264" duration="998000" />
       <workItem from="1687653448260" duration="6268000" />
       <workItem from="1687670988575" duration="2309000" />
-      <workItem from="1687689384245" duration="594000" />
+      <workItem from="1687689384245" duration="1215000" />
     </task>
     <task id="LOCAL-00001" summary="2023-05-28 commit">
       <created>1685270654594</created>
@@ -425,7 +419,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687446296720</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="2023-06-25">
+      <created>1687690923665</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1687690923665</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -446,7 +447,8 @@
     <MESSAGE value="2023-06-20" />
     <MESSAGE value="2023-06-21" />
     <MESSAGE value="2023-06-23" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023-06-23" />
+    <MESSAGE value="2023-06-25" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023-06-25" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
