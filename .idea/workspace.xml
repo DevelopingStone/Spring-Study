@@ -4,8 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-06-25">
+    <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-06-26">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0101.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0102.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0103.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0104.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0105.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0106.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0107.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0108.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0109.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0110.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0111.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0112.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0113.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0114.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0115.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0116.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0117.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0118.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0119.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0120.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0121.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0122.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0123.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0124.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0125.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,36 +96,102 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/JavaProject/src/main/java/com/knight/june20&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;아티팩트&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.31839082&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/JavaProject/src/main/java/com/knight/june27",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "아티팩트",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.31839082",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mariadb&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mariadb"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\JavaProject\src\main\java\com\knight\june27" />
       <recent name="C:\JavaProject\src\main\java\com\knight\june20" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest.test">
+  <component name="RunManager" selected="애플리케이션.Main (3)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.main.Main" />
+      <module name="JavaProject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.knight.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.main.Main" />
+      <module name="JavaProject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.knight.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.main.Main" />
+      <module name="JavaProject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.knight.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.main.Main" />
+      <module name="JavaProject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.knight.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (6)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.main.Main" />
+      <module name="JavaProject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.knight.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.knight.main.Main" />
       <module name="JavaProject.main" />
@@ -113,84 +205,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.oop.MainPrinter" />
-      <module name="JavaProject.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.knight.oop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.oop.MainSingleton" />
-      <module name="JavaProject.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.knight.oop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDevelopment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.oop.TestDevelopment" />
-      <module name="JavaProject.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.knight.oop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaProject.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.knight.oop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.knight.oop" />
-      <option name="MAIN_CLASS_NAME" value="com.knight.oop.CalculatorTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaProject.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.knight.oop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.knight.oop" />
-      <option name="MAIN_CLASS_NAME" value="com.knight.oop.CalculatorTest" />
-      <option name="METHOD_NAME" value="testAdd" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculatorTest.test" />
-        <item itemvalue="JUnit.CalculatorTest.testAdd" />
-        <item itemvalue="애플리케이션.TestDevelopment" />
-        <item itemvalue="애플리케이션.MainSingleton" />
-        <item itemvalue="애플리케이션.MainPrinter" />
+        <item itemvalue="애플리케이션.Main (3)" />
+        <item itemvalue="애플리케이션.Main (2)" />
+        <item itemvalue="애플리케이션.Main (1)" />
+        <item itemvalue="애플리케이션.Main (6)" />
+        <item itemvalue="애플리케이션.Main (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -250,6 +271,8 @@
       <workItem from="1687653448260" duration="6268000" />
       <workItem from="1687670988575" duration="2309000" />
       <workItem from="1687689384245" duration="1215000" />
+      <workItem from="1687744743997" duration="6691000" />
+      <workItem from="1687827041250" duration="5411000" />
     </task>
     <task id="LOCAL-00001" summary="2023-05-28 commit">
       <created>1685270654594</created>
@@ -426,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687690923665</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="2023-06-26">
+      <created>1687756706316</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1687756706316</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,7 +478,8 @@
     <MESSAGE value="2023-06-21" />
     <MESSAGE value="2023-06-23" />
     <MESSAGE value="2023-06-25" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023-06-25" />
+    <MESSAGE value="2023-06-26" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023-06-26" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
