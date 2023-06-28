@@ -1,27 +1,36 @@
 package com.knight.june27;
 
+import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Set;
 
 public class Pre0109 {
+
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 1};
+        Solution0109 user = new Solution0109();
+        System.out.println(user.solution(arr));
+    }
 }
 
 
 class Solution0109 {
-    public int solution(int[] orders, int n) {
-        List<Integer> list = new LinkedList<>();
-        int cancel[] = new int[orders[orders.length - 1] - orders.length];
+    public int solution(int[] arr) {
+        Set<Integer> set = new LinkedHashSet<>();
 
-        for (int num : orders) {
-            list.add(num);
-        }
-
-        int arrayNum = 0;
-        for (int i = 1; i <= orders[orders.length - 1]; i++) {
-            if (!list.contains(i)) {
-                cancel[arrayNum++] = i;
+        for (int num : arr) {
+            if (!set.contains(num)) {
+                set.add(num);
+            } else {
+                set.remove(num);
             }
         }
-        return cancel[n - 1];
+
+        if (set.size() == 0) {
+            return 0;
+        }
+        List<Integer> result = new LinkedList<>(set);
+        return result.get(0);
     }
 }

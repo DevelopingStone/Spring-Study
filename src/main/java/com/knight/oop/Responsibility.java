@@ -8,7 +8,7 @@ interface Printer {
     void print();
 }
 
-class InkjetPrinter implements Printer {
+class InkPrinter implements Printer {
     public void print() {
         System.out.println("Inkjet 1 printer is printing.");
         System.out.println("Inkjet 2 printer is printing.");
@@ -55,10 +55,10 @@ class Document {
 
 class MainPrinter {
     public static void main(String[] args) {
-        Printer inkjetPrinter = new InkjetPrinter();
-        Document document1 = new Document(inkjetPrinter);
+        Printer inkPrinter = new InkPrinter();
+        Document document1 = new Document(inkPrinter);
         document1.printDocument();
-//        new Document(new InkjetPrinter()).printDocument();
+//        new Document(new InkPrinter()).printDocument();
 
 
     }

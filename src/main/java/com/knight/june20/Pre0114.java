@@ -7,7 +7,7 @@ import java.util.List;
 public class Pre0114 {
     public static void main(String[] args) {
         Solution0114 user = new Solution0114();
-        System.out.println(user.solution("+++++13+26-7"));
+        System.out.println(user.solution("13+26-7"));
     }
 }
 

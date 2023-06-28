@@ -16,6 +16,7 @@ class Solution0112 {
         String front = "({[<";
         String back = ")}]>";
 
+
         for (String word : S.split("")) {
             if (!stack.isEmpty() && back.contains(word) && stack.peek() == back.indexOf(word)) {
                 stack.pop();

@@ -1,34 +1,40 @@
 package com.knight.june27;
 
-import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
 
 public class Pre0107 {
 
     public static void main(String[] args) {
-        String A = "Hello,    !!World!!!???";
-        Solution0107 user = new Solution0107();
-        user.solution(A);
+
+        int[] arr = {0, 2, 1, 3, 2, 4, 4};
+        Solution0106 user = new Solution0106();
+//        System.out.println(user.solution(arr));
     }
 }
 
 
 class Solution0107 {
-    public String[] solution(String s) {
-        // 입력 문자열을 공백을 기준으로 단어로 분리하여 배열에 저장
-        String[] words = s.split("[ .,!?]+");
+    public List<Integer> solution(int[] arr) {
+        List<Integer> result = new LinkedList<>();
 
+        for (int i = 0; i < arr.length; i++) {
+            if (result.size() >= arr.length) {
+                return result;
+            } else if (arr[i] % 2 == 1) {
+                result.add(arr[i]);
+                if (result.size() >= arr.length) {
+                    return result;
+                }
+                result.add(arr[i]);
+            } else if (arr[i] % 2 == 0) {
+                result.add(arr[i]);
+            }
 
-        // 단어 배열을 뒤집음
-        for (int i = 0; i < words.length; i++) {
-            StringBuilder sb = new StringBuilder(words[i]);
-            words[i] = sb.reverse().toString();
         }
 
-        System.out.println(Arrays.toString(words));
-
-        return words;
+        return result;
     }
-
 
 
 }

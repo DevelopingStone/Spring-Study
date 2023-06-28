@@ -1,33 +1,36 @@
 package com.knight.june27;
 
-import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.List;
 
 public class Pre0115 {
+    public static void main(String[] args) {
+        Solution0115 user = new Solution0115();
+        System.out.println(user.solution(7, 3));
+
+
+    }
 
 }
 
 
 class Solution0115 {
-    public String solution(String[] bj, String[] one, String[] two) {
-        String answer = "";
-        HashSet<String> set = new HashSet<>();
 
-        for (String str : bj) {
-            set.add(str);
+    public int solution(int N, int K) {
+        List<Integer> list = new LinkedList<>();
+        for (int i = 1; i <= N; i++) {
+            list.add(i);
         }
 
-        for (String str : one) {
-            set.remove(str);
+        int index = 0;
+        while (list.size() != 1) {
+            index = (K - 1 + index) % N;
+            list.remove(index);
+            N--;
         }
 
-        for (String str : two) {
-            set.remove(str);
-        }
 
-        int reward = 150 * one.length + 300 * two.length + 450;
-        String winner = set.toString().substring(1, set.toString().length() - 1);
-        answer = reward + "만원" + "(" + winner + ")";
-
-        return answer;
+        return list.get(0);
     }
+
 }
