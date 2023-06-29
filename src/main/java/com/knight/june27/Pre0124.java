@@ -6,11 +6,11 @@ public class Pre0124 {
 
 class Solution0124 {
     public int solution(int n) {
-        double s = Math.sqrt(n);
-        if (s == (int) s) {
-            return (int) s;
-        } else {
-            return 0;
+        int result = 1;
+        while (n > 0) {
+            result = (result * 2) % 1000000007;
+            n--;
         }
+        return result - 1;
     }
 }

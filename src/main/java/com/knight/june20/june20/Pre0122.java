@@ -1,4 +1,4 @@
-package com.knight.june20;
+package com.knight.june20.june20;
 
 public class Pre0122 {
 

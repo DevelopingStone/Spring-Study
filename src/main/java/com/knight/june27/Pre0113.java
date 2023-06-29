@@ -6,6 +6,7 @@ import java.util.Stack;
 public class Pre0113 {
     public static void main(String[] args) {
         Solution0113 user = new Solution0113();
+        System.out.println(user.solution("2*3/6*3+15"));
 
     }
 

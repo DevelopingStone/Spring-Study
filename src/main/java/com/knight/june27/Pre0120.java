@@ -8,15 +8,16 @@ public class Pre0120 {
 
 
 class Solution0120 {
-    public String solution(String[] arr) {
-        StringBuilder sb = new StringBuilder();
-        for(int i =0; i<arr.length; i++){
-            sb.append(arr[i]);
-            if(i<arr.length-1){
-                sb.append(",");
+    public int solution(String[] array, String s) {
+        int count = 0;
+        for(String word : array){
+            if(s.contains(word)&&word.charAt(0)==s.charAt(0)){
+                count++;
+                System.out.println("word = " + word);
+                System.out.println("count = " + count);
             }
         }
-        System.out.println("sb.toString() = " + sb.toString());
-        return sb.toString();
+
+        return count;
     }
 }

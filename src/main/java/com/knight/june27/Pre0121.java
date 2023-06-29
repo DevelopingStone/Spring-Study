@@ -1,51 +1,33 @@
 package com.knight.june27;
 
-import java.util.LinkedHashMap;
-import java.util.Map;
-
 public class Pre0121 {
 
     public static void main(String[] args) {
 
         Solution0121 user = new Solution0121();
 
-        System.out.println(user.solution("ooggle"));
+        System.out.println(user.solution("a a a       every", "every"));
     }
 }
 
 class Solution0121 {
-    public Character solution(String s) {
-        Character[] ch = new Character[s.length()];
-        Map<Character, Integer> map = new LinkedHashMap<>();
-        for (int i = 0; i < s.length(); i++) {
-            ch[i] = s.charAt(i);
-        }
 
-        char mKey = 0;
-        int mValue = 0;
+    public int solution(String sentence, String word) {
+        int count = -1;
 
-        for (Character word : ch) {
-            int value = map.getOrDefault(word, 0);
-            map.put(word, value + 1);
-        }
-        System.out.println("map = " + map);
+        String[] arr = sentence.split(" ");
 
-        for (Map.Entry<Character, Integer> word : map.entrySet()) {
-            if (word.getValue() > mValue) {
+        for (String str : arr) {
 
-                mKey = word.getKey();
-                mValue = word.getValue();
-
-            } else if (word.getValue() == mValue) {
-                if (mKey > word.getKey()) {
-
-                    mKey = word.getKey();
-                    mValue = word.getValue();
-
-                }
+            if (str.isEmpty()) {
+                continue;
             }
-        }
+            count++;
+            if (word.equals(str)) {
+                return count;
+            }
 
-        return mKey;
+        }
+        return -1;
     }
 }

@@ -4,52 +4,72 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-06-27">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/CodingTest_1 (1).md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/CodingTest_1 (2).md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/CodingTest_1 (3).md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/CodingTest_1 (4).md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/CodingTest_1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/CodingTest_2 (1).md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/CodingTest_2 (2).md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/CodingTest_2 (3).md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/CodingTest_2 (4).md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/CodingTest_2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/CodingTest_3 (1).md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/CodingTest_3 (2).md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/CodingTest_3 (3).md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/CodingTest_3 (4).md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/CodingTest_3.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/CodingTest_4 (1).md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/CodingTest_4 (2).md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/CodingTest_4 (3).md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/CodingTest_4 (4).md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/CodingTest_4.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/CodingTest_5 (1).md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/CodingTest_5 (2).md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/CodingTest_5 (3).md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/CodingTest_5 (4).md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/CodingTest_5.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/oop/Car.java" afterDir="false" />
+    <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-06-28">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/CodingTest_1 (1).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/CodingTest_1 (2).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/CodingTest_1 (3).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/CodingTest_1 (4).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/CodingTest_1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/CodingTest_2 (1).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/CodingTest_2 (2).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/CodingTest_2 (3).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/CodingTest_2 (4).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/CodingTest_2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/CodingTest_3 (1).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/CodingTest_3 (2).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/CodingTest_3 (3).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/CodingTest_3 (4).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/CodingTest_3.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/CodingTest_4 (1).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/CodingTest_4 (2).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/CodingTest_4 (3).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/CodingTest_4 (4).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/CodingTest_4.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/CodingTest_5 (1).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/CodingTest_5 (2).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/CodingTest_5 (3).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/CodingTest_5 (4).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/CodingTest_5.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/Pre0101.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/Pre0102.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/Pre0103.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/Pre0104.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/Pre0105.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/Pre0106.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/Pre0107.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/Pre0108.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/Pre0109.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/Pre0110.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/Pre0111.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/Pre0112.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/Pre0113.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/Pre0114.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/Pre0115.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/Pre0116.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/Pre0117.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/Pre0118.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/Pre0119.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/Pre0120.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/Pre0121.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/Pre0122.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/Pre0123.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/Pre0124.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/Pre0125.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/june20/Test.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/june20/Pre0107.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/Pre0107.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/june20/Pre0112.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/Pre0112.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/june20/Pre0114.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/Pre0114.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/june20/Pre0118.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/Pre0118.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/june20/Pre0120.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/Pre0120.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0106.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0106.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0107.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0107.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0108.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0108.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0109.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0109.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0110.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/june20/Pre0122.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/june20/Pre0122.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0111.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0111.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0112.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0112.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0113.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0113.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0114.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0114.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0115.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0115.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/oop/Responsibility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/oop/Responsibility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/oop/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/oop/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/oop/TestDevelopment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/oop/TestDevelopment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0116.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0116.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0117.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0117.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0118.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0118.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0119.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0119.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0120.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0120.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0121.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0121.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0122.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0122.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0123.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0123.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0124.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0124.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0125.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/june27/Pre0125.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,37 +134,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/JavaProject/src/main/java/com/knight/june20",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "아티팩트",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.31839082",
-    "settings.editor.selected.configurable": "editing.templates",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/JavaProject/src/main/java/com/knight/june20&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;아티팩트&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.31839082&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mariadb"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mariadb&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\JavaProject\src\main\java\com\knight\june20" />
       <recent name="C:\JavaProject\src\main\java\com\knight\june27" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Pre0121">
+  <component name="RunManager" selected="애플리케이션.Pre0123 (1)">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.knight.main.Main" />
       <module name="JavaProject.main" />
@@ -158,8 +179,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pre0111" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.june27.Pre0111" />
+    <configuration name="Pre0121 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.june27.Pre0121" />
       <module name="JavaProject.main" />
       <extension name="coverage">
         <pattern>
@@ -171,21 +192,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pre0112" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.june20.Pre0112" />
-      <module name="JavaProject.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.knight.june20.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Pre0113" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.june27.Pre0113" />
+    <configuration name="Pre0121 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.june27.Pre0121" />
       <module name="JavaProject.main" />
       <extension name="coverage">
         <pattern>
@@ -197,12 +205,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pre0117" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.june20.Pre0117" />
+    <configuration name="Pre0121 (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.june27.Pre0121" />
       <module name="JavaProject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.knight.june20.*" />
+          <option name="PATTERN" value="com.knight.june27.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,12 +218,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pre0121" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.june20.Pre0121" />
+    <configuration name="Pre0123 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.june27.Pre0123" />
       <module name="JavaProject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.knight.june20.*" />
+          <option name="PATTERN" value="com.knight.june27.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pre0123" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.june27.Pre0123" />
+      <module name="JavaProject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.knight.june27.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,11 +246,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.Pre0121" />
-        <item itemvalue="애플리케이션.Pre0117" />
-        <item itemvalue="애플리케이션.Pre0112" />
-        <item itemvalue="애플리케이션.Pre0113" />
-        <item itemvalue="애플리케이션.Pre0111" />
+        <item itemvalue="애플리케이션.Pre0123 (1)" />
+        <item itemvalue="애플리케이션.Pre0123" />
+        <item itemvalue="애플리케이션.Pre0121 (5)" />
+        <item itemvalue="애플리케이션.Pre0121 (2)" />
+        <item itemvalue="애플리케이션.Pre0121 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +313,8 @@
       <workItem from="1687744743997" duration="6691000" />
       <workItem from="1687827041250" duration="18596000" />
       <workItem from="1687865782426" duration="702000" />
-      <workItem from="1687921943809" duration="13739000" />
+      <workItem from="1687921943809" duration="23754000" />
+      <workItem from="1688004287912" duration="4840000" />
     </task>
     <task id="LOCAL-00001" summary="2023-05-28 commit">
       <created>1685270654594</created>
@@ -483,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687835059449</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="2023-06-28">
+      <created>1687939673917</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1687939673917</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -507,7 +536,8 @@
     <MESSAGE value="2023-06-25" />
     <MESSAGE value="2023-06-26" />
     <MESSAGE value="2023-06-27" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023-06-27" />
+    <MESSAGE value="2023-06-28" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023-06-28" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

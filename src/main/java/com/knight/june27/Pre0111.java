@@ -1,10 +1,5 @@
 package com.knight.june27;
 
-import java.util.ArrayDeque;
-import java.util.Deque;
-import java.util.HashMap;
-import java.util.Map;
-
 public class Pre0111 {
     public static void main(String[] args) {
         Solution0111 user = new Solution0111();

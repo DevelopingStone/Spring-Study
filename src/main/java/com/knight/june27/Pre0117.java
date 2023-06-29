@@ -1,58 +1,41 @@
 package com.knight.june27;
 
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.LinkedList;
+import java.util.List;
+
 public class Pre0117 {
     public static void main(String[] args) {
-        String[] arr = {"10110", "1010", "11110"};
+
         Solution0117 user = new Solution0117();
-        System.out.println(user.solution(arr));
+
     }
 }
 
 
 class Solution0117 {
-    public int solution(String[] arr) {
-        /*
-        int answer = 0;
 
-        int[] decimal = new int[arr.length];
-        for (int i = 0; i < decimal.length; i++) {
-            decimal[i] = Integer.parseInt(arr[i], 2);
-        }
-        System.out.println(Arrays.toString(decimal));
-
-        /*
-        a & b
-        a | B
-        A ^ B : XOR
-        ~ a : NOT
-        A << B : 왼쪽시프트
-
-        for (int j : decimal) {
-            answer = answer ^ j;
+    public int solution(int[] A, int K) {
+        List<Integer> aList = new LinkedList<>();
+        for (int arrA : A) {
+            aList.add(arrA);
         }
 
-        return answer;
-        */
-        int[] num = new int[arr.length];
-        int result = 0;
-
-        for (int i = 0; i < arr.length; i++) {
-            num[i] = Integer.parseInt(arr[i], 2);
+        Collections.sort(aList, Comparator.reverseOrder());
+        List<Integer> numList = new LinkedList<>();
+        numList.add(0);
+        for (int i = 0; i < aList.size(); i++) {
+            for (int j = 0; j < aList.size(); j++) {
+                if (i != j) {
+                    int a = (aList.get(i) * 10) + aList.get(j);
+                    numList.add(a);
+                }
+            }
         }
+        System.out.println("numList = " + numList);
 
-        for (int i = 0; i < num.length; i++) {
-            result ^= num[i];
-        }
-
-        /*
-        a & b
-        a | B
-        A ^ B : XOR
-        ~ a : NOT
-        A << B : 왼쪽시프트
-        */
-
-
-        return result;
+        return numList.get(K);
     }
+
 }
