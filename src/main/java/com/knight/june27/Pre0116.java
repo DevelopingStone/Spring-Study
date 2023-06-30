@@ -9,22 +9,22 @@ public class Pre0116 {
 
 
 class Solution0116 {
+    int count = 0;
 
-        public int solution(int N, int K) {
-            int count = 0;
+    public int solution(int N, int K) {
 
-            for (int i = 1; i <= N; i++) {
-                String str = Integer.toString(i);
-                for (String word : str.split("")) {
-                    if (Integer.toString(K).equals(word)) {
-                        count++;
-                    }
-                }
-
-            }
-
-
-            return count;
+        for (int i = 1; i <= N; i++) {
+            String str = Integer.toString(i);
+            count(str, Integer.toString(K));
         }
+        return count;
+    }
 
+    public void count(String str, String str1) {
+        for (String word : str.split("")) {
+            if (str1.equals(word)) {
+                count++;
+            }
+        }
+    }
 }
