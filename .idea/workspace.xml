@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63160561-dbef-4612-96a3-a3acb047bbc9" name="변경" comment="NoteBookTest">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/2023-03-04_오후_8_21,_업데이트_전에_커밋되지_않은_변경_내용_[변경]/shelved.patch" beforeDir="false" />
+    <list default="true" id="7581f34c-89b8-4c8d-9cd2-efd65b5cfe0f" name="변경" comment="NoteBookTest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,13 +87,13 @@
       <recent name="C:\Intellij-23-02\JavaProject\src\main\java\com\knight\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.JavaProject [build]">
-    <configuration name="ApiMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.api.ApiMain" />
+  <component name="RunManager" selected="애플리케이션.Main">
+    <configuration name="Homework01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.stream.Homework01" />
       <module name="JavaProject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.knight.api.*" />
+          <option name="PATTERN" value="com.knight.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Homework01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.stream.Homework01" />
-      <module name="JavaProject.main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.generic.Main" />
+      <module name="JavaDev23-03-05.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.knight.stream.*" />
+          <option name="PATTERN" value="com.knight.generic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,6 +163,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Main" />
         <item itemvalue="Gradle.JavaProject [build]" />
       </list>
     </recent_temporary>
@@ -171,7 +171,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
-      <changelist id="63160561-dbef-4612-96a3-a3acb047bbc9" name="변경" comment="" />
+      <changelist id="7581f34c-89b8-4c8d-9cd2-efd65b5cfe0f" name="변경" comment="" />
       <created>1677916926834</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
