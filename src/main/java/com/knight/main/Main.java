@@ -1,15 +1,15 @@
 package com.knight.main;
 
-import java.util.Arrays;
-
 public class Main {
 
     public static void main(String[] args) {
         Solution user = new Solution();
 
+        System.out.println(user.solution("cdcd"));
 
-        int[] reserve = {70, 50, 80, 50};
-        System.out.println(user.solution(reserve, 100));
+//        StringBuilder sb = new StringBuilder("baabaa");
+//        sb.delete(1, 3);
+//        System.out.println("sb = " + sb);
 
 
     }
@@ -17,16 +17,22 @@ public class Main {
 
 
 class Solution {
-    public int solution(int[] people, int limit) {
-        Arrays.sort(people);
-        int count = 0;
-        for (int i = 0, j = people.length - 1; j > i; j--) {
-            if (people[i] + people[j] <= limit) {
-                count++;
-                i++;
+    public int solution(String s) {
+        StringBuilder sb = new StringBuilder(s);
+
+        for (int i = 0; i < sb.length() - 1; i++) {
+            if (sb.charAt(i) == sb.charAt(i + 1)) {
+                sb.delete(i, i + 2);
+                i = -1;
+
             }
         }
-        System.out.println("count = " + count);
-        return people.length - count;
+
+        if (sb.length() == 0) {
+            return 1;
+        } else {
+            return 0;
+        }
+
     }
 }
