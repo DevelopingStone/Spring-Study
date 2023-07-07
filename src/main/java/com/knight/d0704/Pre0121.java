@@ -6,28 +6,29 @@ public class Pre0121 {
 
         Solution0121 user = new Solution0121();
 
-        System.out.println(user.solution("a a a       every", "every"));
+        System.out.println(user.solution(15));
     }
 }
 
 class Solution0121 {
 
-    public int solution(String sentence, String word) {
-        int count = -1;
+    public int solution(int n) {
+        int count = 0, sum = 0;
 
-        String[] arr = sentence.split(" ");
+        for (int i = 1; i <= n; i++) {
+            sum = i;
 
-        for (String str : arr) {
-
-            if (str.isEmpty()) {
-                continue;
-            }
-            count++;
-            if (word.equals(str)) {
-                return count;
+            for (int j = i + 1; j <= n; j++) {
+                sum += j;
+                if (sum == n) {
+                    count++;
+                } else if (sum > n) {
+                    break;
+                }
             }
 
         }
-        return -1;
+
+        return count + 1;
     }
 }

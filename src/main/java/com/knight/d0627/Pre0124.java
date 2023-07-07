@@ -8,7 +8,7 @@ class Solution0124 {
     public int solution(int n) {
         int result = 1;
         while (n > 0) {
-            result = (result * 2) % 1000000007;
+            result = (result * 2) % 1_000_000_007;
             n--;
         }
         return result - 1;

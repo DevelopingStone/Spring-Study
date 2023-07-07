@@ -8,28 +8,27 @@ import java.util.stream.Collectors;
 
 public class Pre0123 {
     public static void main(String[] args) {
-        int[] cars = {4, 8, 6, 1, 2};
+        int[][] A = {{1},{2,5},{7,10,1},{9,4,4,5}};
         Solution0123 user = new Solution0123();
-        System.out.println(user.solution(cars));
+        System.out.println(user.solution(A));
 
     }
 }
 
 class Solution0123 {
-    public int solution(int[] cards) {
-        List<Integer> cardsList = Arrays.stream(cards).boxed().collect(Collectors.toList());
-
-
-        while (cardsList.size() > 1) {
-            cardsList.sort(Collections.reverseOrder());
-            int firstCard = cardsList.remove(0);
-            int secondCard = cardsList.remove(0);
-
-            if (firstCard > secondCard) {
-                cardsList.add(firstCard - secondCard);
-            }
+    static int minWaitTime = Integer.MAX_VALUE;
+    public void findWay(int[][] A, int idx, int length, int sumWaitTime) {
+        if (A.length == length) {
+            minWaitTime = Math.min(minWaitTime, sumWaitTime);
+            return;
         }
-        return cardsList.size() == 0 ? 0 : cardsList.get(0);
 
+        for (int i = idx; i <= idx+1; i++) {
+            findWay(A, i, length+1, sumWaitTime+A[length][idx]);
+        }
+    }// dfs로 해결
+    public int solution(int[][] A) {
+        findWay(A, 0, 0, 0);
+        return minWaitTime;
     }
 }

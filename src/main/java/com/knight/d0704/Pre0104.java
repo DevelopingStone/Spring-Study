@@ -13,6 +13,7 @@ public class Pre0104 {
 class Solution0104 {
     public String solution(String s) {
         int count = 0;
+
         for (int i = 0; i < s.length(); i++) {
             if (count == 2 && s.charAt(i) == '1') {
                 return "NO";
@@ -23,5 +24,6 @@ class Solution0104 {
             }
         }
         return "YES";
+
     }
 }
