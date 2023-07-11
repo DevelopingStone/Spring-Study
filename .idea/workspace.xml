@@ -4,20 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-07-06">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/d0704/Month01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/d0704/Month02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/d0704/Month03.java" afterDir="false" />
+    <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-07-07">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/main/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/d0627/Pre0124.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/d0627/Pre0124.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/d0704/Pre0101.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/d0704/Pre0101.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/d0704/Pre0102.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/d0704/Pre0102.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/d0704/Pre0104.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/d0704/Pre0104.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/d0704/Pre0121.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/d0704/Pre0121.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/d0704/Pre0122.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/d0704/Pre0122.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/d0704/Pre0123.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/d0704/Pre0123.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/d0704/Pre0124.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/d0704/Pre0124.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/d0704/Pre0125.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/d0704/Pre0125.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/d0704/Pre0112.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/d0704/Pre0112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/d0704/Pre0113.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/d0704/Pre0113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/d0704/Pre0115.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/d0704/Pre0115.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,31 +75,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/JavaProject/src/main/java/com/knight/d0704",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "모듈",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.31839082",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/JavaProject/src/main/java/com/knight/d0704&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.31839082&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mariadb"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mariadb&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\JavaProject\src\main\java\com\knight\d0704" />
@@ -115,9 +108,48 @@
       <recent name="C:\JavaProject\src\main\java\com\knight\june27" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Month02">
-    <configuration name="Month01 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.d0704.Month01" />
+  <component name="RunManager" selected="애플리케이션.Pre0112">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.main.Main" />
+      <module name="JavaProject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.knight.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.main.Main" />
+      <module name="JavaProject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.knight.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.main.Main" />
+      <module name="JavaProject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.knight.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pre0112" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.d0704.Pre0112" />
       <module name="JavaProject.main" />
       <extension name="coverage">
         <pattern>
@@ -129,51 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Month02 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.d0704.Month02" />
+    <configuration name="StockTrading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.main.StockTrading" />
       <module name="JavaProject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.knight.d0704.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Month02 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.d0704.Month02" />
-      <module name="JavaProject.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.knight.d0704.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Month02 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.d0704.Month02" />
-      <module name="JavaProject.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.knight.d0704.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Month02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.d0704.Month02" />
-      <module name="JavaProject.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.knight.d0704.*" />
+          <option name="PATTERN" value="com.knight.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.Month02" />
-        <item itemvalue="애플리케이션.Month02 (3)" />
-        <item itemvalue="애플리케이션.Month02 (2)" />
-        <item itemvalue="애플리케이션.Month02 (1)" />
-        <item itemvalue="애플리케이션.Month01 (4)" />
+        <item itemvalue="애플리케이션.Pre0112" />
+        <item itemvalue="애플리케이션.StockTrading" />
+        <item itemvalue="애플리케이션.Main (1)" />
+        <item itemvalue="애플리케이션.Main (5)" />
+        <item itemvalue="애플리케이션.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +257,10 @@
       <workItem from="1688532372904" duration="896000" />
       <workItem from="1688533288317" duration="15258000" />
       <workItem from="1688608475335" duration="11478000" />
-      <workItem from="1688694720576" duration="6764000" />
+      <workItem from="1688694720576" duration="7142000" />
+      <workItem from="1688722711413" duration="607000" />
+      <workItem from="1688773850835" duration="5564000" />
+      <workItem from="1689056769952" duration="2722000" />
     </task>
     <task id="LOCAL-00001" summary="2023-05-28 commit">
       <created>1685270654594</created>
@@ -497,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688608535023</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="2023-07-07">
+      <created>1688704704099</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1688704704099</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -526,7 +529,8 @@
     <MESSAGE value="2023-07-03" />
     <MESSAGE value="2023-07-04" />
     <MESSAGE value="2023-07-06" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023-07-06" />
+    <MESSAGE value="2023-07-07" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023-07-07" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -23,6 +23,7 @@ class Solution0113 {
         for (int i = A.length / 2 - 1, j = -2; i >= 0; i--, j -= 2) {
             answer += A[i] * j;
         }
+
         for (int i = A.length / 2, j = 1; i < A.length; i++, j += 2) {
             answer += A[i] * j;
         }
