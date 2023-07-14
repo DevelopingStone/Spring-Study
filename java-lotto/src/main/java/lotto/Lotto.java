@@ -98,7 +98,6 @@ class Compare {
 }
 
 class Extract {
-
     public void LottoNumbers(Lotto lotto) {
         for (int i = 0; i < lotto.money / 1000; i++) {
             lotto.lottery.add(Randoms.pickUniqueNumbersInRange(1, 45, 6));

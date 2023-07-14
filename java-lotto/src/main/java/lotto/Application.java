@@ -12,8 +12,8 @@ public class Application {
         Compare compare = new Compare();
         Profit profit = new Profit();
 
-        input.Money(lotto);
-        validate.moneyValue(lotto.money);
+
+        input.Money(lotto); validate.moneyValue(lotto.money);
         extract.LottoNumbers(lotto);
         output.lottery(lotto.lottery);
         input.LotteryNumbers(lotto);
