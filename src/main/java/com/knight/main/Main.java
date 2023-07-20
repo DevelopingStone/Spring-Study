@@ -1,60 +1,46 @@
 package com.knight.main;
 
-import java.util.Scanner;
-
 public class Main {
 
     public static void main(String[] args) {
-//        Solution user = new Solution();
-//        int[] arr = {100, 50, 70, 90, 75, 87, 105, 78, 110, 60};
-//        System.out.println(user.solution(arr, 6));
+        int[][] puddles = {{2, 2}};
+
+        new Solution().solution(6, 7, puddles);
 
 
     }
 }
 
 
+class Solution {
+    public int solution(int m, int n, int[][] puddles) {
+        int[][] road = new int[m + 1][n + 1];
 
 
-class StockTrading {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int T = scanner.nextInt(); // 테스트 케이스의 개수
-
-        for (int testCase = 1; testCase <= T; testCase++) {
-            int N = scanner.nextInt(); // 주가를 알 수 있는 날 수
-            int K = scanner.nextInt(); // 거래 회수
-            int[] prices = new int[N]; // 주가 배열
-
-            // 주가 입력 받기
-            for (int i = 0; i < N; i++) {
-                prices[i] = scanner.nextInt();
-            }
-
-            boolean isPossible = canBuyStocks(N, K, prices);
-            System.out.println("Case #" + testCase);
-            System.out.println(isPossible ? 1 : 0);
+        for (int i = 0; i < puddles.length; i++) {
+            road[puddles[i][0]][puddles[i][1]] = -1;
         }
 
-        scanner.close();
-    }
+        road[1][1] = 1;
 
-    public static boolean canBuyStocks(int N, int K, int[] prices) {
-        int count = 0; // 구입한 주식의 개수
+        for (int i = 1; i <= m; i++) {
+            for (int j = 1; j <= n; j++) {
 
-        for (int i = 1; i < N; i++) {
-            if (prices[i] > prices[i - 1]) {
-                count++;
-                if (count == K) {
-                    return true; // 주어진 조건을 만족하는 주식 구매가 가능
+                if (road[i][j] == -1) {
+                    continue;
                 }
+                if (road[i - 1][j] > 0) {
+                    road[i][j] += road[i - 1][j] % 1_000_000_007;
+
+                }
+                if (road[i][j - 1] > 0) {
+                    road[i][j] += road[i][j - 1] % 1_000_000_007;
+                }
+
             }
         }
 
-        return false; // 주어진 조건을 만족하는 주식 구매가 불가능
+
+        return road[m][n] % 1_000_000_007;
     }
 }
-
-
-
-
