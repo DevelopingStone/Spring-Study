@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-07-20">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/d0720/Coding0102.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/d0720/Coding0102.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/d0720/Coding0103.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/d0720/Coding0103.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/d0720/Coding0104.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/d0720/Coding0104.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/d0720/Coding0105.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/d0720/Coding0105.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -271,7 +268,8 @@
       <workItem from="1689292301486" duration="9751000" />
       <workItem from="1689311235754" duration="6421000" />
       <workItem from="1689857981574" duration="259000" />
-      <workItem from="1689858462193" duration="7431000" />
+      <workItem from="1689858462193" duration="8095000" />
+      <workItem from="1689941219833" duration="1881000" />
     </task>
     <task id="LOCAL-00001" summary="2023-05-28 commit">
       <created>1685270654594</created>
@@ -539,7 +537,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689860794084</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="2023-07-20">
+      <created>1689866274758</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1689866274758</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
