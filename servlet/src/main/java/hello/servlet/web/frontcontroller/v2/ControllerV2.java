@@ -8,5 +8,4 @@ import javax.servlet.http.HttpServletResponse;
 
 public interface ControllerV2 {
     MyView process(HttpServletRequest request , HttpServletResponse response) throws ServletException, IOException;
-
 }
