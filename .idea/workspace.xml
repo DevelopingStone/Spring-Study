@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-07-20">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/d0720/Coding0104.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/d0720/Coding0104.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,13 +106,13 @@
       <recent name="C:\JavaProject\src\main\java\com\knight\june27" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Coding0104 (5)">
-    <configuration name="Coding0104 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.d0720.Coding0104" />
+  <component name="RunManager" selected="애플리케이션.Main">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.main.Main" />
       <module name="JavaProject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.knight.d0720.*" />
+          <option name="PATTERN" value="com.knight.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Coding0104 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.d0720.Coding0104" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.main.Main" />
       <module name="JavaProject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.knight.d0720.*" />
+          <option name="PATTERN" value="com.knight.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Coding0104 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.d0720.Coding0104" />
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.main.Main" />
       <module name="JavaProject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.knight.d0720.*" />
+          <option name="PATTERN" value="com.knight.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Coding0104 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.d0720.Coding0104" />
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.main.Main" />
       <module name="JavaProject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.knight.d0720.*" />
+          <option name="PATTERN" value="com.knight.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Coding0104 (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.d0720.Coding0104" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.main.Main" />
       <module name="JavaProject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.knight.d0720.*" />
+          <option name="PATTERN" value="com.knight.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.Coding0104 (5)" />
-        <item itemvalue="애플리케이션.Coding0104 (4)" />
-        <item itemvalue="애플리케이션.Coding0104 (3)" />
-        <item itemvalue="애플리케이션.Coding0104 (2)" />
-        <item itemvalue="애플리케이션.Coding0104 (1)" />
+        <item itemvalue="애플리케이션.Main" />
+        <item itemvalue="애플리케이션.Main (1)" />
+        <item itemvalue="애플리케이션.Main (5)" />
+        <item itemvalue="애플리케이션.Main (4)" />
+        <item itemvalue="애플리케이션.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -270,6 +270,7 @@
       <workItem from="1689857981574" duration="259000" />
       <workItem from="1689858462193" duration="8095000" />
       <workItem from="1689941219833" duration="1881000" />
+      <workItem from="1690097132173" duration="5277000" />
     </task>
     <task id="LOCAL-00001" summary="2023-05-28 commit">
       <created>1685270654594</created>

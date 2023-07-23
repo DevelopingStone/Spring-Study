@@ -3,9 +3,8 @@ package com.knight.main;
 public class Main {
 
     public static void main(String[] args) {
-        int[][] puddles = {{2, 2}};
 
-        new Solution().solution(6, 7, puddles);
+        System.out.println(new Solution().solution(new int[]{1, 5, 7, 10, 5, 3}));
 
 
     }
@@ -13,34 +12,20 @@ public class Main {
 
 
 class Solution {
-    public int solution(int m, int n, int[][] puddles) {
-        int[][] road = new int[m + 1][n + 1];
+    public int[] solution(int[] prices) {
+        int[] result = new int[prices.length];
+
+        for (int i = 0; i < prices.length; i++) {
+            for (int j = i + 1; j < prices.length; j++) {
+                result[i]++;
 
 
-        for (int i = 0; i < puddles.length; i++) {
-            road[puddles[i][0]][puddles[i][1]] = -1;
-        }
-
-        road[1][1] = 1;
-
-        for (int i = 1; i <= m; i++) {
-            for (int j = 1; j <= n; j++) {
-
-                if (road[i][j] == -1) {
-                    continue;
-                }
-                if (road[i - 1][j] > 0) {
-                    road[i][j] += road[i - 1][j] % 1_000_000_007;
-
-                }
-                if (road[i][j - 1] > 0) {
-                    road[i][j] += road[i][j - 1] % 1_000_000_007;
+                if (prices[i] > prices[j]) {
+                    break;
                 }
 
             }
         }
-
-
-        return road[m][n] % 1_000_000_007;
+        return result;
     }
 }
