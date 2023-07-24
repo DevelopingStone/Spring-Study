@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-07-23">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-07-24">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -271,7 +270,7 @@
       <workItem from="1689858462193" duration="8095000" />
       <workItem from="1689941219833" duration="1881000" />
       <workItem from="1690097132173" duration="6579000" />
-      <workItem from="1690206130888" duration="921000" />
+      <workItem from="1690206130888" duration="1286000" />
     </task>
     <task id="LOCAL-00001" summary="2023-05-28 commit">
       <created>1685270654594</created>
@@ -553,7 +552,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690105070198</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="2023-07-24">
+      <created>1690207161043</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1690207161043</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -572,7 +578,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2023-06-03" />
     <MESSAGE value="2023-06-04" />
     <MESSAGE value="2023-06-05" />
     <MESSAGE value="2023-06-07" />
@@ -597,7 +602,8 @@
     <MESSAGE value="2023-07-13" />
     <MESSAGE value="2023-07-20" />
     <MESSAGE value="2023-07-23" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023-07-23" />
+    <MESSAGE value="2023-07-24" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023-07-24" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -18,8 +18,13 @@ class Solution {
         StringBuilder sb = new StringBuilder();
         Scanner sc = new Scanner(System.in);
         String a = sc.next();
-        for (String str : a.split("")) {
-            if()
+        for(char ch : a.toCharArray()){
+            if(ch>='a'&&ch<='z'){
+                sb.append((char)(ch-32));
+            }
+            else{
+                sb.append((char)(ch+32));
+            }
         }
 
         System.out.println("sb = " + sb);
