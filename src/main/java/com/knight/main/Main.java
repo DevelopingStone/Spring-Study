@@ -1,34 +1,36 @@
 package com.knight.main;
 
-import java.util.Scanner;
-
 public class Main {
 
     public static void main(String[] args) {
 
-//        System.out.println(new Solution().solution(new int[]{1, 5, 7, 10, 5, 3}));
+        System.out.println(new Solution().solution(80, new int[][]{{80, 20}, {50, 40}, {30, 10}}));
 
 
     }
 }
 
 
-
 class Solution {
-    public static void main(String[] args) {
-        StringBuilder sb = new StringBuilder();
-        Scanner sc = new Scanner(System.in);
-        String a = sc.next();
-        for(char ch : a.toCharArray()){
-            if(ch>='a'&&ch<='z'){
-                sb.append((char)(ch-32));
-            }
-            else{
-                sb.append((char)(ch+32));
+    public static boolean check[];
+    public static int ans = 0;
+
+    public int solution(int k, int[][] dungeons) {
+        check = new boolean[dungeons.length];
+
+        dfs(k, dungeons, 0);
+
+        return ans;
+    }
+
+    public static void dfs(int tired, int[][] dungeons, int cnt) {
+        for (int i = 0; i < dungeons.length; i++) {
+            if (!check[i] && dungeons[i][0] <= tired) {
+                check[i] = true;
+                dfs(tired - dungeons[i][1], dungeons, cnt + 1);
+                check[i] = false;
             }
         }
-
-        System.out.println("sb = " + sb);
-
+        ans = Math.max(ans, cnt);
     }
 }
