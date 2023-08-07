@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-08-03">
+    <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-08-06">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/d0803/Coding0104.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/d0803/Coding0104.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/d0803/Coding0105.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/d0803/Coding0105.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,12 +107,12 @@
     </key>
   </component>
   <component name="RunManager" selected="애플리케이션.Main">
-    <configuration name="Coding0103 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.d0803.Coding0103" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.main.Main" />
       <module name="JavaProject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.knight.d0803.*" />
+          <option name="PATTERN" value="com.knight.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Coding0103 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.d0803.Coding0103" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.main.Main" />
       <module name="JavaProject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.knight.d0803.*" />
+          <option name="PATTERN" value="com.knight.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Coding0103 (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.d0803.Coding0103" />
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.main.Main" />
       <module name="JavaProject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.knight.d0803.*" />
+          <option name="PATTERN" value="com.knight.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Coding0103" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.d0803.Coding0103" />
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.main.Main" />
       <module name="JavaProject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.knight.d0803.*" />
+          <option name="PATTERN" value="com.knight.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,10 +175,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="애플리케이션.Main" />
-        <item itemvalue="애플리케이션.Coding0103 (1)" />
-        <item itemvalue="애플리케이션.Coding0103" />
-        <item itemvalue="애플리케이션.Coding0103 (5)" />
-        <item itemvalue="애플리케이션.Coding0103 (4)" />
+        <item itemvalue="애플리케이션.Main (5)" />
+        <item itemvalue="애플리케이션.Main (4)" />
+        <item itemvalue="애플리케이션.Main (3)" />
+        <item itemvalue="애플리케이션.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +278,7 @@
       <workItem from="1690807480497" duration="597000" />
       <workItem from="1690901840570" duration="38000" />
       <workItem from="1691039802319" duration="11955000" />
-      <workItem from="1691321309119" duration="1831000" />
+      <workItem from="1691321309119" duration="5790000" />
     </task>
     <task id="LOCAL-00001" summary="2023-05-28 commit">
       <created>1685270654594</created>
@@ -597,7 +595,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691054766520</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="2023-08-06">
+      <created>1691323225791</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1691323225791</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -616,8 +621,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2023-06-05" />
-    <MESSAGE value="2023-06-07" />
     <MESSAGE value="2023-06-10" />
     <MESSAGE value="2023-06-14" />
     <MESSAGE value="2023-06-15" />
@@ -641,7 +644,9 @@
     <MESSAGE value="2023-07-23" />
     <MESSAGE value="2023-07-24" />
     <MESSAGE value="2023-08-03" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023-08-03" />
+    <MESSAGE value="2023-08-076" />
+    <MESSAGE value="2023-08-06" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023-08-06" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
