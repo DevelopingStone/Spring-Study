@@ -13,6 +13,7 @@ public class Main {
 }
 
 
+
 class Solution {
     public int solution(int[] scoville, int K) {
         int result = 0;
