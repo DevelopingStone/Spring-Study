@@ -9,7 +9,7 @@ public class Coding0105 {
 
 
 
-class Solution {
+class Solution0105 {
 
     public int[][] solution(int[][] buildings) {
         int[][] keyPoints = new int[buildings.length*2][3];

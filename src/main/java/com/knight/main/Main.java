@@ -15,24 +15,8 @@ public class Main {
 
 
 class Solution {
-    public int solution(int[] scoville, int K) {
-        int result = 0;
-        Arrays.sort(scoville);
-        while (scoville[0] <= K) {
-            scoville[0] = scoville[0] + (scoville[1] * 2);
-            scoville[1] = Integer.MAX_VALUE;
-
-            result++;
-            Arrays.sort(scoville);
-
-            if (scoville[0] == Integer.MAX_VALUE) {
-                break;
-            }
-
-
-        }
-
-
-        return result;
+    public boolean solution(String s, String t) {
+        boolean answer = true;
+        return answer;
     }
 }
