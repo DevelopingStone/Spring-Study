@@ -1,12 +1,11 @@
 package com.knight.d0810;
 
-import java.util.LinkedList;
-import java.util.List;
+import java.util.Arrays;
 
 public class Coding0101 {
     public static void main(String[] args) {
 
-
+        System.out.println(new Solution0101().solution("zerobasestudentsbest", "etsnreaebbtosuztdess"));
 
 
     }
@@ -14,7 +13,20 @@ public class Coding0101 {
 
 class Solution0101 {
     public boolean solution(String s, String t) {
-        boolean answer = true;
-        return answer;
+        if (s.length() != t.length()) {
+            return false;
+        }
+        char[] chS = s.toCharArray();
+        char[] chT = t.toCharArray();
+
+        Arrays.sort(chS);
+        Arrays.sort(chT);
+
+        if (Arrays.equals(chS, chT)) {
+            return true;
+        } else {
+            return false;
+        }
+
     }
 }
