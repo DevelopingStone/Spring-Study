@@ -30,7 +30,8 @@ class Solution0104 {
                 }
             }
 
-            
+
+
 
         } else {
             for (int i = 0, j = branches.length - 1; i < j; i++, j--) {
