@@ -39,6 +39,7 @@ public class Main {
 
         System.out.println("컴퓨터가 숫자를 생성하였습니다. 답을 맞춰보세요!");
 
+
 //      사용자 정답입력
         while (true) {
 
