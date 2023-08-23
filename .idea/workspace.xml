@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-08-15">
+    <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-08-22">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,21 +105,8 @@
       <recent name="C:\JavaProject\src\main\java\com\knight\d0704" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Main">
+  <component name="RunManager" selected="애플리케이션.Son">
     <configuration name="Coding0104 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.d0810.Coding0104" />
-      <module name="JavaProject.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.knight.d0810.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Coding0104 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.knight.d0810.Coding0104" />
       <module name="JavaProject.main" />
       <extension name="coverage">
@@ -172,13 +158,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Son" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.main.Son" />
+      <module name="JavaProject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.knight.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Son" />
         <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.Coding0104 (2)" />
         <item itemvalue="애플리케이션.Coding0104" />
         <item itemvalue="애플리케이션.Coding0104 (5)" />
-        <item itemvalue="애플리케이션.Coding0104 (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -292,14 +291,8 @@
       <workItem from="1692368470009" duration="789000" />
       <workItem from="1692523801962" duration="294000" />
       <workItem from="1692581180733" duration="4416000" />
-      <workItem from="1692689657196" duration="593000" />
-    </task>
-    <task id="LOCAL-00009" summary="2023-06-07">
-      <created>1686068807425</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1686068807425</updated>
+      <workItem from="1692689657196" duration="670000" />
+      <workItem from="1692753918763" duration="6172000" />
     </task>
     <task id="LOCAL-00010" summary="2023-06-07">
       <created>1686155377282</created>
@@ -637,7 +630,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692524077632</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="2023-08-22">
+      <created>1692707195810</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1692707195811</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -656,7 +656,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2023-06-19" />
     <MESSAGE value="2023-06-20" />
     <MESSAGE value="2023-06-21" />
     <MESSAGE value="2023-06-23" />
@@ -681,7 +680,8 @@
     <MESSAGE value="2023-08-13" />
     <MESSAGE value="2023-08-14" />
     <MESSAGE value="2023-08-15" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023-08-15" />
+    <MESSAGE value="2023-08-22" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023-08-22" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
