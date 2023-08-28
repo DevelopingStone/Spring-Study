@@ -34,6 +34,7 @@ class Solution {
             }
         }
 
+
         for (int[] a : result) {
             System.out.println(Arrays.toString(a));
         }
