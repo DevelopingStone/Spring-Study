@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-08-25">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/main/Main01.java" afterDir="false" />
+    <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-08-28">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/main/Main01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/main/Main01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +82,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
     &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/JavaProject/src/main/java/com/knight/d0824&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -117,7 +117,7 @@
       <recent name="com.knight.main" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Main01 (3)">
+  <component name="RunManager" selected="애플리케이션.Main01 (5)">
     <configuration name="Main01 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.knight.main.Main01" />
       <module name="JavaProject.main" />
@@ -157,6 +157,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main01 (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.main.Main01" />
+      <module name="JavaProject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.knight.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.knight.main.Main01" />
       <module name="JavaProject.main" />
@@ -170,29 +183,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.mainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaProject.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.knight.main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.knight.main" />
-      <option name="MAIN_CLASS_NAME" value="com.knight.main.SolutionTest" />
-      <option name="METHOD_NAME" value="mainTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Main01 (5)" />
+        <item itemvalue="애플리케이션.Main01" />
         <item itemvalue="애플리케이션.Main01 (3)" />
         <item itemvalue="애플리케이션.Main01 (2)" />
         <item itemvalue="애플리케이션.Main01 (1)" />
-        <item itemvalue="애플리케이션.Main01" />
-        <item itemvalue="JUnit.SolutionTest.mainTest" />
       </list>
     </recent_temporary>
   </component>
@@ -311,14 +308,13 @@
       <workItem from="1692847863311" duration="8348000" />
       <workItem from="1692930476335" duration="918000" />
       <workItem from="1693127135298" duration="85000" />
-      <workItem from="1693211930894" duration="1679000" />
-    </task>
-    <task id="LOCAL-00015" summary="2023-06-15">
-      <created>1686825518236</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1686825518236</updated>
+      <workItem from="1693211930894" duration="1794000" />
+      <workItem from="1693271500199" duration="612000" />
+      <workItem from="1693303175778" duration="188000" />
+      <workItem from="1693303611105" duration="65000" />
+      <workItem from="1693303687244" duration="56000" />
+      <workItem from="1693303937794" duration="137000" />
+      <workItem from="1693304089104" duration="2892000" />
     </task>
     <task id="LOCAL-00016" summary="2023-06-15">
       <created>1686921108482</created>
@@ -656,7 +652,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693127211083</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="2023-08-28">
+      <created>1693213717957</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1693213717958</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -675,7 +678,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2023-06-23" />
     <MESSAGE value="2023-06-25" />
     <MESSAGE value="2023-06-26" />
     <MESSAGE value="2023-06-27" />
@@ -700,7 +702,8 @@
     <MESSAGE value="2023-08-22" />
     <MESSAGE value="2023-08-24" />
     <MESSAGE value="2023-08-25" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023-08-25" />
+    <MESSAGE value="2023-08-28" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023-08-28" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
