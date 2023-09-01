@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-08-31">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/d0831/Coding0103.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/d0831/Coding0103.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -317,14 +318,8 @@
       <workItem from="1693316722842" duration="1334000" />
       <workItem from="1693357649003" duration="1196000" />
       <workItem from="1693479239666" duration="1045000" />
-      <workItem from="1693552997022" duration="693000" />
-    </task>
-    <task id="LOCAL-00018" summary="2023-06-17">
-      <created>1687015105894</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1687015105894</updated>
+      <workItem from="1693552997022" duration="761000" />
+      <workItem from="1693591642980" duration="494000" />
     </task>
     <task id="LOCAL-00019" summary="2023-06-19">
       <created>1687146173551</created>
@@ -662,7 +657,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693480185229</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="2023-08-31">
+      <created>1693553777173</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1693553777173</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
