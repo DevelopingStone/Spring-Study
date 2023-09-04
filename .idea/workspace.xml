@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-08-31" />
+    <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-09-03">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -317,13 +319,9 @@
       <workItem from="1693479239666" duration="1045000" />
       <workItem from="1693552997022" duration="761000" />
       <workItem from="1693591642980" duration="513000" />
-    </task>
-    <task id="LOCAL-00020" summary="2023-06-19">
-      <created>1687173458460</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1687173458460</updated>
+      <workItem from="1693752611934" duration="34000" />
+      <workItem from="1693796512234" duration="931000" />
+      <workItem from="1693813989154" duration="1000" />
     </task>
     <task id="LOCAL-00021" summary="2023-06-20">
       <created>1687246798257</created>
@@ -661,7 +659,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693592151603</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="2023-09-03">
+      <created>1693752638249</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1693752638249</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -680,7 +685,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2023-06-26" />
     <MESSAGE value="2023-06-27" />
     <MESSAGE value="2023-06-28" />
     <MESSAGE value="2023-06-29" />
@@ -705,7 +709,8 @@
     <MESSAGE value="2023-08-25" />
     <MESSAGE value="2023-08-28" />
     <MESSAGE value="2023-08-31" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023-08-31" />
+    <MESSAGE value="2023-09-03" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023-09-03" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
