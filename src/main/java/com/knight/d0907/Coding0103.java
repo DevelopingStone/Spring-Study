@@ -1,4 +1,4 @@
-package com.knight.d0831;
+package com.knight.d0907;
 
 public class Coding0103 {
     public static void main(String[] args) {
