@@ -13,6 +13,7 @@ public class Coding0103 {
 
 
 
+
 class Solution0103 {
     public int solution(int N, int[] rewards) {
         int a = 0;
