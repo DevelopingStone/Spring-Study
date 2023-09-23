@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-09-21">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse1/Coding0101.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse1/Coding0104.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse1/Coding0105.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse1/Coding0106.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse1/Coding0107.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse1/NicknameChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse1/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse/Coding0101.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse/Coding0102.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse1/Coding0102.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse/Coding0103.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse1/Coding0103.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse1/Coding0104.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse1/Coding0104.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse1/Coding0105.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse1/Coding0105.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse1/Coding0106.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse1/Coding0106.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse1/Coding0107.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse1/Coding0107.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,72 +122,7 @@
       <recent name="com.knight.main" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Coding0103">
-    <configuration name="Coding0101 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.woowacourse.Coding0101" />
-      <module name="JavaProject.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.knight.woowacourse.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Coding0101 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.woowacourse.Coding0101" />
-      <module name="JavaProject.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.knight.woowacourse.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Coding0101 (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.woowacourse.Coding0101" />
-      <module name="JavaProject.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.knight.woowacourse.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Coding0102 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.woowacourse1.Coding0102" />
-      <module name="JavaProject.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.knight.woowacourse1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Coding0102" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.woowacourse1.Coding0102" />
-      <module name="JavaProject.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.knight.woowacourse1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="애플리케이션.Coding0107">
     <configuration name="Coding0102" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.knight.woowacourse1.Coding0102" />
       <module name="JavaProject.main" />
@@ -229,8 +162,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Coding0103" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.woowacourse1.Coding0103" />
+    <configuration name="Coding0107 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.woowacourse1.Coding0107" />
+      <module name="JavaProject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.knight.woowacourse1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Coding0107 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.woowacourse1.Coding0107" />
+      <module name="JavaProject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.knight.woowacourse1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Coding0107 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.woowacourse1.Coding0107" />
+      <module name="JavaProject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.knight.woowacourse1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Coding0107 (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.woowacourse1.Coding0107" />
+      <module name="JavaProject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.knight.woowacourse1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Coding0107" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.woowacourse1.Coding0107" />
       <module name="JavaProject.main" />
       <extension name="coverage">
         <pattern>
@@ -244,11 +229,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.Coding0103" />
-        <item itemvalue="애플리케이션.Coding0103 (1)" />
-        <item itemvalue="애플리케이션.Coding0102" />
-        <item itemvalue="애플리케이션.Coding0102 (3)" />
-        <item itemvalue="애플리케이션.Coding0102 (2)" />
+        <item itemvalue="애플리케이션.Coding0107" />
+        <item itemvalue="애플리케이션.Coding0107 (1)" />
+        <item itemvalue="애플리케이션.Coding0107 (5)" />
+        <item itemvalue="애플리케이션.Coding0107 (4)" />
+        <item itemvalue="애플리케이션.Coding0107 (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -397,14 +382,8 @@
       <workItem from="1695187408321" duration="1877000" />
       <workItem from="1695208808708" duration="3440000" />
       <workItem from="1695302391775" duration="51000" />
-      <workItem from="1695364057732" duration="10723000" />
-    </task>
-    <task id="LOCAL-00033" summary="2023-07-06">
-      <created>1688608535023</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1688608535023</updated>
+      <workItem from="1695364057732" duration="10791000" />
+      <workItem from="1695435935851" duration="14176000" />
     </task>
     <task id="LOCAL-00034" summary="2023-07-07">
       <created>1688704704099</created>
@@ -742,7 +721,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695302410803</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="2023-09-21">
+      <created>1695384666484</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1695384666484</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
