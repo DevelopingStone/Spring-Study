@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-09-21">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse1/NicknameChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse1/Solution.java" afterDir="false" />
+    <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-09-23">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse1/Coding0104.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse1/Coding0104.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse1/Coding0105.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse1/Coding0105.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse1/Coding0106.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse1/Coding0106.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse1/Coding0107.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse1/Coding0107.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -383,14 +377,8 @@
       <workItem from="1695208808708" duration="3440000" />
       <workItem from="1695302391775" duration="51000" />
       <workItem from="1695364057732" duration="10791000" />
-      <workItem from="1695435935851" duration="14176000" />
-    </task>
-    <task id="LOCAL-00034" summary="2023-07-07">
-      <created>1688704704099</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1688704704099</updated>
+      <workItem from="1695435935851" duration="14269000" />
+      <workItem from="1695569278256" duration="600000" />
     </task>
     <task id="LOCAL-00035" summary="2023-07-07">
       <created>1689067338981</created>
@@ -728,7 +716,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695384666484</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="2023-09-23">
+      <created>1695460220736</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1695460220736</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -747,7 +742,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2023-07-04" />
     <MESSAGE value="2023-07-06" />
     <MESSAGE value="2023-07-07" />
     <MESSAGE value="2023-07-12" />
@@ -772,7 +766,8 @@
     <MESSAGE value="2023-09-14" />
     <MESSAGE value="2023-09-20" />
     <MESSAGE value="2023-09-21" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023-09-21" />
+    <MESSAGE value="2023-09-23" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023-09-23" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
