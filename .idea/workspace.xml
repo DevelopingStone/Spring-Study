@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-09-25">
+    <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-09-27">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse1/Coding0106.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse1/Coding0106.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse1/NicknameChecker.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +117,7 @@
       <recent name="com.knight.main" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Coding0107">
+  <component name="RunManager" selected="애플리케이션.Coding0106">
     <configuration name="Coding0102" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.knight.woowacourse1.Coding0102" />
       <module name="JavaProject.main" />
@@ -145,7 +144,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Coding0107 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Coding0107 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.knight.woowacourse1.Coding0107" />
       <module name="JavaProject.main" />
       <extension name="coverage">
@@ -199,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.Coding0107" />
         <item itemvalue="애플리케이션.Coding0106" />
+        <item itemvalue="애플리케이션.Coding0107 (2)" />
+        <item itemvalue="애플리케이션.Coding0107" />
         <item itemvalue="애플리케이션.NickName" />
         <item itemvalue="애플리케이션.NicknameChecker" />
-        <item itemvalue="애플리케이션.Coding0107 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -356,14 +355,7 @@
       <workItem from="1695435935851" duration="14269000" />
       <workItem from="1695569278256" duration="600000" />
       <workItem from="1695620213492" duration="37000" />
-      <workItem from="1695797645986" duration="386000" />
-    </task>
-    <task id="LOCAL-00036" summary="2023-07-12">
-      <created>1689131627119</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1689131627119</updated>
+      <workItem from="1695797645986" duration="4036000" />
     </task>
     <task id="LOCAL-00037" summary="2023-07-13">
       <created>1689235921010</created>
@@ -701,7 +693,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695620240046</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="2023-09-27">
+      <created>1695798040634</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1695798040634</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -720,7 +719,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2023-07-07" />
     <MESSAGE value="2023-07-12" />
     <MESSAGE value="2023-07-13" />
     <MESSAGE value="2023-07-20" />
@@ -745,7 +743,8 @@
     <MESSAGE value="2023-09-21" />
     <MESSAGE value="2023-09-23" />
     <MESSAGE value="2023-09-25" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023-09-25" />
+    <MESSAGE value="2023-09-27" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023-09-27" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
