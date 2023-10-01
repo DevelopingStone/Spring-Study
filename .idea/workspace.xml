@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-09-27">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse2/BaseballGameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse2/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,20 +118,7 @@
       <recent name="com.knight.main" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Coding0106">
-    <configuration name="Coding0102" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.woowacourse1.Coding0102" />
-      <module name="JavaProject.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.knight.woowacourse1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="애플리케이션.Main">
     <configuration name="Coding0106" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.knight.woowacourse1.Coding0106" />
       <module name="JavaProject.main" />
@@ -169,6 +158,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.woowacourse2.Main" />
+      <module name="JavaProject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.knight.woowacourse2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NickName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.knight.woowacourse1.NickName" />
       <module name="JavaProject.main" />
@@ -182,26 +184,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NicknameChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.woowacourse1.NicknameChecker" />
-      <module name="JavaProject.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.knight.woowacourse1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.Coding0106" />
         <item itemvalue="애플리케이션.Coding0107 (2)" />
         <item itemvalue="애플리케이션.Coding0107" />
         <item itemvalue="애플리케이션.NickName" />
-        <item itemvalue="애플리케이션.NicknameChecker" />
       </list>
     </recent_temporary>
   </component>
@@ -356,14 +345,8 @@
       <workItem from="1695620213492" duration="37000" />
       <workItem from="1695797645986" duration="4052000" />
       <workItem from="1695877758957" duration="5000" />
-      <workItem from="1696068727920" duration="316000" />
-    </task>
-    <task id="LOCAL-00038" summary="2023-07-20">
-      <created>1689860794084</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1689860794084</updated>
+      <workItem from="1696068727920" duration="333000" />
+      <workItem from="1696130391727" duration="10918000" />
     </task>
     <task id="LOCAL-00039" summary="2023-07-20">
       <created>1689866274758</created>
@@ -701,7 +684,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695815613058</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="2023-09-27">
+      <created>1696069054870</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1696069054870</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
