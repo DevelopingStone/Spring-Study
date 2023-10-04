@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-09-27">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse2/BaseballGameController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse2/Main.java" afterDir="false" />
+    <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-10-01">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse3/MainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,7 +118,7 @@
       <recent name="com.knight.main" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Main">
+  <component name="RunManager" selected="JUnit.MainTest.MainTest">
     <configuration name="Coding0106" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.knight.woowacourse1.Coding0106" />
       <module name="JavaProject.main" />
@@ -171,26 +171,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NickName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.woowacourse1.NickName" />
+    <configuration name="MainTest.MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaProject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.knight.woowacourse1.*" />
+          <option name="PATTERN" value="com.knight.woowacourse3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.knight.woowacourse3" />
+      <option name="MAIN_CLASS_NAME" value="com.knight.woowacourse3.MainTest" />
+      <option name="METHOD_NAME" value="MainTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainTest.MainTest" />
         <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.Coding0106" />
         <item itemvalue="애플리케이션.Coding0107 (2)" />
         <item itemvalue="애플리케이션.Coding0107" />
-        <item itemvalue="애플리케이션.NickName" />
       </list>
     </recent_temporary>
   </component>
@@ -346,14 +349,9 @@
       <workItem from="1695797645986" duration="4052000" />
       <workItem from="1695877758957" duration="5000" />
       <workItem from="1696068727920" duration="333000" />
-      <workItem from="1696130391727" duration="10918000" />
-    </task>
-    <task id="LOCAL-00039" summary="2023-07-20">
-      <created>1689866274758</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1689866274758</updated>
+      <workItem from="1696130391727" duration="12032000" />
+      <workItem from="1696164439767" duration="29000" />
+      <workItem from="1696396082217" duration="2341000" />
     </task>
     <task id="LOCAL-00040" summary="2023-07-23">
       <created>1690105070198</created>
@@ -691,7 +689,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696069054870</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="2023-10-01">
+      <created>1696159480419</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1696159480420</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -710,7 +715,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2023-07-12" />
     <MESSAGE value="2023-07-13" />
     <MESSAGE value="2023-07-20" />
     <MESSAGE value="2023-07-23" />
@@ -735,7 +739,8 @@
     <MESSAGE value="2023-09-23" />
     <MESSAGE value="2023-09-25" />
     <MESSAGE value="2023-09-27" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023-09-27" />
+    <MESSAGE value="2023-10-01" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023-10-01" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
