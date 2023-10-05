@@ -1,7 +1,6 @@
 package com.knight.d0914;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
 public class Coding0101 {
