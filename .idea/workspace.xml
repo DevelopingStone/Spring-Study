@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-10-04">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/a/Coding0101.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/a/Coding0102.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/a/Coding0103.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/a/Coding0104.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/a/Coding0105.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/d1005/Coding0101.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/d1005/Coding0102.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/d1005/Coding0103.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/d1005/Coding0104.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/d1005/Coding0105.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/d1005/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/d0914/Coding0101.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/d0914/Coding0101.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse3/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/woowacourse3/MainTest.java" beforeDir="false" />
-    </list>
+    <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-10-05" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,36 +69,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/BackEnd/JavaProject/src/main/java/com/knight/d1005",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "패싯",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.31839082",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/BackEnd/JavaProject/src/main/java/com/knight/d1005&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;패싯&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.31839082&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mariadb"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mariadb&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\BackEnd\JavaProject\src\main\java\com\knight\d1005" />
@@ -363,13 +347,7 @@
       <workItem from="1696396082217" duration="2341000" />
       <workItem from="1696401134000" duration="719000" />
       <workItem from="1696473083931" duration="5899000" />
-    </task>
-    <task id="LOCAL-00041" summary="2023-07-24">
-      <created>1690207161043</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1690207161043</updated>
+      <workItem from="1696494874019" duration="48000" />
     </task>
     <task id="LOCAL-00042" summary="2023-07-24">
       <created>1690459567812</created>
@@ -707,7 +685,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696401248107</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="2023-10-05">
+      <created>1696494906951</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1696494906951</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -726,7 +711,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2023-07-20" />
     <MESSAGE value="2023-07-23" />
     <MESSAGE value="2023-07-24" />
     <MESSAGE value="2023-08-03" />
@@ -751,7 +735,8 @@
     <MESSAGE value="2023-09-27" />
     <MESSAGE value="2023-10-01" />
     <MESSAGE value="2023-10-04" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023-10-04" />
+    <MESSAGE value="2023-10-05" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023-10-05" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
