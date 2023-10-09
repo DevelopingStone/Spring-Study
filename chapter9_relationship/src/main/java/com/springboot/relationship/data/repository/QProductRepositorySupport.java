@@ -1,10 +1,7 @@
 package com.springboot.relationship.data.repository;
 
-import static com.springboot.relationship.data.entity.QProduct.product;
-
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import com.springboot.relationship.data.entity.Product;
-import java.util.List;
 import org.springframework.data.jpa.repository.support.QuerydslRepositorySupport;
 import org.springframework.stereotype.Repository;
 
@@ -18,11 +15,11 @@ public class QProductRepositorySupport extends QuerydslRepositorySupport {
         this.jpaQueryFactory = jpaQueryFactory;
     }
 
-    public List<Product> findByName(String name) {
-        return jpaQueryFactory.selectFrom(product)
-            .where(product.price.eq(500))
-            .fetch();
-    }
+//    public List<Product> findByName(String name) {
+//        return jpaQueryFactory.selectFrom(product)
+//            .where(product.price.eq(500))
+//            .fetch();
+//    }
 
 }
 

@@ -23,5 +23,5 @@ public class ProductDetail extends BaseEntity {
     @OneToOne //(optional=false) 예제 9.5
     @JoinColumn(name = "product_number")
     private Product product;
-
 }
+
