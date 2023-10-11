@@ -1,62 +1,114 @@
 package hello.hellospring.repository;
 
 import hello.hellospring.domain.Member;
-import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Test;
 
-import java.util.List;
-
-import static org.assertj.core.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class MemoryMemberRepositoryTest {
 
-    MemoryMemberRepository repository = new MemoryMemberRepository();
+    //    MemoryMemberRepository repository = new MemoryMemberRepository();
+//
+//    @AfterEach
+//    public void afterEach(){
+//        repository.clearStore();
+//    }
+//
+//    @Test
+//    public void save() {
+//        Member member = new Member();
+//        member.setName("spring");
+//
+//        repository.save(member);
+//        Member result = repository.findById(member.getId()).get();
+//        Assertions.assertEquals(member,result);
+//        assertThat(member).isEqualTo(result);
+//
+//    }
+//
+//    @Test
+//    public void findByName(){
+//        Member member1 = new Member();
+//        member1.setName("spring1");
+//        repository.save(member1);
+//
+//        Member member2 = new Member();
+//        member2.setName("spring2");
+//        repository.save(member2);
+//
+//        Member result = repository.findByName("spring1").get();
+//
+//        assertThat(result).isEqualTo(member1);
+////        Assertions.assertEquals(result,member2);
+//    }
+//
+//    @Test
+//    public void findAll(){
+//        Member member1 = new Member();
+//        member1.setName("spring1");
+//        repository.save(member1);
+//
+//        Member member2 = new Member();
+//        member2.setName("spring2");
+//        repository.save(member2);
+//
+//        List<Member> result = repository.findAll();
+//
+//        assertThat(result.size()).isEqualTo(2);
+////        Assertions.assertEquals(result.size(),2);
+//    }
+    MemoryMemberRepository memberRepository = new MemoryMemberRepository();
 
     @AfterEach
-    public void afterEach(){
-        repository.clearStore();
+    public void afterEach() {
+        memberRepository.clearStore();
     }
+
 
     @Test
     public void save() {
         Member member = new Member();
-        member.setName("spring");
+        member.setName("hint");
+        memberRepository.save(member);
+        Member name = memberRepository.findById(member.getId()).get();
+        assertEquals(member, name);
 
-        repository.save(member);
-        Member result = repository.findById(member.getId()).get();
-        Assertions.assertEquals(member,result);
-        assertThat(member).isEqualTo(result);
 
     }
 
     @Test
-    public void findByName(){
+    public void findByName() {
+
+        Member member = new Member();
+        member.setName("hint");
+        memberRepository.save(member);
+
         Member member1 = new Member();
-        member1.setName("spring1");
-        repository.save(member1);
+        member1.setName("hint1");
+        memberRepository.save(member1);
 
-        Member member2 = new Member();
-        member2.setName("spring2");
-        repository.save(member2);
+        Member hint = memberRepository.findByName("hint").get();
+        assertEquals(member, hint);
 
-        Member result = repository.findByName("spring1").get();
-
-        assertThat(result).isEqualTo(member1);
-//        Assertions.assertEquals(result,member2);
     }
 
     @Test
-    public void findAll(){
+    public void findAll() {
+        Member member = new Member();
+        member.setName("hint");
+        memberRepository.save(member);
+
         Member member1 = new Member();
-        member1.setName("spring1");
-        repository.save(member1);
+        member1.setName("hint1");
+        memberRepository.save(member1);
 
-        Member member2 = new Member();
-        member2.setName("spring2");
-        repository.save(member2);
+        int size = memberRepository.findAll().size();
 
-        List<Member> result = repository.findAll();
+        assertEquals(2, size);
 
-        assertThat(result.size()).isEqualTo(2);
-//        Assertions.assertEquals(result.size(),2);
+
     }
+
+
 }

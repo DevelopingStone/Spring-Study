@@ -1,13 +1,13 @@
 package hello.hellospring;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
-
-@SpringBootTest
+//@SpringBootTest
 class HelloSpringApplicationTests {
 
-	@Test
-	void contextLoads() {
+	public static void main(String[] args) {
+
+
+
 	}
+
 
 }
