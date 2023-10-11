@@ -1,6 +1,8 @@
 package hello.hellospring;
 
-//@SpringBootTest
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
 class HelloSpringApplicationTests {
 
 	public static void main(String[] args) {
