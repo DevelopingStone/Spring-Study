@@ -1,34 +1,28 @@
 package hello.hellospring.service;
 
 import hello.hellospring.domain.Member;
-import hello.hellospring.repository.MemoryMemberRepository;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
+import hello.hellospring.repository.MemberRepository;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.transaction.annotation.Transactional;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-class MemberServiceTest {
+@SpringBootTest
+@Transactional
+class MemberServiceIntegrationTest {
 
+    @Autowired
     MemberService memberService;
-    MemoryMemberRepository memberRepository;
 
-    @BeforeEach
-    public void beforeEach() {
-        memberRepository = new MemoryMemberRepository();
-        memberService = new MemberService(memberRepository);
+    @Autowired
+    MemberRepository memberRepository;
 
-    }
-
-
-    @AfterEach
-    void 클리어() {
-        memberRepository.clearStore();
-    }
 
     @Test
-    void 회원가입() {
+    void  회원가입() {
         //given
         Member member = new Member();
         member.setName("hint");
@@ -64,11 +58,5 @@ class MemberServiceTest {
 
     }
 
-    @Test
-    void 회원찾기() {
-    }
 
-    @Test
-    void findOne() {
-    }
 }
