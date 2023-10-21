@@ -24,14 +24,14 @@ class MainSingleton {
     public static void main(String[] args) {
         Singleton singleton1 = Singleton.getInstance();
         singleton1.doSomething();
-//        System.out.println(singleton1.count);
+        System.out.println(singleton1.count);
 
 
         Singleton singleton2 = Singleton.getInstance();
         singleton2.doSomething();
-//        System.out.println(singleton2.count);
+        System.out.println(singleton2.count);
 
-//        System.out.println(singleton1 == singleton2);
+        System.out.println(singleton1 == singleton2);
 
 
     }

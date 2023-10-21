@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-10-06">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/d1012/Coding0101.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/d1012/Coding0102.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/d1012/Coding0103.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/d1012/Coding0104.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/d1012/Coding0105.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="2023-10-12">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/d1021/Coding0101.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/d1021/Coding0102.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/d1021/Coding0103.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/d1021/Coding0104.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/d1021/Coding0105.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/oop/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/oop/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/oop/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/oop/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/oop/Singleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +40,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -63,9 +65,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2QPxrMqrHdbl9EZFab6GPSyH5Lj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -87,7 +89,7 @@
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/BackEnd/JavaProject/src/main/java/com/knight/d1012",
+    "last_opened_file_path": "C:/BackEnd/JavaProject/src/main/java/com/knight/d1021",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -107,11 +109,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\BackEnd\JavaProject\src\main\java\com\knight\d1021" />
       <recent name="C:\BackEnd\JavaProject\src\main\java\com\knight\d1012" />
       <recent name="C:\BackEnd\JavaProject\src\main\java\com\knight\d1005" />
       <recent name="C:\BackEnd\JavaProject\src\main\java\com\knight\a" />
       <recent name="C:\BackEnd\JavaProject\src\main\java\com\knight\d0914" />
-      <recent name="C:\JavaProject\src\main\java\com\knight\d0914" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -120,7 +122,7 @@
       <recent name="com.knight.main" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Test">
+  <component name="RunManager" selected="애플리케이션.Main (1)">
     <configuration name="Coding0101 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.knight.d1005.Coding0101" />
       <module name="JavaProject.main" />
@@ -134,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Coding0101 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.d1005.Coding0101" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.oop.Main" />
       <module name="JavaProject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.knight.d1005.*" />
+          <option name="PATTERN" value="com.knight.oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Coding0101 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.d1005.Coding0101" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.oop.Main" />
       <module name="JavaProject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.knight.d1005.*" />
+          <option name="PATTERN" value="com.knight.oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Coding0101 (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.knight.d1005.Coding0101" />
+    <configuration name="MainSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.knight.oop.MainSingleton" />
       <module name="JavaProject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.knight.d1005.*" />
+          <option name="PATTERN" value="com.knight.oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Main (1)" />
+        <item itemvalue="애플리케이션.Main" />
+        <item itemvalue="애플리케이션.MainSingleton" />
         <item itemvalue="애플리케이션.Test" />
         <item itemvalue="애플리케이션.Coding0101 (1)" />
-        <item itemvalue="애플리케이션.Coding0101 (3)" />
-        <item itemvalue="애플리케이션.Coding0101 (2)" />
-        <item itemvalue="애플리케이션.Coding0101 (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -355,7 +357,9 @@
       <workItem from="1696473083931" duration="5899000" />
       <workItem from="1696494874019" duration="48000" />
       <workItem from="1696603192739" duration="25000" />
-      <workItem from="1697085197084" duration="872000" />
+      <workItem from="1697085197084" duration="1016000" />
+      <workItem from="1697516263047" duration="5467000" />
+      <workItem from="1697898188108" duration="430000" />
     </task>
     <task id="LOCAL-00043" summary="2023-07-24">
       <created>1690471008083</created>
@@ -700,7 +704,7 @@
       <option name="project" value="LOCAL" />
       <updated>1696603204826</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -719,7 +723,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2023-07-24" />
     <MESSAGE value="2023-08-03" />
     <MESSAGE value="2023-08-076" />
     <MESSAGE value="2023-08-06" />
@@ -744,7 +747,8 @@
     <MESSAGE value="2023-10-04" />
     <MESSAGE value="2023-10-05" />
     <MESSAGE value="2023-10-06" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023-10-06" />
+    <MESSAGE value="2023-10-12" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023-10-12" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

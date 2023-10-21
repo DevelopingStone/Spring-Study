@@ -1,36 +1,35 @@
 package com.knight.oop;
 
-
-// 역할: Driver
-class Driver {
-    // 책임: drive
-    public void drive(Car car) {
-        car.start();
-        car.accelerate();
-    }
-}
-
-// 역할: Car
-public class Car {
-
-    // 책임: start
+class Engine {
     public void start() {
-        System.out.println("차가 시동이 걸립니다.");
+        System.out.println("Engine is starting...");
     }
-    // 책임: accelerate
-    public void accelerate() {
-        System.out.println("차가 가속합니다.");
+
+    public void stop() {
+        System.out.println("Engine is stopping...");
+    }
+
+    public void 가속(){
+
     }
 }
 
-// 협력: 운전자와 차가 협력하여 주행하는 예시
-class Main {
-    public static void main(String[] args) {
-        // 역할과 책임의 협력
-        Driver driver = new Driver();
-        Car car = new Car();
+public class Car {
+    private Engine engine;
 
-        // 운전자가 차를 운전하도록 협력
-        driver.drive(car);
+    public Car() {
+        this.engine = new Engine();
+    }
+
+    public void start() {
+        System.out.println("Car is starting...");
+        engine.start();
+    }
+
+    public void stop() {
+        System.out.println("Car is stopping...");
+        engine.stop();
     }
 }
+
+
