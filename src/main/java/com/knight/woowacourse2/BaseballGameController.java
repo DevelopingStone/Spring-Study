@@ -45,19 +45,7 @@ public class BaseballGameController {
         ball = 0;
         strike = 0;
 
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 3; j++) {
-
-                if (inputValue[i] == randomNumList.get(j) && i == j) {
-                    strike++;
-                } else if (inputValue[i] == randomNumList.get(j) && i != j) {
-                    ball++;
-                }
-
-            }
-        }
-
-
+        extracted();
 
         if (strike == 0 && ball == 0) {
             System.out.println("낫싱");
@@ -67,6 +55,28 @@ public class BaseballGameController {
             System.out.println(strike + "스트라이크");
         } else {
             System.out.println(strike + "스트라이크 " + ball + "볼");
+        }
+    }
+
+    private void extracted() {
+        for (int i = 0; i < 3; i++) {
+            extracted(i);
+        }
+    }
+
+    private void extracted(int i) {
+        for (int j = 0; j < 3; j++) {
+
+            extracted(i, j);
+
+        }
+    }
+
+    private void extracted(int i, int j) {
+        if (inputValue[i] == randomNumList.get(j) && i == j) {
+            strike++;
+        } else if (inputValue[i] == randomNumList.get(j) && i != j) {
+            ball++;
         }
     }
 

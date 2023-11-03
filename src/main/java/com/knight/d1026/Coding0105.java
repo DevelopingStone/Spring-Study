@@ -1,4 +1,4 @@
-package com.knight.a;
+package com.knight.d1026;
 
 public class Coding0105 {
 
