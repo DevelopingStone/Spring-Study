@@ -1,28 +1,26 @@
 package com.knight.main;
 
+import java.util.stream.Stream;
+
 public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println(new Solution().solution(2, 5));
+//        List<Integer> list = Arrays.asList(1, 2, 3, 4, 5);
+//        Stream<Integer> intStream = list.stream();
+//        intStream.forEach(System.out::print);
+//        System.out.println();
+//
+//        intStream = list.stream();
+//        intStream.forEach(System.out::print);
+//        System.out.println();
+
+        Stream<String> strStream = Stream.of("a", "b", "c","d");
+        strStream.forEach(System.out::println);
 
 
     }
 }
 
 
-class Solution {
-    public long[] solution(int x, int n) {
-        long[] answer = new long[n];
-        int num = 0;
-        for (int i = 1; i <= n; i++) {
 
-            answer[num++] = (long) i * x;
-
-
-        }
-
-
-        return answer;
-    }
-}
