@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0dd7e04e-d213-43dc-a198-830c5d029f11" name="변경" comment="feat : 코딩테스트 업로드">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/main/Main02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/oop/Date.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/oop/Discount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/oop/DiscountController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/oop/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/knight/oop/OrderDiscountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/main/LinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/main/Main01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knight/main/Main01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/oop/characteristicsOfObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knight/oop/collaborateWithObjects.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -399,6 +386,11 @@
       <workItem from="1699922569938" duration="6905000" />
       <workItem from="1700012248153" duration="613000" />
       <workItem from="1700013185148" duration="1295000" />
+      <workItem from="1700114693185" duration="662000" />
+      <workItem from="1700159795876" duration="913000" />
+      <workItem from="1700204255856" duration="597000" />
+      <workItem from="1700205365548" duration="1008000" />
+      <workItem from="1700284022257" duration="1199000" />
     </task>
     <task id="LOCAL-00043" summary="2023-07-24">
       <created>1690471008083</created>
@@ -743,7 +735,7 @@
       <option name="project" value="LOCAL" />
       <updated>1696603204826</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
