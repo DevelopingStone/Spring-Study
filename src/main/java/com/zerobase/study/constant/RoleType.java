@@ -1,5 +1,5 @@
 package com.zerobase.study.constant;
 
-public enum Role {
+public enum RoleType {
     ADMIN, USER;
 }
