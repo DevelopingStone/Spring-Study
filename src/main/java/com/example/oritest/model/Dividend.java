@@ -5,6 +5,7 @@ import lombok.Builder;
 import lombok.ToString;
 
 
+
 @Builder
 @ToString
 public class Dividend {

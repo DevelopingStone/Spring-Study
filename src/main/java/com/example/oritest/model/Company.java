@@ -9,11 +9,8 @@ import lombok.ToString;
 @ToString
 public class Company {
 
-
     private String name;
 
     private String ticket;
-
-
 
 }
