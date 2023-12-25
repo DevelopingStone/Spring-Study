@@ -1,8 +1,7 @@
 package com.example.oritest.web;
 
-import com.example.oritest.Entity.DividendEntity;
+import com.example.oritest.model.ScrapedResult;
 import com.example.oritest.service.FinanceService;
-import java.util.List;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -19,8 +18,8 @@ public class FinanceController {
 
     @GetMapping("/dividend/{companyName}")
     public ResponseEntity<?> searchFinance(@PathVariable String companyName) {
-        long companyId = financeService.searchCompanyId(companyName);
-        List<DividendEntity> dividendEntities = financeService.searchCompanyDividend(companyId);
-        return ResponseEntity.ok(dividendEntities);
+        ScrapedResult scrapedResult = financeService.searchCompanyId(companyName);
+        return ResponseEntity.ok(scrapedResult);
     }
 }
+

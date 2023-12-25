@@ -1,7 +1,7 @@
 package com.example.oritest.Repository;
 
 import com.example.oritest.Entity.CompanyEntity;
-import java.util.List;
+import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
@@ -10,6 +10,6 @@ public interface CompanyRepository extends JpaRepository<CompanyEntity, Long> {
 
     boolean existsByTicker(String ticker);
 
-    CompanyEntity findByName(String companyName);
+    Optional<CompanyEntity> findByName(String companyName);
 
 }
