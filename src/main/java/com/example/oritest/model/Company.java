@@ -1,16 +1,22 @@
 package com.example.oritest.model;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.ToString;
 
-@Data
 @Builder
 @ToString
-public class Company {
+@Getter
+@AllArgsConstructor
+@NoArgsConstructor
+public class
+Company {
 
     private String name;
 
-    private String ticket;
+    private String ticker;
 
 }

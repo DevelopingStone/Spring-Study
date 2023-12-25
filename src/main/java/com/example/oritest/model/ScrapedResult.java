@@ -3,16 +3,23 @@ package com.example.oritest.model;
 import java.util.ArrayList;
 import java.util.List;
 import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
 
-@Data
+@Builder
+@ToString
+@Getter
 @AllArgsConstructor
+@Setter
 public class ScrapedResult {
     private Company company;
 
-    private List<Dividend> dividendEntity;
+    private List<Dividend> dividend;
 
     public ScrapedResult() {
-        dividendEntity = new ArrayList<>();
+        dividend = new ArrayList<>();
     }
+
 }

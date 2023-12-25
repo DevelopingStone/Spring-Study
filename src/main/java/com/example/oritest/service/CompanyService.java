@@ -1,12 +1,18 @@
 package com.example.oritest.service;
 
 
+import com.example.oritest.Entity.CompanyEntity;
+import com.example.oritest.Entity.DividendEntity;
+import com.example.oritest.Repository.CompanyRepository;
+import com.example.oritest.Repository.DividendRepository;
 import com.example.oritest.model.Company;
+import com.example.oritest.model.ScrapedResult;
 import com.example.oritest.scraper.Scraper;
-import com.example.oritest.scraper.YahooFinanceScraper;
+import java.util.List;
 import lombok.AllArgsConstructor;
 import lombok.ToString;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -15,20 +21,39 @@ import org.springframework.stereotype.Service;
 //@Transactional
 public class CompanyService {
 
-    @Autowired
     private final Scraper yahooFinanceScraper;
+    private final CompanyRepository companyRepository;
+    private final DividendRepository dividendRepository;
 
     public Company save(String ticker) {
-        return null;
+        boolean exists = this.companyRepository.existsByTicker(ticker);
+        if (exists) {
+            throw new RuntimeException("already exists ticker - > " + ticker);
+        }
+        return storeCompanyAndDividend(ticker);
     }
 
     private Company storeCompanyAndDividend(String ticker) {
+        Company company = yahooFinanceScraper.scrapCompanyByTicker(ticker);
+        ScrapedResult scrapedResult = yahooFinanceScraper.scrap(company);
+        CompanyEntity companyEntity = companyRepository.save(CompanyEntity
+                .builder()
+                .name(company.getName())
+                .ticker(company.getTicker())
+                .build());
 
-        //      티커 전달받음
-        //      티커를 통해 회사명 저장
-        //      회사가 존재하는 경우 배당금 저장
-        //      존재하지 않는경우 에러
-        return yahooFinanceScraper.scrapCompanyByTicker(ticker);
+        List<DividendEntity> dividendEntities = scrapedResult.getDividend().stream()
+                .map(e -> new DividendEntity(companyEntity.getId(), e))
+                .toList();
+
+        this.dividendRepository.saveAll(dividendEntities);
+
+        return company;
+
+    }
+
+    public Page<CompanyEntity> getAllCompany(Pageable pageable) {
+        return this.companyRepository.findAll(pageable);
     }
 
 }

@@ -16,21 +16,23 @@ import org.jsoup.select.Elements;
 import org.springframework.stereotype.Component;
 
 @Component
-public class YahooFinanceScraper implements Scraper{
+public class YahooFinanceScraper implements Scraper {
 
     private static final String STATISTICS_URL = "https://finance.yahoo.com/quote/%s/history?period1=%d&period2=%d&interval=1mo";
     private static final String SUMMARY_URL = "https://finance.yahoo.com/quote/%s?p=%s";
 
-    private static final long START_TIME = 86400; //60 * 60 * 24
+    private static final long START_TIME = 60 * 60 * 24;
+
+    private final ScrapedResult scrapedResult = new ScrapedResult();
 
     @Override
     public ScrapedResult scrap(Company company) {
-        ScrapedResult scrapedResult = new ScrapedResult();
+//        ScrapedResult scrapedResult = new ScrapedResult();
         scrapedResult.setCompany(company);
 
         try {
             long now = System.currentTimeMillis() / 1000;
-            String url = String.format(STATISTICS_URL, company.getTicket(), START_TIME, now);
+            String url = String.format(STATISTICS_URL, company.getTicker(), START_TIME, now);
             Connection connection = Jsoup.connect(url);
             Document document = connection.get();
             Elements parsingDivs = document.getElementsByAttributeValue("data-test", "historical-prices");
@@ -61,7 +63,7 @@ public class YahooFinanceScraper implements Scraper{
                 dividends.add(build);
             }
 
-            scrapedResult.setDividendEntity(dividends);
+            scrapedResult.setDividend(dividends);
 
         } catch (IOException e) {
             throw new RuntimeException(e);
@@ -82,10 +84,11 @@ public class YahooFinanceScraper implements Scraper{
 
             return Company.builder()
                     .name(title)
-                    .ticket(ticker)
+                    .ticker(ticker)
                     .build();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
     }
 }
+

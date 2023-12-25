@@ -1,5 +1,6 @@
 package com.example.oritest.Entity;
 
+import com.example.oritest.model.Company;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -12,12 +13,10 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
-@Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
 @Getter
-@ToString
 @Entity
 public class CompanyEntity {
 
