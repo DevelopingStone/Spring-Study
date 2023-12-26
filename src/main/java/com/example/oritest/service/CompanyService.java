@@ -9,17 +9,18 @@ import com.example.oritest.model.Company;
 import com.example.oritest.model.ScrapedResult;
 import com.example.oritest.scraper.Scraper;
 import java.util.List;
+import java.util.stream.Collectors;
 import lombok.AllArgsConstructor;
-import lombok.ToString;
+import org.apache.commons.collections4.Trie;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 @Service
 @AllArgsConstructor
-@ToString
-//@Transactional
 public class CompanyService {
+
+    private final Trie trie;
 
     private final Scraper yahooFinanceScraper;
     private final CompanyRepository companyRepository;
@@ -36,15 +37,11 @@ public class CompanyService {
     private Company storeCompanyAndDividend(String ticker) {
         Company company = yahooFinanceScraper.scrapCompanyByTicker(ticker);
         ScrapedResult scrapedResult = yahooFinanceScraper.scrap(company);
-        CompanyEntity companyEntity = companyRepository.save(CompanyEntity
-                .builder()
-                .name(company.getName())
-                .ticker(company.getTicker())
-                .build());
+        CompanyEntity companyEntity = companyRepository.save(
+                CompanyEntity.builder().name(company.getName()).ticker(company.getTicker()).build());
 
         List<DividendEntity> dividendEntities = scrapedResult.getDividend().stream()
-                .map(e -> new DividendEntity(companyEntity.getId(), e))
-                .toList();
+                .map(e -> new DividendEntity(companyEntity.getId(), e)).toList();
 
         this.dividendRepository.saveAll(dividendEntities);
 
@@ -54,6 +51,19 @@ public class CompanyService {
 
     public Page<CompanyEntity> getAllCompany(Pageable pageable) {
         return this.companyRepository.findAll(pageable);
+    }
+
+    public void addAutocompleteKeyword(String keyword) {
+        this.trie.put(keyword, null);
+    }
+
+    public List<String> autocomplete(String keyword) {
+        return (List<String>) this.trie.prefixMap(keyword).keySet()
+                .stream().collect(Collectors.toList());
+    }
+
+    public void deleteAutocompleteKeyword(String keyword) {
+        this.trie.remove(keyword);
     }
 
 }

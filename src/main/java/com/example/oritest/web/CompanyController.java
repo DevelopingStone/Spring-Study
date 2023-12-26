@@ -3,6 +3,7 @@ package com.example.oritest.web;
 import com.example.oritest.Entity.CompanyEntity;
 import com.example.oritest.model.Company;
 import com.example.oritest.service.CompanyService;
+import java.util.List;
 import javax.transaction.Transactional;
 import lombok.AllArgsConstructor;
 import org.springframework.data.domain.Page;
@@ -27,7 +28,8 @@ public class CompanyController {
 
     @GetMapping("/autocomplete")
     public ResponseEntity<?> autoComplete(@RequestParam String keyword) {
-        return null;
+        List<String> result = this.companyService.autocomplete(keyword);
+        return ResponseEntity.ok(result);
     }
 
     @GetMapping
@@ -43,6 +45,9 @@ public class CompanyController {
             throw new RuntimeException("ticker is empty");
         }
         Company company = this.companyService.save(ticker);
+        //        추가부분
+        this.companyService.addAutocompleteKeyword(company.getName());
+        //        추가부분
         return ResponseEntity.ok(company);
     }
 
