@@ -28,3 +28,4 @@ public class CompanyEntity {
     @Column(unique = true)
     String ticker;
 }
+
