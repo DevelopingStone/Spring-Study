@@ -19,6 +19,7 @@ import lombok.ToString;
 @Getter
 @Entity
 public class CompanyEntity {
+    
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
