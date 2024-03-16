@@ -2,12 +2,15 @@ package hello.core.member.Service;
 
 import hello.core.member.Repository.MemberRepository;
 import hello.core.member.entity.Member;
+import org.springframework.stereotype.Component;
 
-public class MemberServiceImpl  implements MemberService{
+@Component
+public class MemberServiceImpl implements MemberService {
 
     private final MemberRepository memberRepository;
 
     public MemberServiceImpl(MemberRepository memberRepository) {
+        System.out.println("memberRepository = " + memberRepository);
         this.memberRepository = memberRepository;
     }
 

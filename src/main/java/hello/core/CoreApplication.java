@@ -19,14 +19,13 @@ public class CoreApplication {
         ApplicationContext ac = new AnnotationConfigApplicationContext(AppConfig.class);
         MemberService memberService = ac.getBean("memberService", MemberService.class);
 
-        Member member = new Member(1L, "강락", Grade.VIP);
-        memberService.join(member);
+//        Member member = new Member(1L, "강락", Grade.VIP);
+//        memberService.join(member);
 
-        Member findMember = memberService.findMember(1L);
-        System.out.println("member.getId() = " + member.getName());
-        System.out.println("member.getName() = " + findMember.getName());
+//        Member findMember = memberService.findMember(1L);
+
 
 
     }
 
-}
+} 
