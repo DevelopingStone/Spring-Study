@@ -25,7 +25,6 @@ public class CoreApplication {
 //        Member findMember = memberService.findMember(1L);
 
 
-
     }
 
 } 
